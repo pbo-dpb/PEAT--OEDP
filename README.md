@@ -1,4 +1,4 @@
-# pes.albert-io.com
+# Personnel Expenditure Scrutiny Tool
 
 ## Project setup
 ```
