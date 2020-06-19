@@ -1,32 +1,31 @@
+<style>
+.markdown-content p {
+  text-rendering: optimizelegibility !important;
+}
+
+.markdown-content p,
+.markdown-content h2 {
+  margin-bottom: 1em;
+}
+
+.markdown-content h2 {
+  font-size: 1.25em;
+  font-weight: 400;
+}
+</style>
+
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <top-header></top-header>
+    <router-view></router-view>
   </div>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
+<script>
+const topHeader = require("./components/TopHeader.vue").default;
+export default {
+  components: {
+    topHeader
+  }
+};
+</script>
