@@ -1,7 +1,7 @@
 const locs = {
     en: {
         app: {
-            title: "Federal Compensation Tool",
+            title: "Personnel Expenditure Scrutiny Tool",
             logo_alt: "Office of the Parliamentary Budget Officer Logo",
         },
         welcome: {
@@ -20,7 +20,7 @@ Use the tabs at the top of the page to select different data and charts. Each pa
     },
     fr: {
         app: {
-            title: "Outil fédéral de rémunération",
+            title: "Outil d'examen des dépenses en personnel",
             logo_alt: "Logo du Bureau du directeur parlementaire du budget",
         },
         welcome: {
