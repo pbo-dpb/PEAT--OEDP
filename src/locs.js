@@ -4,6 +4,7 @@ const locs = {
             title: "Personnel Expenditure Scrutiny Tool",
             logo_alt: "Office of the Parliamentary Budget Officer Logo",
         },
+        notes: { title: "Notes" },
         welcome: {
             title: 'Introduction',
             content: `Personnel expenditures are a large and complex item to scrutinize as they include both current and future costs (in the form of pensions and veteran benefits). In 2018-19, the government's personnel expenditures made up 60 percent of total operating expenditures.
@@ -23,6 +24,7 @@ Use the tabs at the top of the page to select different data and charts. Each pa
             title: "Outil d'examen des dépenses en personnel",
             logo_alt: "Logo du Bureau du directeur parlementaire du budget",
         },
+        notes: { title: "Notes" },
         welcome: {
             title: 'Introduction',
             content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac tristique nunc. Donec gravida ac mauris eu dapibus. Maecenas quis justo vulputate, malesuada magna id, auctor nisl. Fusce in ultricies augue, vel scelerisque diam. Vestibulum feugiat orci auctor nisl semper, eu consequat augue vestibulum. Ut ultrices sed turpis nec malesuada. Nulla iaculis et mauris nec molestie. Aenean consectetur purus risus, et varius ligula rhoncus ac. Pellentesque in arcu at mauris laoreet fermentum ut sit amet erat. Nam et justo libero. Aenean vitae rhoncus tellus. Donec quis ultricies libero. Sed ac molestie sapien. Aliquam tincidunt eget lacus quis placerat. Ut placerat libero ipsum, ut vestibulum augue posuere eu.

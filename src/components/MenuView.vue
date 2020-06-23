@@ -63,12 +63,25 @@ export default {
           };
         })
       );
+
+      links.push({
+        title: locs[this.$route.params.language].notes.title,
+        destination: {
+          name: "notes",
+          params: {
+            language: this.$route.params.language
+          }
+        }
+      });
       return links;
     }
   },
   methods: {
     isActiveLink(link) {
-      return link.destination.params.viewid === this.$route.params.viewid;
+      if (link.destination.name === "tableau") {
+        return link.destination.params.viewid === this.$route.params.viewid;
+      }
+      return link.destination.name === this.$route.name;
     }
   }
 };

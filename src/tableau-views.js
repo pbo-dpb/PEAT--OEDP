@@ -41,13 +41,6 @@ const tableauViews = [
         embed_id_en: `7-Compareselect/Comparable-Select`,
         embed_id_fr: `7-Compareselect/Comparable-Select`,
     },
-    {
-        id: "notes",
-        title_en: "Notes",
-        title_fr: "Notes",
-        embed_id_en: `8-Notes/Notes`,
-        embed_id_fr: `8-Notes/Notes`,
-    }
 
 ];
 
