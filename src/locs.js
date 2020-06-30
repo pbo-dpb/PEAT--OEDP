@@ -7,10 +7,8 @@ const locs = {
         notes: { title: "Notes" },
         welcome: {
             title: 'Introduction',
-            content: 
+            content: '## The purpose of this tool
             
-`## The purpose of this tool
-
 The government’s largest operating cost is its staff – personnel spending accounts for roughly 60 per cent of federal government’s operating costs. 
 
 While parliamentarians receive volumes of data on personnel spending in the Estimates, the Public Accounts and InfoBase, that data cannot readily and quantifiably address questions such as:
@@ -20,10 +18,10 @@ While parliamentarians receive volumes of data on personnel spending in the Esti
 * Are pay increases driven by growth in salaries and wages, or other forms of renumeration?
 
 To assist parliamentarians’ scrutiny, the PBO has built an interactive tool that allows users to compare trends across time for overall government spending or a single department by: 
-* Viewing overall historic spending trends for operating ([Operating Spending](#/en/operating-overview--apercu-fonctionnement)) and personnel spending ([Personnel Spending](#/en/personnel-overview--apercu-personnel));
-* Examining the components of personnel spending ([Types of Remunerations](#/en/personnel-breakdown--repartition-personnel));
-* Examining historic trends for full-time equivalents ([Employment Trends](#/en/fte-numbers--nombres-etp));
-* Benchmarking between similar departments ([Compare, Similarity-Score](#/en/compare-similarity--comparer-similarites), or self-selecting departments for comparison ([Compare, Self-Select](https://pes.albert-io.com/#/en/compare-select--comparer-selection)). 
+* Viewing overall historic spending trends for [operating](#/en/operating-overview--apercu-fonctionnement) and [personnel](#/en/personnel-overview--apercu-personnel) spending;
+* Examining the [components of personnel spending](#/en/personnel-breakdown--repartition-personnel);
+* Examining historic trends for [full-time equivalents](#/en/fte-numbers--nombres-etp);
+* Benchmarking between [similar departments](#/en/compare-similarity--comparer-similarites), or [self-selecting departments](https://pes.albert-io.com/#/en/compare-select--comparer-selection) for comparison. 
 
 Our data can be displayed as an aggregate or on a per-full time equivalent (FTE) basis. 
 
