@@ -7,15 +7,40 @@ const locs = {
         notes: { title: "Notes" },
         welcome: {
             title: 'Introduction',
-            content: `Personnel expenditures are a large and complex item to scrutinize as they include both current and future costs (in the form of pensions and veteran benefits). In 2018-19, the government's personnel expenditures made up 60 percent of total operating expenditures.
+            content: 
+            
+`## The purpose of this tool
 
-Of this, current costs represented 82 percent of personnel expenditures. These costs include: salaries and wages, overtime and bonuses, pension benefits, Employment Insurance contributions and other payments which are paid in cash.
+The government’s largest operating cost is its staff – personnel spending accounts for roughly 60 per cent of federal government’s operating costs. 
 
-To assist parliamentarians in scrutinizing the current costs of personnel expenditures the PBO has built an interactive data-visualization tool that allows its' users to view historic personnel spending trends and its' components by department, and compare these trends across time, departments, and to the overall government as a whole. Users are also able to view and compare figures on either an aggregate or on a per-full time equivalent (FTE) basis.
+While parliamentarians receive volumes of data on personnel spending in the Estimates, the Public Accounts and InfoBase, that data cannot readily and quantifiably address questions such as:
+* Is spending growth mainly due to higher numbers of staff or higher spending per person?
+* Which organizations are most contributing to the growth in staffing? 
+* Which organizations are most contributing to the growth in per-person spending? 
+* Are pay increases driven by growth in salaries and wages, or other forms of renumeration?
+
+To assist parliamentarians’ scrutiny, the PBO has built an interactive tool that allows users to compare trends across time for overall government spending or a single department by: 
+* Viewing overall historic spending trends for operating ([Operating Spending](#/en/operating-overview--apercu-fonctionnement)) and personnel spending ([Personnel Spending](#/en/personnel-overview--apercu-personnel));
+* Examining the components of personnel spending ([Types of Remunerations](#/en/personnel-breakdown--repartition-personnel));
+* Examining historic trends for full-time equivalents ([Employment Trends](#/en/fte-numbers--nombres-etp));
+* Benchmarking between similar departments ([Compare, Similarity-Score](#/en/compare-similarity--comparer-similarites), or self-selecting departments for comparison ([Compare, Self-Select](https://pes.albert-io.com/#/en/compare-select--comparer-selection)). 
+
+Our data can be displayed as an aggregate or on a per-full time equivalent (FTE) basis. 
+
+Data in this tool is on a cash basis only. It is based on publicly available sources and reconciles to the Public Accounts of Canada and Departmental Results Reports. Some details are based on non-confidential data furnished by the Received General for Canada. Ultimately, PBO takes responsibility for all data in this tool, including errors and omissions (see [Notes](https://pes.albert-io.com/#/en/notes) for further information on the data and sources). 
+
+For a summary of some of the key insights that can be discovered through this tool, please see the accompanying report [link]. 
 
 ## Instructions
+Use the tabs at the top of the page to select different data and charts. Each page will prompt users to filter the information presented by a department and/or basis (total cash outlays or per full-time equivalent) that they would like to see the chart display in. Users can also change the year selected to see how trends have changed over time. This tool was created in Tableau and uses WAI-ARIA standards for keyboard navigation. The tool was designed for tablet and desktop, it may not render well on mobile. 
 
-Use the tabs at the top of the page to select different data and charts. Each page will prompt users to filter the information presented by a department and/or basis (total cash outlays or per full-time equivalent) that they would like to see the chart display in. Users can also change the year selected, and page through years to see how trends have changed over time. This tool was created in Tableau and uses WAI-ARIA standards for keyboard navigation.
+Data and the charts displayed can be downloaded directly from each page (see [instructions for the various download options](https://help.tableau.com/current/pro/desktop/en-us/export.htm)). The full database can be downloaded here [link]. All data is attributable to the PBO.
+
+---
+
+## Tell us what you think
+To receive support or to provide feedback please contact us at PBO-DPB@parl.gc.ca
+
 `
         }
     },
