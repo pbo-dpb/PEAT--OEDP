@@ -1,10 +1,12 @@
-To create this tool and the database underlying it, the PBO surveyed 68 large and medium sized departments from 2006-07 to 2018-19. In 2018-29, this represented 99.9 percent of FTEs employed by the Treasury Board and 93 percent of overall personnel spending.
+To create this tool and the database underlying it, the PBO surveyed 68 large and medium sized departments from 2006-07 to 2018-19. In 2018-29, this represented 99.9 percent of FTEs employed by the federal public service and 93 percent of overall personnel spending. 
 
-This tool excludes operating and personnel expenditures associated with future costs, accrual and other adjustments, consolidated Crown corporations and other entities, and consolidated specified purpose accounts.
+For the purpose of this tool and its' accompanying report: 
+1.	Federal employees include all Canadian Forces and RCMP employees but exclude employees of non-agent Crown corporations.
+2.	Operating and personnel expenditures exclude costs associated with future expenses, accrual and other adjustments, consolidated Crown corporations and other entities, and consolidated specified purpose accounts. 
 
 ## Grouping by similarity
 
-To help users make relevant comparisons across departments, the PBO has developed a simple similarity score by calculating the Euclidian distance between each possible pairings of departments based on its’ number of FTEs, total expenditures, transfers-to-operating ratio, and its’ capital-to-operating ratio. Each factor was given equal weighting. On the [Compare, Similarity-Score](/#/en/compare-similarity--comparer-similarites) page when a department is selected the 4 departments with the combined greatest similarity (lowest distance) to the selected department are also displayed. 
+To help users make relevant comparisons across departments, the PBO has developed a simple similarity score. To create the similarity score the Euclidian distance between each possible pairings of departments was calculated based on the number of FTEs, total expenditures, transfers-to-operating ratio, and its’ capital-to-operating ratio. Each factor was given equal weighting. When selecting a department on the [Compare, Similarity-Score](/#/en/compare-similarity--comparer-similarites) page the 4 departments with the combined greatest similarity (least distance) to the selected department are also displayed. 
 
 ## Notes related to the treatment of specific departments:
 
@@ -20,7 +22,7 @@ For additional notes on department inclusion rules and exceptions, please see th
 
 ## Glossary
 
-In order to improve transparency and clarity the PBO uses the following definitions in this online tool and its’ accompanying report. 
+The PBO uses the following definitions in this online tool and its’ accompanying report: 
 
 **Full-Time Equivalent (FTE)** – is a unit of measure that indicates the workload of an employed person. FTEs are calculated as a ratio of assigned hours of work throughout the year to scheduled hours of work, as set out in collective agreements. For term and seasonal employees, the FTE calculation is also adjusted for the proportion of paid weeks in a year (Source: Departmental Result Reports).
 
