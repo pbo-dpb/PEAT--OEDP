@@ -5,7 +5,9 @@
         <a :href="url">
           <img :src="logo" class="w-full md:w-64" :alt="logoAlt" />
         </a>
-        <h1 class="text-4xl font-hairline text-gray-800">
+        <h1
+          class="text-2xl md:text-4xl font-hairline text-gray-800 text-center md:text-left mt-4 md:mt-0"
+        >
           <router-link
             :to="{name:'welcome', params:{'language': $route.params.language}}"
           >{{ title }}</router-link>

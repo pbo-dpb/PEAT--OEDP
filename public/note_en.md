@@ -13,6 +13,7 @@ To help users make relevant comparisons across departments, the PBO has develope
 ## Notes related to the treatment of specific departments
 
 Due to differences in reporting between disaggregated and aggregated personnel expenditures some departments have been combined:
+
 1. **Public Safety Canada:** includes the Civilian Review and Complaints Commission for the Royal Canadian Mounted Police, the Office of the Correctional Investigator of Canada, and the Royal Canadian Mounted Police External Review Committee for all surveyed years. 
 2. **Veterans Affairs Canada:** includes the Veterans Review and Appeal Board for all surveyed years. 
 3. **Department of Women and Gender Equity (DWGE):**  the department was created by [Bill C-86](https://www.parl.ca/LegisInfo/BillDetails.aspx?Language=E&billId=10127729) in December 2018, replacing the Office of the Coordinator, Status of Women (previously under the Department of Heritage Canada). For continuity, DWGE includes FTEs and expenditures that are listed under Status of Women in the 2019 Public Accounts. For all prior years, Status of Women is referred to as Women and Gender Equity in the tool. 
@@ -30,7 +31,7 @@ The PBO uses the following definitions in this online tool and its’ accompanyi
 
 **Operating spending** – Includes personnel, quasi-personnel, professional and special services and other subsidies and payments (as defined below). This excludes spending associated with consolidated Crown corporations, accrual and adjustments, and consolidated specified purpose accounts (Source: Public Accounts, Standard Objects 1,2,3,4,5,6,7, and 12).
 
-**Personnel spending**– Includes all current cash expenditures related to personnel, including salaries and wages, and the government’s annual cash contributions to various employee pension and benefit plans (Source: Public Accounts, Standard Object 1). 
+**Personnel spending** – Includes all current cash expenditures related to personnel, including salaries and wages, and the government’s annual cash contributions to various employee pension and benefit plans (Source: Public Accounts, Standard Object 1). 
 
 The components of personnel spending are (Source: IR0074): 
 1. **Salaries and wages** – Include payments related to the salaries of civilian, military, and Royal Canadian Mounted Police (RCMP) personnel as defined by their collective agreements (includes continuing, part-time, seasonal, casual and student employment), and other salaries and wages.
@@ -38,16 +39,17 @@ The components of personnel spending are (Source: IR0074):
 3. **Pension** – includes federal contributions to its’ defined benefit pension plans (public service, the Royal Canadian Mounted Police, and the Canadian Armed Forces). As well as federal contributions for the Public Service Death Benefit Account, the Canadian Forces Supplementary Death Benefit, the Retirement Compensation Arrangements Account, the Members of Parliament Retirement Allowance Account, the Canada and Quebec Pension Plans, and other pension payments and supplementary personnel costs including Judges Act.
 4. **Employment Insurance** - Employer contribution to Employment Insurance.
 5. **Other payments related to health and benefits:** 
-    * **Centralized Spending** – As the employer of the public service, the Treasury Board Secretariat (TBS) incurs costs related to employees in other departments. Although by accounting standards these costs are the responsibility of the TBS, they are also part of the total compensation package for employees across all departments. As such, the PBO has chosen to reallocate these costs proportionally to each surveyed department's expenditures. These costs include: 
-              1.	Account deficiencies related to the Public Service Pension Plan;
-              2.  Employer contribution to Retirement Compensation Arrangements Account;
-              3.	Employer contribution to hospital and medical plans;
-              4.	Employer contribution for disability insurance, and;
-              5.	Other employer contributions. 
+    * **Centralized Spending** – As the employer of the public service, the Treasury Board Secretariat (TBS) incurs costs related to employees in other departments. Although by accounting standards these costs are the responsibility of the TBS, they are also part of the total compensation package for employees across all departments. As such, the PBO has chosen to reallocate these costs proportionally to each surveyed department's expenditures. These costs include:
+
+        1. Account deficiencies related to the Public Service Pension Plan;
+        2. Employer contribution to Retirement Compensation Arrangements Account;
+        3. Employer contribution to hospital and medical plans;
+        4. Employer contribution for disability insurance, and;
+        5. Other employer contributions. 
               
-         Central spending also includes costs related to account deficiencies of the RCMP Pension Plan (under RCMP) and the Canadian Forces Pension Plan (under the Department of National Defence). These costs are not redistributed among other departments as these departments are solely responsible for administering these pension plans. 
+    Central spending also includes costs related to account deficiencies of the RCMP Pension Plan (under RCMP) and the Canadian Forces Pension Plan (under the Department of National Defence). These costs are not redistributed among other departments as these departments are solely responsible for administering these pension plans. 
       
-     * **Other payments** – includes severance pay and termination benefits, retroactive payments for current and prior fiscal years, pay equities and various allowances reallocation of capital expenditures, payments related to executive interchange and other exchange programs, provincial workers’ compensation boards payments and recoveries, compensation for additional or specific duties performed and supplementary employee benefits and other supplementary personnel costs. 
+    * **Other payments** – includes severance pay and termination benefits, retroactive payments for current and prior fiscal years, pay equities and various allowances reallocation of capital expenditures, payments related to executive interchange and other exchange programs, provincial workers’ compensation boards payments and recoveries, compensation for additional or specific duties performed and supplementary employee benefits and other supplementary personnel costs. 
 
 **Quasi-personnel** – Includes costs related to transportation and communications, information, rentals and repair and maintenance (Source: Public Accounts, Standard Objects 2, 3, 5, and 6).
 

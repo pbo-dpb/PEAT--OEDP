@@ -5,7 +5,7 @@
       <tableau-breadcrumb :current="title"></tableau-breadcrumb>
     </div>
 
-    <div v-if="content" class="markdown" v-html="content"></div>
+    <div v-if="content" class="markdown px-2 md:px-0" v-html="content"></div>
   </main>
 </template>
 <script>

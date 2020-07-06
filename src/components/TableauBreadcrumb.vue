@@ -1,5 +1,8 @@
 <template>
-  <nav class="mb-4" aria-label="breadcrumbs">
+  <nav
+    class="mb-4 px-2 md:px-0 bg-gray-100 md:bg-transparent text-xs md:text-base w-full py-2 md:py-0"
+    aria-label="breadcrumbs"
+  >
     <ol class="flex">
       <li class="mr-2 text-blue-800 underline">
         <router-link
