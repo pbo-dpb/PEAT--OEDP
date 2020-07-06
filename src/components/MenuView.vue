@@ -2,7 +2,7 @@
   <div class="w-full">
     <ul
       v-if="tableauLinks"
-      :class="{'flex': collapsible, 'flex-row': collapsible, 'flex-wrap': collapsible, 'justify-center':collapsible, 'xl:justify-between': collapsible, 'flex-shrink': collapsible}"
+      :class="{'flex': collapsible, 'flex-row': collapsible, 'mb-4': collapsible, 'flex-wrap': collapsible, 'justify-center':collapsible, 'flex-shrink': collapsible}"
     >
       <router-link
         v-for="link in tableauLinks"
@@ -12,8 +12,8 @@
       >
         <li
           @click="navigate"
-          class="md:-ml-2 lg:my-2 px-4 xl:px-2 py-2 cursor-pointer text-blue-800 text-lg xl:text-sm font-medium hover:text-blue-800 hover:underline"
-          :class="{'bg-gray-200': !collapsible || isActiveLink(link)}"
+          class="md:-ml-2 px-4 py-2 cursor-pointer text-blue-800 text-lg font-medium hover:text-blue-800 hover:underline"
+          :class="{'bg-gray-200': !collapsible || isActiveLink(link), 'mb-2': !collapsible}"
         >
           <a :href="href" @click="navigate">{{ link.title }}</a>
         </li>

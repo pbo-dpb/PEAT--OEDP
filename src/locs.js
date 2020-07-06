@@ -7,7 +7,7 @@ const locs = {
         notes: { title: "Notes" },
         welcome: {
             title: 'Introduction',
-            content: '## The purpose of this tool
+            content: `## The purpose of this tool
             
 The government’s largest operating cost is its staff – personnel spending accounts for roughly 60 per cent of federal government’s operating costs. 
 
