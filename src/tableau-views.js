@@ -37,7 +37,7 @@ const tableauViews = [
     {
         id: "compare-select--comparer-selection",
         title_en: "Compare, Select",
-        title_fr: "Comparaison, auto-sélection",
+        title_fr: "Comparaison, sélection",
         embed_id_en: `7-Compareselect/Comparable-Select`,
         embed_id_fr: `7-Compareselect/Comparable-Select`,
     },
