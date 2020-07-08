@@ -19,8 +19,8 @@ While parliamentarians receive volumes of data on personnel spending in the Esti
 
 To assist parliamentarians’ scrutiny, the PBO has built an interactive tool that allows users to compare trends across time for overall government spending or a single department by: 
 * Viewing overall historic spending trends for [operating](#/en/operating-overview--apercu-fonctionnement) and [personnel](#/en/personnel-overview--apercu-personnel) spending;
-* Examining the [components of personnel spending](#/en/personnel-breakdown--repartition-personnel);
-* Examining historic trends for [full-time equivalents](#/en/fte-numbers--nombres-etp);
+* Examining the various [types of remunerations](#/en/personnel-breakdown--repartition-personnel) that are part of the government's spending on personnel;
+* Examining historic [employment trends](#/en/fte-numbers--nombres-etp) for full-time equivalents;
 * Benchmarking between [similar departments](#/en/compare-similarity--comparer-similarites), or [self-selecting departments](https://pes.albert-io.com/#/en/compare-select--comparer-selection) for comparison. 
 
 Our data can be displayed as an aggregate or on a per-full time equivalent (FTE) basis. 
