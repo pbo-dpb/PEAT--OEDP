@@ -27,7 +27,7 @@ For additional notes on department inclusion rules and exceptions, please see th
 
 The PBO uses the following definitions in this online tool and its’ accompanying report: 
 
-**Full-Time Equivalent (FTE)** – is a unit of measure that indicates the workload of an employed person. FTEs are calculated as a ratio of assigned hours of work throughout the year to scheduled hours of work, as set out in collective agreements. For term and seasonal employees, the FTE calculation is also adjusted for the proportion of paid weeks in a year (Source: Departmental Result Reports).
+**Full-Time Equivalent (FTE)** – is a unit of measure that indicates the workload of an employed person. FTEs are calculated as a ratio of assigned hours of work throughout the year to scheduled hours of work, as set out in collective agreements. For term and seasonal employees, the FTE calculation is also adjusted for the proportion of paid weeks in a year (Source: Departmental Result Reports, InfoBase, and an informal request to TBS).
 
 **Operating spending** – Includes personnel, quasi-personnel, professional and special services and other subsidies and payments (as defined below). This excludes spending associated with consolidated Crown corporations, accrual and adjustments, and consolidated specified purpose accounts (Source: Public Accounts, Standard Objects 1,2,3,4,5,6,7, and 12).
 
@@ -35,7 +35,7 @@ The PBO uses the following definitions in this online tool and its’ accompanyi
 
 The components of personnel spending are (Source: IR0074): 
 1. **Salaries and wages** – Include payments related to the salaries of civilian, military, and Royal Canadian Mounted Police (RCMP) personnel as defined by their collective agreements (includes continuing, part-time, seasonal, casual and student employment), and other salaries and wages.
-2. **Overtime and Bonus** – Includes civilian premium, holiday, overtime pay, and other allowances and benefits; the bilingual bonus; and Royal Canadian Mounted Police members overtime pay.
+2. **Overtime and Bonus** – Includes civilian premium, holiday, overtime pay, and other allowances and benefits; the bilingual bonus; and Royal Canadian Mounted Police members overtime pay and pay in lieu of leave.
 3. **Pension** – includes federal contributions to its’ defined benefit pension plans (public service, the Royal Canadian Mounted Police, and the Canadian Armed Forces). As well as federal contributions for the Public Service Death Benefit Account, the Canadian Forces Supplementary Death Benefit, the Retirement Compensation Arrangements Account, the Members of Parliament Retirement Allowance Account, the Canada and Quebec Pension Plans, and other pension payments and supplementary personnel costs including Judges Act.
 4. **Employment Insurance** - Employer contribution to Employment Insurance.
 5. **Other payments related to health and benefits:** 
@@ -51,7 +51,7 @@ The components of personnel spending are (Source: IR0074):
       
     * **Other payments** – includes severance pay and termination benefits, retroactive payments for current and prior fiscal years, pay equities and various allowances reallocation of capital expenditures, payments related to executive interchange and other exchange programs, provincial workers’ compensation boards payments and recoveries, compensation for additional or specific duties performed and supplementary employee benefits and other supplementary personnel costs. 
 
-**Quasi-personnel** – Includes costs related to transportation and communications, information, rentals and repair and maintenance (Source: Public Accounts, Standard Objects 2, 3, 5, and 6).
+**Quasi-personnel** – Includes costs related to transportation and communications, information, rentals, repair and maintenance, and utilities, materials and supplies (Source: Public Accounts, Standard Objects 2, 3, 5, 6, and 7).
 
 **Professional and Special Services** – Includes all expenditures related to professional and special services, including services performed by individuals or organizations and payments for hospital treatment, care of veterans and welfare services (Source: Public Accounts, Standard Object 4).
 
