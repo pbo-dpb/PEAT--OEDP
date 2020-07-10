@@ -1,6 +1,6 @@
 ## General notes
 
-To create this tool and the database underlying it, the PBO surveyed 68 large and medium sized departments from 2006-07 to 2018-19. In 2018-29, this represented 99.9 percent of FTEs employed by the federal public service and 93 percent of overall personnel spending. 
+To create this tool and the database underlying it, the PBO surveyed 68 large and medium sized departments from 2006-07 to 2018-19. In 2018-19, this represented 99.9 percent of FTEs employed by the federal public service and 93 percent of overall personnel spending. 
 
 For the purpose of this tool and its' accompanying report: 
 1.	Federal employees include all Canadian Forces and RCMP employees but exclude employees of non-agent Crown corporations.
