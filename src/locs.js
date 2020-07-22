@@ -56,9 +56,10 @@ Les coûts de fonctionnement les plus importants du gouvernement sont son person
 
 Les parlementaires disposent de grandes quantités de données sur les dépenses en personnel, qui se trouvent dans les budgets de dépenses, les Comptes publics et l’Infobase, mais ces données ne peuvent pas leur fournir facilement et de manière quantifiable des réponses, par exemple, aux questions suivantes:
 * La croissance des dépenses est-elle le fruit principalement d’une augmentation du nombre d’employés ou d’une augmentation des dépenses par employé?
+* La croissance de la masse salariale est-elle le fruit d’une hausse des salaires et des traitements, ou d’autres formes de rémunération?
 * Quelles organisations contribuent le plus à l’augmentation du nombre d’employés? 
 * Quelles organisations contribuent le plus à l’augmentation des dépenses par employé? 
-* La croissance de la masse salariale est-elle le fruit d’une hausse des salaires et des traitements, ou d’autres formes de rémunération?
+
 
 Pour aider les parlementaires dans leur examen, le DPB a conçu un outil interactif qui permet aux utilisateurs de comparer l’évolution au fil du temps des dépenses du gouvernement dans son ensemble ou d’un seul ministère: 
 * En consultant l’évolution des dépenses totales de [fonctionnement](#/fr/operating-overview--apercu-fonctionnement) et [personnel](#/fr/personnel-overview--apercu-personnel);
