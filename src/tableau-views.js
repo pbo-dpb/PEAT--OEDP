@@ -4,7 +4,7 @@ const tableauViews = [
         title_en: "Operating Overview",
         title_fr: "Aperçu du fonctionnement",
         embed_id_en: `2-OperatingOverview/SpendingAggregates`,
-        embed_id_fr: `2-OperatingOverview/SpendingAggregates`,
+        embed_id_fr: `2-FR/SpendingAggregates`,
     },
     {
         id: "personnel-overview--apercu-personnel",
