@@ -50,15 +50,38 @@ To receive support or to provide feedback please contact us at PBO-DPB@parl.gc.c
         notes: { title: "Notes" },
         welcome: {
             title: 'Introduction',
-            content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac tristique nunc. Donec gravida ac mauris eu dapibus. Maecenas quis justo vulputate, malesuada magna id, auctor nisl. Fusce in ultricies augue, vel scelerisque diam. Vestibulum feugiat orci auctor nisl semper, eu consequat augue vestibulum. Ut ultrices sed turpis nec malesuada. Nulla iaculis et mauris nec molestie. Aenean consectetur purus risus, et varius ligula rhoncus ac. Pellentesque in arcu at mauris laoreet fermentum ut sit amet erat. Nam et justo libero. Aenean vitae rhoncus tellus. Donec quis ultricies libero. Sed ac molestie sapien. Aliquam tincidunt eget lacus quis placerat. Ut placerat libero ipsum, ut vestibulum augue posuere eu.
-
-Aenean pulvinar nibh vel ex fringilla, vitae laoreet nibh lacinia. Sed semper tortor ac lacus commodo, in tristique enim fermentum. Vestibulum quis purus in risus ultrices convallis in id erat. Aliquam id luctus augue, ac ultrices ligula. Phasellus faucibus, magna vel ornare scelerisque, ante purus interdum lacus, a dapibus tortor ligula quis nulla. Quisque aliquet ornare quam nec mattis. Etiam eu lacinia nisl, sit amet rhoncus felis. Sed varius sagittis ipsum. Maecenas eu blandit eros. Curabitur semper vehicula leo, ut suscipit odio aliquam lacinia. Sed eget nulla vulputate, sodales mauris a, interdum tortor.
-
-Proin vulputate nisl molestie vulputate convallis. Nam posuere facilisis scelerisque. Morbi semper, diam eget pretium imperdiet, risus est sagittis ex, et volutpat leo dolor vitae diam. Suspendisse potenti. In sit amet elementum leo. Aliquam vitae augue viverra felis varius molestie. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed sit amet feugiat eros. Cras lorem magna, commodo vel lorem eu, condimentum mollis dui.
+            content: `## But de l’outil
             
-Nunc sed ipsum eget lectus tempor porttitor. Nulla quam augue, dapibus vitae auctor ut, dictum mattis enim. Morbi id lobortis ligula, non vehicula diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque feugiat magna eget dolor semper egestas. Proin congue purus hendrerit sapien molestie, sed porttitor libero mattis. Ut ac bibendum velit. Nunc faucibus, tortor non posuere blandit, purus felis venenatis magna, vitae aliquam lacus augue non sem. Nullam varius, ipsum a porta ornare, ante justo egestas erat, ac posuere eros risus nec augue. Sed a nisl eget sapien accumsan condimentum. Nunc sed sapien a sem consequat vulputate. Integer tempus, dolor et luctus feugiat, leo lectus sodales turpis, at cursus ex neque eget felis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque ut bibendum eros.
-            
-Curabitur consequat ipsum id finibus egestas. Donec efficitur bibendum mauris, non malesuada nibh tempus id. Integer blandit dui nunc. Aenean at metus nec nunc ornare consectetur. Nulla nisl lacus, sollicitudin eu feugiat sit amet, hendrerit ut erat. Duis viverra viverra diam a viverra. Phasellus ligula tellus, semper et mi eget, elementum aliquet lectus. Donec cursus quam et consequat accumsan. Aenean tincidunt elementum facilisis. Quisque malesuada augue sit amet libero mattis auctor non at velit. Ut ac justo urna. Aenean mollis mauris ullamcorper nisi varius, ac facilisis nibh auctor. Mauris urna urna, lacinia ac leo faucibus, tincidunt commodo arcu. In hac habitasse platea dictumst.`
+Les coûts de fonctionnement les plus importants du gouvernement sont son personnel – les dépenses en personnel représentent en effet environ 60 % des coûts de fonctionnement du gouvernement fédéral.
+
+Les parlementaires disposent de grandes quantités de données sur les dépenses en personnel, qui se trouvent dans les budgets de dépenses, les Comptes publics et l’Infobase, mais ces données ne peuvent pas leur fournir facilement et de manière quantifiable des réponses, par exemple, aux questions suivantes:
+* La croissance des dépenses est-elle le fruit principalement d’une augmentation du nombre d’employés ou d’une augmentation des dépenses par employé?
+* Quelles organisations contribuent le plus à l’augmentation du nombre d’employés? 
+* Quelles organisations contribuent le plus à l’augmentation des dépenses par employé? 
+* La croissance de la masse salariale est-elle le fruit d’une hausse des salaires et des traitements, ou d’autres formes de rémunération?
+
+Pour aider les parlementaires dans leur examen, le DPB a conçu un outil interactif qui permet aux utilisateurs de comparer l’évolution au fil du temps des dépenses du gouvernement dans son ensemble ou d’un seul ministère: 
+* En consultant l’évolution des dépenses totales de [fonctionnement](#/fr/operating-overview--apercu-fonctionnement) et [personnel](#/fr/personnel-overview--apercu-personnel);
+* En examinant les différents [types de rémunérations](#/fr/personnel-breakdown--repartition-personnel) qui font partie des dépenses du gouvernement en matière de personnel;
+* Examinant des tendances historiques de l'emploi pour les [équivalents temps plein](#/fr/fte-numbers--nombres-etp);
+* En procédant à une analyse comparative avec des [ministères similaires](#/fr/compare-similarity--comparer-similarites), ou [en sélectionnant certains ministères](https://pes.albert-io.com/#/fr/compare-select--comparer-selection) for comparison. 
+
+Les données peuvent être affichées globalement ou par nombre d’équivalents temps plein (ETP).
+
+Les données contenues dans l’outil reposent sur les flux financiers uniquement. Elles proviennent de sources publiques et sont conciliées avec les Comptes publics du Canada et les rapports sur les résultats ministériels. Certains détails sont fondés sur des données non confidentielles fournies par le receveur général du Canada. Le DPB assume la responsabilité de toutes les données se trouvant dans l’outil, notamment les erreurs et les omissions (pour de plus amples renseignements sur les données et les sources, voir les [Notes](https://pes.albert-io.com/#/fr/notes). 
+
+Pour avoir un aperçu des principaux renseignements que vous permet d’obtenir l’outil, voir le rapport connexe [lien].
+
+## Directives
+Utilisez les onglets au haut de la page pour choisir différents graphiques et données. Un message apparaîtra sur chaque page demandant à l’utilisateur de filtrer l’information présentée par ministère ou type d’analyse (déboursés effectifs globaux ou nombre d’équivalents temps plein) qu’il veut obtenir. L’utilisateur peut également choisir une autre année pour voir l’évolution au fil du temps. L’outil a été créé dans le logiciel Tableau et utilise les normes WAI ARIA pour la navigation par clavier. Il a été conçu pour les tablettes et les ordinateurs de bureau et pourrait être difficile à consulter sur un téléphone cellulaire.
+
+Les données et les graphiques affichés peuvent être téléchargés directement à partir de chaque page (voir les [directives relatives aux diverses options de téléchargement](https://help.tableau.com/current/pro/desktop/en-us/export.htm)). La base de données complète peut être téléchargée ici [link]. Toutes les données sont du DPB.
+---
+
+## Qu’en pensez-vous?
+Pour obtenir de l’aide ou nous faire part de vos commentaires, communiquez avec nous à l’adresse PBO-DPB@parl.gc.ca
+
+`
         }
     }
 }
