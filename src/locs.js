@@ -13,9 +13,9 @@ The government’s largest operating cost is its staff – personnel spending ac
 
 While parliamentarians receive volumes of data on personnel spending in the Estimates, the Public Accounts and InfoBase, that data cannot readily and quantifiably address questions such as:
 * Is spending growth mainly due to higher numbers of staff or higher spending per person?
+* Are pay increases driven by growth in salaries and wages, or other forms of renumeration?
 * Which organizations are most contributing to the growth in staffing? 
 * Which organizations are most contributing to the growth in per-person spending? 
-* Are pay increases driven by growth in salaries and wages, or other forms of renumeration?
 
 To assist parliamentarians’ scrutiny, the PBO has built an interactive tool that allows users to compare trends across time for overall government spending or a single department by: 
 * Viewing overall historic spending trends for [operating](#/en/operating-overview--apercu-fonctionnement) and [personnel](#/en/personnel-overview--apercu-personnel) spending;
