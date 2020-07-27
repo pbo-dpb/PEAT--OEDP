@@ -13,7 +13,7 @@
       >
         <li
           @click="navigate"
-          class="px-4 xl:px-2 py-2 xl:mr-0 xl:-ml-2 cursor-pointer text-blue-800 font-medium hover:text-blue-800 hover:underline"
+          class="px-4 xl:px-2 py-2 xl:mr-0 xl:-ml-2 xl:-mr-2 cursor-pointer text-blue-800 font-medium hover:text-blue-800 hover:underline"
           :class="{'mx-2': collapsible, 'bg-gray-200': (!collapsible || isActiveLink(link)), 'mb-2': !collapsible, 'text-base':($route.params.language === 'en'), 'text-sm': ($route.params.language === 'fr')}"
         >
           <a :href="href" @click="navigate">{{ link.title }}</a>
@@ -31,8 +31,8 @@ export default {
     collapsible: {
       type: Boolean,
       required: false,
-      default: false
-    }
+      default: false,
+    },
   },
   computed: {
     tableauLinks() {
@@ -44,23 +44,23 @@ export default {
           destination: {
             name: "welcome",
             params: {
-              language: this.$route.params.language
-            }
-          }
+              language: this.$route.params.language,
+            },
+          },
         });
       }
 
       links = links.concat(
-        tableauViews.map(view => {
+        tableauViews.map((view) => {
           return {
             title: view["title_" + this.$route.params.language],
             destination: {
               name: "tableau",
               params: {
                 viewid: view.id,
-                language: this.$route.params.language
-              }
-            }
+                language: this.$route.params.language,
+              },
+            },
           };
         })
       );
@@ -70,12 +70,12 @@ export default {
         destination: {
           name: "notes",
           params: {
-            language: this.$route.params.language
-          }
-        }
+            language: this.$route.params.language,
+          },
+        },
       });
       return links;
-    }
+    },
   },
   methods: {
     isActiveLink(link) {
@@ -83,7 +83,7 @@ export default {
         return link.destination.params.viewid === this.$route.params.viewid;
       }
       return link.destination.name === this.$route.name;
-    }
-  }
+    },
+  },
 };
 </script>
