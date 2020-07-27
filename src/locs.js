@@ -77,10 +77,11 @@ Pour avoir un aperçu des principaux renseignements que vous permet d’obtenir 
 Utilisez les onglets au haut de la page pour choisir différents graphiques et données. Un message apparaîtra sur chaque page demandant à l’utilisateur de filtrer l’information présentée par ministère ou type d’analyse (déboursés effectifs globaux ou nombre d’équivalents temps plein) qu’il veut obtenir. L’utilisateur peut également choisir une autre année pour voir l’évolution au fil du temps. L’outil a été créé dans le logiciel Tableau et utilise les normes WAI ARIA pour la navigation par clavier. Il a été conçu pour les tablettes et les ordinateurs de bureau et pourrait être difficile à consulter sur un téléphone cellulaire.
 
 Les données et les graphiques affichés peuvent être téléchargés directement à partir de chaque page (voir les [directives relatives aux diverses options de téléchargement](https://help.tableau.com/current/pro/desktop/en-us/export.htm)). La base de données complète peut être téléchargée ici [link]. Toutes les données sont du DPB.
+
 ---
 
 ## Qu’en pensez-vous?
-Pour obtenir de l’aide ou nous faire part de vos commentaires, communiquez avec nous à l’adresse PBO-DPB@parl.gc.ca
+Pour obtenir de l’aide ou nous faire part de vos commentaires, communiquez avec nous à l’adresse DPB-PBO@parl.gc.ca
 
 `
         }

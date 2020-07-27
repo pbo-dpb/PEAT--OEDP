@@ -14,7 +14,7 @@ import marked from "marked";
 export default {
   components: {
     tableauBreadcrumb: require("./TableauBreadcrumb.vue").default,
-    menuView: require("./MenuView.vue").default
+    menuView: require("./MenuView.vue").default,
   },
   data() {
     return { rawNote: null };
@@ -28,7 +28,12 @@ export default {
         return false;
       }
       return marked(this.rawNote);
-    }
+    },
+  },
+  watch: {
+    "$route.params.language": function () {
+      this.loadNote();
+    },
   },
   mounted() {
     this.loadNote();
@@ -39,11 +44,11 @@ export default {
         ? this.$route.params.language
         : "en";
       fetch(`/note_${language}.md`)
-        .then(response => response.text())
-        .then(data => {
+        .then((response) => response.text())
+        .then((data) => {
           this.rawNote = data;
         });
-    }
-  }
+    },
+  },
 };
 </script>

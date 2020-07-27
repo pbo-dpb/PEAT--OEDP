@@ -46,9 +46,9 @@ The components of personnel spending are (Source: IR0074):
         3. Employer contribution to hospital and medical plans;
         4. Employer contribution for disability insurance, and;
         5. Other employer contributions. 
-              
-    The portion of these costs that is not incurred by TBS is included in other payments, except for Employer contribution to Retirement Compensation Arrangements Account which is under pension payments.
     
+    The portion of these costs that is not incurred by TBS is included in other payments, except for Employer contribution to Retirement Compensation Arrangements Account which is under pension payments.
+
     Central spending also includes costs related to account deficiencies of the RCMP Pension Plan (under RCMP) and the Canadian Forces Pension Plan (under the Department of National Defence). These costs are not redistributed among other departments as these departments are solely responsible for administering these pension plans. 
       
     * **Other payments** – includes severance pay and termination benefits, retroactive payments for current and prior fiscal years, pay equities and various allowances reallocation of capital expenditures, payments related to executive interchange and other exchange programs, provincial workers’ compensation boards payments and recoveries, compensation for additional or specific duties performed and supplementary employee benefits and other supplementary personnel costs. 
