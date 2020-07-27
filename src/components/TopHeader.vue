@@ -5,13 +5,26 @@
         <a :href="url">
           <img :src="logo" class="w-full md:w-64" :alt="logoAlt" />
         </a>
-        <h1
-          class="text-2xl md:text-4xl font-hairline text-gray-800 text-center md:text-left mt-4 md:mt-0"
-        >
-          <router-link
-            :to="{name:'welcome', params:{'language': $route.params.language}}"
-          >{{ title }}</router-link>
-        </h1>
+        <nav>
+          <h1
+            class="text-2xl md:text-4xl font-hairline text-gray-800 text-center md:text-left mt-4 md:mt-0"
+          >
+            <router-link
+              :to="{name:'welcome', params:{'language': $route.params.language}}"
+            >{{ title }}</router-link>
+            <br />
+          </h1>
+          <div class="text-blue-800 underline text-sm -mt-1">
+            <router-link
+              v-if="this.$route.params.language === 'en'"
+              :to="{params:{'language': 'fr'}}"
+            >Français</router-link>
+            <router-link
+              v-if="this.$route.params.language === 'fr'"
+              :to="{params:{'language': 'en'}}"
+            >English</router-link>
+          </div>
+        </nav>
       </div>
     </section>
   </header>
@@ -33,7 +46,7 @@ export default {
     },
     title() {
       return locs[this.$route.params.language].app.title;
-    }
-  }
+    },
+  },
 };
 </script>
