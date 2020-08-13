@@ -5,7 +5,7 @@ To create this tool and the database underlying it, the PBO collected data for 6
 For the purpose of this tool and its' accompanying report: 
 1.	Federal employees include all Canadian Forces and RCMP employees but exclude employees of non-agent Crown corporations.
 2.	Operating and personnel expenditures exclude costs associated with future expenses, accrual and other adjustments, consolidated Crown corporations and other entities, and consolidated specified purpose accounts. 
-3. Personnel expenditures for individual departments in this tool will differ from those published in the Public Accounts. This is due to the redistribution of centralized spending under the Treasury Board of Canada Secretariat (see definition below and the report[link] for additional information). Personnel expenditures for the government as a whole will match the results published in the Public Accounts. 
+3. Personnel expenditures for individual departments in this tool will differ from those published in the Public Accounts. This is due to the redistribution of centralized spending under the Treasury Board of Canada Secretariat (see definition below and the report[link] for additional information). Personnel expenditures for the overall government will match the results published in the Public Accounts. 
 
 ## Grouping by similarity
 
