@@ -1,4 +1,4 @@
-# Personnel Expenditure Scrutiny Tool
+# Personnel Expenditure Analysis Tool
 
 ## Project setup
 ```
