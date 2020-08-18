@@ -1,7 +1,7 @@
 const locs = {
     en: {
         app: {
-            title: "Personnel Expenditure Scrutiny Tool",
+            title: "Personnel Expenditure Analysis Tool",
             logo_alt: "Office of the Parliamentary Budget Officer Logo",
         },
         notes: { title: "Notes" },
