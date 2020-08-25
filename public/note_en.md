@@ -13,7 +13,7 @@ To help users make relevant comparisons across departments, the PBO has develope
 
 ## Notes related to the treatment of specific departments
 
-Due to differences in reporting between disaggregated and aggregated personnel expenditures some departments have been combined:
+Due to differences in reporting between disaggregated and aggregated personnel expenditures some departments have been combined or certain years have been excluded:
 
 1. **Public Safety Canada:** includes the Civilian Review and Complaints Commission for the Royal Canadian Mounted Police, the Office of the Correctional Investigator of Canada, and the Royal Canadian Mounted Police External Review Committee for all surveyed years. 
 2. **Veterans Affairs Canada:** includes the Veterans Review and Appeal Board for all surveyed years. 
@@ -22,6 +22,7 @@ Due to differences in reporting between disaggregated and aggregated personnel e
 5. **Environment and Climate Change Canada:** includes the Impact Assessment Agency for all years surveyed, as the office operates as a Special Operating Agency under Environment and Climate Change Canada. 
 6. **Canadian Northern Economic Development Agency:** The department was created in 2009 as a Special Operating Agency under Indigenous and Northern Affairs Canada. In 2011-12, the agency began to operate on its own. As such, data on the department is displayed only from 2011-12 onward.
 7. **Employment and Social Development Canada:** On February 2006, the department of Human Resources and Skills Development Canada and Social Development Canada were consolidated into the Department of Human Resources and Skills Development (currently known as Employment and Social Development Canada). In the 2007 Public Accounts and in IR0074 both departments are still listed separately. For consistency across all years, the departments were combined in 2006-07. 
+8. **Office of the Parliamentary Budget Officer:** the office was established in 2006 under the Library of Parliament. On September 21, 2017 the office became independent with a reformed mandate when certain sections of [Bill C-44](https://www.parl.ca/DocumentViewer/en/42-1/bill/c-44/royal-assent) came into force. As such, 2018-19 is the first full year for which personnel object data is available. 
 
 For additional notes on department inclusion rules and exceptions, please see the accompanying report[link]. 
 
@@ -75,4 +76,4 @@ The components of personnel spending are (Source: IR0074):
 
 To receive support or to provide feedback please contact us at [pbo-dpb@parl.gc.ca](mailto:pbo-dpb@parl.gc.ca).
 
-Last updated: August XX, 2020
+Last updated: September XX, 2020
