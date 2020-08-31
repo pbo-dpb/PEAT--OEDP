@@ -1,21 +1,21 @@
 # Personnel Expenditure Analysis Tool
 
-## Installation du projet
+## Project setup
 ```
 npm install
 ```
 
-### Compilations et recharges à chaud pour le développement
+### Compiles and hot-reloads for development
 ```
 npm run serve
 ```
 
-### Compilation et miniaturisation pour la production
+### Compiles and minifies for production
 ```
 npm run build
 ```
 
-### Correction et embellissement des fichiers
+### Lints and fixes files
 ```
 npm run lint
 ```
