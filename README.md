@@ -1,24 +1,21 @@
 # Personnel Expenditure Analysis Tool
 
-## Project setup
+## Installation du projet
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compilations et recharges à chaud pour le développement
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Compilation et miniaturisation pour la production
 ```
 npm run build
 ```
 
-### Lints and fixes files
+### Correction et embellissement des fichiers
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
