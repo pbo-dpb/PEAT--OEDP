@@ -24,7 +24,7 @@ Due to differences in reporting between disaggregated and aggregated personnel e
 7. **Employment and Social Development Canada:** On February 2006, the department of Human Resources and Skills Development Canada and Social Development Canada were consolidated into the Department of Human Resources and Skills Development (currently known as Employment and Social Development Canada). In the 2007 Public Accounts and in IR0074 both departments are still listed separately. For consistency across all years, the departments were combined in 2006-07. 
 8. **Office of the Parliamentary Budget Officer:** The office was established in 2006 under the Library of Parliament. On September 21, 2017 the office became independent with a reformed mandate when certain sections of [Bill C-44](https://www.parl.ca/DocumentViewer/en/42-1/bill/c-44/royal-assent) came into force. As such, 2018-19 is the first full year for which personnel object data is available. 
 
-For additional notes on department inclusion rules and exceptions, please see the accompanying report[link]. 
+For additional notes on department inclusion rules and exceptions, please see the accompanying [report](https://www.pbo-dpb.gc.ca/en/blog/news/RP-2021-021-S--personnel-expenditure-analysis-tool--outil-examen-depenses-en-personnel). 
 
 ## Glossary
 
