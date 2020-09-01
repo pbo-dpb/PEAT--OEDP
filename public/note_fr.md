@@ -5,6 +5,7 @@ Le DPB a recueilli des données auprès de 68 ministères, moyens et grands, de 
 Aux fins de l’outil et de son rapport connexe: 
 1.	Les employés fédéraux comprennent tous les employés des Forces armées canadiennes et de la GRC, à l’exclusion des employés des sociétés d’État non mandataires.
 2.	Les dépenses de fonctionnement et en personnel excluent les coûts associés aux dépenses futures, les courus et autres redressements, les sociétés d’État et autres entités consolidées, et les comptes à fins déterminées consolidées.
+3. Les dépenses de personnel des différents services dans cet outil seront différentes de celles publiées dans les comptes publics. Cela est dû à la redistribution des dépenses centralisées sous le Secrétariat du Conseil du Trésor du Canada (voir la définition ci-dessous et le [rapport](https://www.pbo-dpb.gc.ca/fr/blog/news/RP-2021-021-S--personnel-expenditure-analysis-tool--outil-examen-depenses-en-personnel) pour plus d'informations). Les dépenses de personnel pour l'ensemble du gouvernement correspondront aux résultats publiés dans les comptes publics.
 
 ## Regroupement en fonction des similarités
 
@@ -12,7 +13,7 @@ Dans le but d’aider les utilisateurs à effectuer des comparaisons pertinentes
 
 ## Notes concernant certains ministères
 
-En raison des divergences dans les rapports entre les dépenses en personnel regroupées et les dépenses en personnel non regroupées, certains ministères ont été combinés:
+En raison des divergences dans les rapports entre les dépenses en personnel regroupées et les dépenses en personnel non regroupées, certains ministères ont été combinés ou certaines années ont été exclues:
 
 1.	**Santé publique Canada:** inclut la Commission civile d’examen et de traitement des plaintes relatives à la Gendarmerie royale du Canada, le Bureau de l’enquêteur correctionnel du Canada et le Comité externe d’examen de la Gendarmerie royale du Canada pour toutes les années examinées.
 2.	**Anciens Combattants Canada:** inclut le Tribunal des anciens combattants (révision et appel) pour toutes les années examinées.
@@ -20,8 +21,11 @@ En raison des divergences dans les rapports entre les dépenses en personnel reg
 4.	**Ministère de la Justice:** inclut le Service des poursuites pénales du Canada de 2006-2007 à 2007 2008, étant donné que le service fonctionnait comme un organisme spécial relevant du ministère de la Justice pendant ces exercices.
 5.	**Environnement et Changement climatique Canada:** inclut l’Agence d’évaluation d’impact du Canada pour toutes les années examinées, étant donné que l’agence était un organisme de service spécial relevant d’Environnement et Changement climatique Canada.
 6.	**Agence canadienne de développement économique du Nord:** le ministère a été créé en 2009 comme organisme de service spécial relevant d’Affaires autochtones et du Nord Canada. En 2011-2012, l’agence est devenue autonome. Ainsi, les données qui s’y rapportent n’apparaissent qu’à partir de 2011-2012.
+7.	**Emploi et développement social Canada:** En février 2006, le ministère des Ressources humaines et du Développement des compétences du Canada et le ministère du Développement social du Canada ont été regroupés au sein du ministère des Ressources humaines et du Développement des compétences (actuellement connu sous le nom d'Emploi et Développement social Canada). Dans les comptes publics de 2007 et dans l'IR0074, les deux ministères sont toujours mentionnés séparément. Par souci de cohérence pour toutes les années, les ministères ont été regroupés en 2006-2007. 
+8.	**Le Bureau du directeur parlementaire du budget:** ce bureau a été créé en 2006 sous l'égide de la Bibliothèque du Parlement. Le 21 septembre 2017, le bureau est devenu indépendant avec un mandat réformé lorsque certains articles du [projet de loi C-44](https://www.parl.ca/DocumentViewer/en/42-1/bill/c-44/royal-assent) sont entrés en vigueur. Ainsi, 2018-19 est la première année complète pour laquelle des données sur les objets personnels sont disponibles. 
 
-Le rapport connexe [lien] contient des notes additionnelles sur les règles d’inclusion des ministères et les exceptions.
+
+Le [rapport](https://www.pbo-dpb.gc.ca/fr/blog/news/RP-2021-021-S--personnel-expenditure-analysis-tool--outil-examen-depenses-en-personnel) connexe contient des notes additionnelles sur les règles d’inclusion des ministères et les exceptions.
 
 ## Glossaire
 
@@ -37,9 +41,9 @@ Les composantes des dépenses en personnel sont les suivantes (source: IR0074):
 1. **Salaires et traitements** – englobent les paiements associés aux salaires du personnel civil, militaire et de la Gendarmerie royale du Canada (GRC) tels que définis dans leurs conventions collectives (y compris les emplois permanents, à temps partiel, saisonniers, occasionnels et étudiants), et les autres salaires et traitements.
 2. **Heures supplémentaires et primes** – englobent les primes du personnel civil, les congés, la rémunération des heures supplémentaires et les autres allocations et avantages sociaux, les primes au bilinguisme et la rémunération des heures supplémentaires des agents de la Gendarmerie royale du Canada et la rémunération tenant lieu de congé.
 3. **Régime de retraite** – englobe les contributions fédérales aux régimes de retraite à prestations déterminées (fonction publique, Gendarmerie royale du Canada et Forces armées canadiennes), de même que les contributions fédérales au Compte de prestations de décès de la fonction publique, au compte de prestations supplémentaires de décès des Forces canadiennes, au compte des conventions de retraite, au Compte des allocations de retraite des députés, au Régime de pensions du Canada et au Régime des rentes du Québec, et les autres paiements de pension et les frais supplémentaires de personnel, y compris la Loi sur les juges.
-4. **Assurance-emploi** - Contribution de l’employeur à l’assurance-emploi.
+4. **Assurance-emploi** - contribution de l’employeur à l’assurance-emploi.
 5. **Autres paiements associés à la santé et aux avantages sociaux:** 
-    * **Dépenses centralisées** – En tant qu’employeur de la fonction publique, le Secrétariat du Conseil du Trésor (SCT) assume des coûts associés aux employés des autres ministères. Bien que selon les normes comptables, ces coûts sont la responsabilité du SCT, ils font aussi partie du régime de rémunération globale des employés de tous les ministères. Ainsi, le DPB a décidé de réaffecter ces coûts proportionnellement aux dépenses de chacun des ministères examinés. Ces coûts comprennent : 
+    * **Dépenses centralisées** – en tant qu'employeur de la fonction publique, le Secrétariat du Conseil du Trésor (SCT) engage des coûts liés aux employés d'autres ministères. Selon les normes comptables du gouvernement, ces coûts sont à la charge du SCT, ils reflètent la rémunération totale du travail accompli dans le ministère employeur respectif de chaque employé. Le DPB a donc choisi de réaffecter ces coûts dans tous les ministères (pour lesquels le Conseil du Trésor est l'employeur), pondérés par les dépenses totales des ministères en matière de personnel. Ces coûts comprennent: 
 
         1. Déficits de compte du Régime de retraite de la fonction publique;
         2. Contributions de l’employeur au compte des conventions de retraite;
@@ -49,7 +53,9 @@ Les composantes des dépenses en personnel sont les suivantes (source: IR0074):
               
     La partie de ces coûts qui n'est pas encourue par le SCT est incluse dans les autres paiements, à l'exception de la contribution de l'employeur au Compte de convention de retraite, qui fait partie des paiements de pension.  
     
-    Les dépenses centralisées comprennent également les coûts associés aux déficits de compte du Régime de pension de la GRC (sous GRC) et du Régime de retraite des Forces canadiennes (sous ministère de la Défense nationale). Ces coûts ne sont pas redistribués aux ministères, car ces ministères sont entièrement responsables de la gestion de ces régimes.
+    Les dépenses centralisées comprennent également les coûts associés aux déficits de compte du Régime de pension de la GRC (sous GRC) et du Régime de retraite des Forces canadiennes (sous ministère de la Défense nationale). 
+    
+    Les coûts du Régime de pension du secteur public sont attribués aux ministères dont le personnel contribue au Régime de pension de la fonction publique et y est admissible. Les autres coûts du régime de retraite sont attribués aux ministères concernés (par exemple, les insuffisances actuarielles du régime de retraite de la GRC ne sont attribuées qu'à la GRC).
       
     * **Autres paiements** – englobent les indemnités de départ et de cessation d’emploi, les versements rétroactifs pour l’exercice en cours et les exercices financiers antérieurs, l’équité salariale et diverses allocations, la réaffectation des dépenses en capital, les paiements associés à l’échange de personnel de direction et à d’autres programmes d’échange, les paiements et les recouvrements concernant les commissions provinciales des accidents du travail, la rémunération pour des fonctions supplémentaires ou spécifiques, les prestations supplémentaires aux employés et les autres frais supplémentaires relatifs au personnel. 
     
@@ -73,4 +79,4 @@ Les composantes des dépenses en personnel sont les suivantes (source: IR0074):
 
 Pour obtenir de l’aide ou nous faire part de vos commentaires, communiquez avec nous à l’adresse [dpb-pbo@parl.gc.ca](mailto:dpb-pbo@parl.gc.ca).
 
-Mise à jour : XX août 2020
+Mise à jour : XX septembre 2020
