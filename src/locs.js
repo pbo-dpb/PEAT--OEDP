@@ -27,7 +27,7 @@ Our data can be displayed as an aggregate or on a per-full time equivalent (FTE)
 
 Data in this tool is on a cash basis only. It is based on publicly available sources and reconciles to the Public Accounts of Canada and Departmental Results Reports. Some details are based on non-confidential data furnished by the Received General for Canada. Ultimately, PBO takes responsibility for all data in this tool, including errors and omissions (see [Notes](https://pes.albert-io.com/#/en/notes) for further information on the data and sources). 
 
-For a summary of some of the key insights that can be discovered through this tool, please see the accompanying report [link]. 
+For a summary of some of the key insights that can be discovered through this tool, please see the accompanying [report](https://www.pbo-dpb.gc.ca/en/blog/news/RP-2021-021-S--personnel-expenditure-analysis-tool--outil-examen-depenses-en-personnel). 
 
 ## Instructions
 Use the tabs at the top of the page to select different data and charts. Each page will prompt users to filter the information presented by a department and/or basis (total cash outlays or per full-time equivalent) that they would like to see the chart display in. Users can also change the year selected to see how trends have changed over time. This tool was created in Tableau and uses WAI-ARIA standards for keyboard navigation. The tool was designed for tablet and desktop, it may not render well on mobile. 
@@ -71,7 +71,7 @@ Les données peuvent être affichées globalement ou par nombre d’équivalents
 
 Les données contenues dans l’outil reposent sur les flux financiers uniquement. Elles proviennent de sources publiques et sont conciliées avec les Comptes publics du Canada et les rapports sur les résultats ministériels. Certains détails sont fondés sur des données non confidentielles fournies par le receveur général du Canada. Le DPB assume la responsabilité de toutes les données se trouvant dans l’outil, notamment les erreurs et les omissions (pour de plus amples renseignements sur les données et les sources, voir les [Notes](https://pes.albert-io.com/#/fr/notes). 
 
-Pour avoir un aperçu des principaux renseignements que vous permet d’obtenir l’outil, voir le rapport connexe [lien].
+Pour avoir un aperçu des principaux renseignements que vous permet d’obtenir l’outil, voir le [rapport](https://www.pbo-dpb.gc.ca/fr/blog/news/RP-2021-021-S--personnel-expenditure-analysis-tool--outil-examen-depenses-en-personnel connexe).
 
 ## Directives
 Utilisez les onglets au haut de la page pour choisir différents graphiques et données. Un message apparaîtra sur chaque page demandant à l’utilisateur de filtrer l’information présentée par ministère ou type d’analyse (déboursés effectifs globaux ou nombre d’équivalents temps plein) qu’il veut obtenir. L’utilisateur peut également choisir une autre année pour voir l’évolution au fil du temps. L’outil a été créé dans le logiciel Tableau et utilise les normes WAI ARIA pour la navigation par clavier. Il a été conçu pour les tablettes et les ordinateurs de bureau et pourrait être difficile à consulter sur un téléphone cellulaire.
