@@ -20,13 +20,52 @@
         </li>
       </router-link>
     </ul>
+
+    <div
+      v-if="!collapsible"
+      class="mt-4 pt-4 border-t border-gray-200 flex flex-col xl:px-2 xl:mr-0 xl:-ml-2 xl:-mr-2"
+    >
+      <menu-view-featured
+        v-for="reportLocalization in reportsLocalizations"
+        :key="reportLocalization.url"
+        :url="reportLocalization.url"
+        :title="reportLocalization.title"
+        :subtitle="reportLocalization.subtitle"
+      >
+        <template v-slot:icon>
+          <img
+            class="w-8 mr-2 shadow-xs"
+            :src="reportLocalization.thumbnail"
+            :alt="reportLocalization.title"
+          />
+        </template>
+      </menu-view-featured>
+
+      <menu-view-featured
+        :url="databaseLocalization.url"
+        :title="databaseLocalization.title"
+        :subtitle="databaseLocalization.subtitle"
+      >
+        <template v-slot:icon>
+          <svg viewBox="0 0 20 20" fill="currentColor" class="database w-8 h-8 mr-2">
+            <path d="M3 12v3c0 1.657 3.134 3 7 3s7-1.343 7-3v-3c0 1.657-3.134 3-7 3s-7-1.343-7-3z" />
+            <path d="M3 7v3c0 1.657 3.134 3 7 3s7-1.343 7-3V7c0 1.657-3.134 3-7 3S3 8.657 3 7z" />
+            <path d="M17 5c0 1.657-3.134 3-7 3S3 6.657 3 5s3.134-3 7-3 7 1.343 7 3z" />
+          </svg>
+        </template>
+      </menu-view-featured>
+    </div>
   </div>
 </template>
+
 <script>
 const tableauViews = require("../tableau-views.js").default;
 const locs = require("../locs.js").default;
 
 export default {
+  components: {
+    menuViewFeatured: require("./MenuViewFeatured.vue").default,
+  },
   props: {
     collapsible: {
       type: Boolean,
@@ -75,6 +114,13 @@ export default {
         },
       });
       return links;
+    },
+
+    databaseLocalization() {
+      return locs[this.$route.params.language].nav.database;
+    },
+    reportsLocalizations() {
+      return locs[this.$route.params.language].nav.reports;
     },
   },
   methods: {

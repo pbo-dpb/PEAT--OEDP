@@ -4,6 +4,19 @@ const locs = {
             title: "Personnel Expenditure Analysis Tool",
             logo_alt: "Office of the Parliamentary Budget Officer Logo",
         },
+        nav: {
+            database: {
+                title: "Database",
+                subtitle: "(.xlsx)",
+                url: "/db-bdd.xlsx"
+            },
+            reports: [{
+                title: "Report",
+                subtitle: "Key Insights",
+                url: "https://www.pbo-dpb.gc.ca/en/blog/news/RP-2021-021-S--personnel-expenditure-analysis-tool--outil-examen-depenses-en-personnel",
+                thumbnail: "/report_2020_thumbnail_en.png"
+            }]
+        },
         notes: { title: "Notes" },
         welcome: {
             title: 'Introduction',
@@ -46,6 +59,21 @@ To receive support or to provide feedback please contact us at PBO-DPB@parl.gc.c
         app: {
             title: "Outil d'examen des dépenses en personnel",
             logo_alt: "Logo du Bureau du directeur parlementaire du budget",
+        },
+        nav: {
+            database: {
+                title: "Base de données",
+                subtitle: "(.xlsx)",
+                url: "/db-bdd.xlsx"
+            },
+            reports: [
+                {
+                    title: "Rapport",
+                    subtitle: "Principales constatations",
+                    url: "https://www.pbo-dpb.gc.ca/en/blog/news/RP-2021-021-S--personnel-expenditure-analysis-tool--outil-examen-depenses-en-personnel",
+                    thumbnail: "/report_2020_thumbnail_fr.png"
+                }
+            ]
         },
         notes: { title: "Notes" },
         welcome: {
