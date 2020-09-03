@@ -79,4 +79,4 @@ Les composantes des dépenses en personnel sont les suivantes (source: IR0074):
 
 Pour obtenir de l’aide ou nous faire part de vos commentaires, communiquez avec nous à l’adresse [dpb-pbo@parl.gc.ca](mailto:dpb-pbo@parl.gc.ca).
 
-Mise à jour : XX septembre 2020
+Mise à jour : 10 septembre 2020
