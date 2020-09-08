@@ -13,7 +13,7 @@ Dans le but d’aider les utilisateurs à effectuer des comparaisons pertinentes
 
 ## Notes concernant certains ministères
 
-En raison des divergences dans les rapports entre les dépenses de personnel regroupées et les dépenses de personnel non regroupées, certains ministères ont été combinés ou certaines années ont été exclues:
+En raison des divergences dans les rapports entre les dépenses de personnel regroupées et les dépenses de personnel non regroupées, certains ministères ont été combinés ou certaines années ont été exclues :
 
 1.	**Santé publique Canada :** inclut la Commission civile d’examen et de traitement des plaintes relatives à la Gendarmerie royale du Canada, le Bureau de l’enquêteur correctionnel du Canada et le Comité externe d’examen de la Gendarmerie royale du Canada pour toutes les années examinées.
 2.	**Anciens Combattants Canada :** inclut le Tribunal des anciens combattants (révision et appel) pour toutes les années examinées.
@@ -42,7 +42,7 @@ Les composantes des dépenses de personnel sont les suivantes (source : IR0074):
 2. **Heures supplémentaires et primes** – englobent les primes du personnel civil, les congés, la rémunération des heures supplémentaires et les autres allocations et avantages sociaux, les primes au bilinguisme et la rémunération des heures supplémentaires des agents de la Gendarmerie royale du Canada et la rémunération tenant lieu de congé.
 3. **Régime de retraite** – englobe les contributions fédérales aux régimes de retraite à prestations déterminées (fonction publique, Gendarmerie royale du Canada et Forces armées canadiennes), de même que les contributions fédérales au Compte de prestations de décès de la fonction publique, au compte de prestations supplémentaires de décès des Forces canadiennes, au compte des conventions de retraite, au Compte des allocations de retraite des députés, au Régime de pensions du Canada et au Régime des rentes du Québec, et les autres paiements de pension et les frais supplémentaires de personnel, y compris la Loi sur les juges.
 4. **Assurance-emploi** - contribution de l’employeur à l’assurance-emploi.
-5. **Autres paiements associés à la santé et aux avantages sociaux:** 
+5. **Autres paiements associés à la santé et aux avantages sociaux :** 
     * **Dépenses centralisées** – en tant qu'employeur de la fonction publique, le Secrétariat du Conseil du Trésor (SCT) engage des dépenses liées aux employés d'autres ministères. Selon les normes comptables du gouvernement, ces coûts sont à la charge du SCT, ils correspondent à la rémunération totale du travail accompli dans le ministère employeur respectif de chaque employé. Le DPB a donc choisi de réaffecter ces coûts dans tous les ministères (pour lesquels le Conseil du Trésor est l'employeur), pondérés par les dépenses totales des ministères en matière de personnel; à savoir : 
 
         1. Déficits de compte du Régime de retraite de la fonction publique;
