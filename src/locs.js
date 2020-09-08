@@ -26,15 +26,15 @@ The government’s largest operating cost is its staff – personnel spending ac
 
 While parliamentarians receive volumes of data on personnel spending in the Estimates, the Public Accounts and InfoBase, that data cannot readily and quantifiably address questions such as:
 * Is spending growth mainly due to higher numbers of staff or higher spending per person?
-* Are pay increases driven by growth in salaries and wages, or other forms of renumeration?
+* Are pay increases driven by growth in salaries and wages, or other forms of remuneration?
 * Which organizations are most contributing to the growth in staffing? 
 * Which organizations are most contributing to the growth in per-person spending? 
 
 To assist parliamentarians’ scrutiny, the PBO has built an interactive tool that allows users to compare trends across time for overall government spending or a single department by: 
 * Viewing overall historic spending trends for [operating](#/en/operating-overview--apercu-fonctionnement) and [personnel](#/en/personnel-overview--apercu-personnel) spending;
-* Examining the various [types of remunerations](#/en/personnel-breakdown--repartition-personnel) that are part of the government's spending on personnel;
+* Examining the various [types of remuneration](#/en/personnel-breakdown--repartition-personnel) that are part of the government's spending on personnel;
 * Examining historic [employment trends](#/en/fte-numbers--nombres-etp) for full-time equivalents;
-* Benchmarking between [similar departments](#/en/compare-similarity--comparer-similarites), or [self-selecting departments](https://pes.albert-io.com/#/en/compare-select--comparer-selection) for comparison. 
+* Benchmarking between [similar departments](#/en/compare-similarity--comparer-similarites), or [self-selecting departments](#/en/compare-select--comparer-selection) for comparison. 
 
 Our data can be displayed as an aggregate or on a per-full time equivalent (FTE) basis. 
 
@@ -80,20 +80,20 @@ To receive support or to provide feedback please contact us at PBO-DPB@parl.gc.c
             title: 'Introduction',
             content: `## But de l’outil
             
-Les coûts de fonctionnement les plus importants du gouvernement sont son personnel – les dépenses en personnel représentent en effet environ 60 % des coûts de fonctionnement du gouvernement fédéral.
+Les coûts de fonctionnement les plus importants du gouvernement sont ses dépenses de personnel, qui représentent environ 60 % du tout.
 
-Les parlementaires disposent de grandes quantités de données sur les dépenses en personnel, qui se trouvent dans les budgets de dépenses, les Comptes publics et l’Infobase, mais ces données ne peuvent pas leur fournir facilement et de manière quantifiable des réponses, par exemple, aux questions suivantes:
-* La croissance des dépenses est-elle le fruit principalement d’une augmentation du nombre d’employés ou d’une augmentation des dépenses par employé?
-* La croissance de la masse salariale est-elle le fruit d’une hausse des salaires et des traitements, ou d’autres formes de rémunération?
+Les parlementaires reçoivent de grandes quantités de données sur les dépenses de personnel, dans le Budget de dépenses, les Comptes publics et l’Infobase, mais ces données ne permettent pas de répondre facilement et de manière quantifiable des réponses, par exemple, aux questions suivantes :
+* La croissance des dépenses tien-elle principalement à une augmentation du nombre d’employés ou à une augmentation des dépenses par employé?
+* La croissance de la masse salariale est-elle le fruit d’une hausse des salaires et traitements, ou d’autres formes de rémunération?
 * Quelles organisations contribuent le plus à l’augmentation du nombre d’employés? 
 * Quelles organisations contribuent le plus à l’augmentation des dépenses par employé? 
 
 
 Pour aider les parlementaires dans leur examen, le DPB a conçu un outil interactif qui permet aux utilisateurs de comparer l’évolution au fil du temps des dépenses du gouvernement dans son ensemble ou d’un seul ministère: 
-* En consultant l’évolution des dépenses totales de [fonctionnement](#/fr/operating-overview--apercu-fonctionnement) et [personnel](#/fr/personnel-overview--apercu-personnel);
+* En consultant les tendances des dépenses totales de [fonctionnement](#/fr/operating-overview--apercu-fonctionnement) et de [personnel](#/fr/personnel-overview--apercu-personnel);
 * En examinant les différents [types de rémunérations](#/fr/personnel-breakdown--repartition-personnel) qui font partie des dépenses du gouvernement en matière de personnel;
-* Examinant des tendances historiques de l'emploi pour les [équivalents temps plein](#/fr/fte-numbers--nombres-etp);
-* En procédant à une analyse comparative avec des [ministères similaires](#/fr/compare-similarity--comparer-similarites), ou [en sélectionnant certains ministères](https://pes.albert-io.com/#/fr/compare-select--comparer-selection) for comparison. 
+* Examinant des tendances historiques en matière d'emploi en ce qui concerne les [équivalents temps plein](#/fr/fte-numbers--nombres-etp);
+* En procédant à une analyse comparative entre des [ministères similaires](#/fr/compare-similarity--comparer-similarites), ou [en sélectionnant certains ministères](#/fr/compare-select--comparer-selection). 
 
 Les données peuvent être affichées globalement ou par nombre d’équivalents temps plein (ETP).
 
