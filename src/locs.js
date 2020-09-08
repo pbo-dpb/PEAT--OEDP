@@ -89,7 +89,7 @@ Les parlementaires reçoivent de grandes quantités de données sur les dépense
 * Quelles organisations contribuent le plus à l’augmentation des dépenses par employé? 
 
 
-Pour aider les parlementaires dans leur examen, le DPB a conçu un outil interactif qui permet aux utilisateurs de comparer l’évolution au fil du temps des dépenses du gouvernement dans son ensemble ou d’un seul ministère: 
+Pour aider les parlementaires dans leur examen, le DPB a conçu un outil interactif qui permet aux utilisateurs de comparer l’évolution au fil du temps des dépenses du gouvernement dans son ensemble ou d’un seul ministère : 
 * En consultant les tendances des dépenses totales de [fonctionnement](#/fr/operating-overview--apercu-fonctionnement) et de [personnel](#/fr/personnel-overview--apercu-personnel);
 * En examinant les différents [types de rémunérations](#/fr/personnel-breakdown--repartition-personnel) qui font partie des dépenses du gouvernement en matière de personnel;
 * Examinant des tendances historiques en matière d'emploi en ce qui concerne les [équivalents temps plein](#/fr/fte-numbers--nombres-etp);
