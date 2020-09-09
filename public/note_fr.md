@@ -15,7 +15,7 @@ Dans le but d’aider les utilisateurs à effectuer des comparaisons pertinentes
 
 En raison des divergences dans les rapports entre les dépenses de personnel regroupées et les dépenses de personnel non regroupées, certains ministères ont été combinés ou certaines années ont été exclues :
 
-1.	**Santé publique Canada :** inclut la Commission civile d’examen et de traitement des plaintes relatives à la Gendarmerie royale du Canada, le Bureau de l’enquêteur correctionnel du Canada et le Comité externe d’examen de la Gendarmerie royale du Canada pour toutes les années examinées.
+1.	**Sécurité publique Canada :** inclut la Commission civile d’examen et de traitement des plaintes relatives à la Gendarmerie royale du Canada, le Bureau de l’enquêteur correctionnel du Canada et le Comité externe d’examen de la Gendarmerie royale du Canada pour toutes les années examinées.
 2.	**Anciens Combattants Canada :** inclut le Tribunal des anciens combattants (révision et appel) pour toutes les années examinées.
 3.	**Ministère des Femmes et de l’Égalité des genres (MFEG) :** le ministère a été créé par le [projet de loi C-86](https://www.parl.ca/LegisInfo/BillDetails.aspx?billId=10127729&Language=F) en décembre 2018, en remplacer du Bureau de la coordonnatrice de la situation de la femme (qui relevait auparavant du ministère du Patrimoine canadien). Dans un esprit de continuité, le MFEG inclut les ETP et les dépenses qui se trouvent sous Condition féminine dans les Comptes publics de 2019. Pour les années précédentes, Condition féminine est appelé Femmes et égalité des genres dans l’outil.
 4.	**Ministère de la Justice :** inclut le Service des poursuites pénales du Canada en 2006-2007 et 2007 2008, étant donné que le service fonctionnait comme un organisme spécial relevant du ministère de la Justice pendant ces exercices.
@@ -47,7 +47,7 @@ Les composantes des dépenses de personnel sont les suivantes (source : IR0074) 
 
         1. Déficits de compte du Régime de retraite de la fonction publique;
         2. Contributions de l’employeur au compte des conventions de retraite;
-        3. Contributions de l’employeur aux régimes médicaux et d’hospitalisation;
+        3. Contributions de l’employeur aux régimes médical et d’hospitalisation;
         4. Contributions de l’employeur à l’assurance invalidité;
         5. Autres contributions de l’employeur. 
               
