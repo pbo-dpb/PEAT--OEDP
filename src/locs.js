@@ -24,7 +24,7 @@ const locs = {
             
 The government’s largest operating cost is its staff – personnel spending accounts for roughly 60 per cent of federal government’s operating costs. 
 
-While parliamentarians receive volumes of data on personnel spending in the Estimates, the Public Accounts and InfoBase, that data cannot readily and quantifiably address questions such as:
+While parliamentarians receive volumes of data on personnel spending in the [Estimates](https://www.canada.ca/en/treasury-board-secretariat/services/planned-government-spending/government-expenditure-plan-main-estimates.html), the [Public Accounts](https://www.tpsgc-pwgsc.gc.ca/recgen/cpc-pac/index-eng.html) and [InfoBase](https://www.tbs-sct.gc.ca/ems-sgd/edb-bdd/index-eng.html), that data cannot readily and quantifiably address questions such as:
 * Is spending growth mainly due to higher numbers of staff or higher spending per person?
 * Are pay increases driven by growth in salaries and wages, or other forms of remuneration?
 * Which organizations are most contributing to the growth in staffing? 
@@ -82,7 +82,7 @@ To receive support or to provide feedback please contact us at PBO-DPB@parl.gc.c
             
 Les coûts de fonctionnement les plus importants du gouvernement sont ses dépenses de personnel, qui représentent environ 60 % du tout.
 
-Les parlementaires reçoivent de grandes quantités de données sur les dépenses de personnel, dans le Budget de dépenses, les Comptes publics et l’Infobase, mais ces données ne permettent pas de répondre facilement et de manière quantifiable des réponses, par exemple, aux questions suivantes :
+Les parlementaires reçoivent de grandes quantités de données sur les dépenses de personnel, dans le [Budget de dépenses](https://www.canada.ca/fr/secretariat-conseil-tresor/services/depenses-prevues/plan-depenses-budget-principal.html), les [Comptes publics](https://www.tpsgc-pwgsc.gc.ca/recgen/cpc-pac/index-fra.html) et l’[Infobase](https://www.tbs-sct.gc.ca/ems-sgd/edb-bdd/index-fra.html#), mais ces données ne permettent pas de répondre facilement et de manière quantifiable des réponses, par exemple, aux questions suivantes :
 * La croissance des dépenses tien-elle principalement à une augmentation du nombre d’employés ou à une augmentation des dépenses par employé?
 * La croissance de la masse salariale est-elle le fruit d’une hausse des salaires et traitements, ou d’autres formes de rémunération?
 * Quelles organisations contribuent le plus à l’augmentation du nombre d’employés? 
