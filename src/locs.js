@@ -38,7 +38,7 @@ To assist parliamentarians’ scrutiny, the PBO has built an interactive tool th
 
 Our data can be displayed as an aggregate or on a per-full time equivalent (FTE) basis. 
 
-Data in this tool is on a cash basis only. It is based on publicly available sources and reconciles to the Public Accounts of Canada and Departmental Results Reports. Some details are based on non-confidential data furnished by the Received General for Canada. Ultimately, PBO takes responsibility for all data in this tool, including errors and omissions (see [Notes](https://pes.albert-io.com/#/en/notes) for further information on the data and sources). 
+Data in this tool is on a cash basis only. It is based on publicly available sources and reconciles to the Public Accounts of Canada and Departmental Results Reports. Some details are based on non-confidential data furnished by the Receiver General for Canada. Ultimately, PBO takes responsibility for all data in this tool, including errors and omissions (see [Notes](https://pes.albert-io.com/#/en/notes) for further information on the data and sources). 
 
 For a summary of some of the key insights that can be discovered through this tool, please see the accompanying [report](https://www.pbo-dpb.gc.ca/en/blog/news/RP-2021-021-S--personnel-expenditure-analysis-tool--outil-examen-depenses-en-personnel). 
 
