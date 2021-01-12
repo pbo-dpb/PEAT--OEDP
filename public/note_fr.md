@@ -1,6 +1,6 @@
 ## Notes générales
 
-Le DPB a recueilli des données auprès de 68 ministères, moyens et grands, de 2006-2007 à 2018 2019 pour créer cet outil et la base de données sous-jacente. En 2018-2019, ces ministères représentaient 99,9 % des ETP travaillant pour la fonction publique fédérale et 93 % des dépenses de personnel totales. 
+Le DPB a recueilli des données auprès de 69 ministères, de 2006-2007 à 2019 2020 pour créer cet outil et la base de données sous-jacente. En 2019-2020, ces ministères représentaient 99,9 % des ETP travaillant pour la fonction publique fédérale et 96 % des dépenses de personnel totales. 
 
 Aux fins de l’outil et de son rapport connexe : 
 1.	Les employés fédéraux comprennent tous les employés des Forces armées canadiennes et de la GRC, à l’exclusion des employés des sociétés d’État non mandataires.
@@ -57,7 +57,7 @@ Les composantes des dépenses de personnel sont les suivantes (source : IR0074) 
     
     Les coûts du Régime de pension du secteur public sont attribués aux ministères dont le personnel contribue au Régime de pension de la fonction publique et y est admissible. Les autres coûts du régime de retraite sont attribués aux ministères concernés (par exemple, les insuffisances actuarielles du régime de retraite de la GRC ne sont attribuées qu'à la GRC).
       
-    * **Autres paiements** – englobent les indemnités de départ et de cessation d’emploi, les versements rétroactifs pour l’exercice en cours et les exercices financiers antérieurs, l’équité salariale et diverses allocations, la réaffectation des dépenses en capital, les paiements associés à l’échange de personnel de direction et à d’autres programmes d’échange, les paiements et les recouvrements concernant les commissions provinciales des accidents du travail, la rémunération pour des fonctions supplémentaires ou spécifiques, les prestations supplémentaires aux employés et les autres frais supplémentaires relatifs au personnel. 
+    * **Autres paiements** – englobent les indemnités de départ et de cessation d’emploi, les versements rétroactifs pour l’exercice en cours et les exercices financiers antérieurs, les paiements aux anciens employés et de la succession des employés décédés touchés par le système de paye Phénix, l’équité salariale et diverses allocations, la réaffectation des dépenses en capital, les paiements associés à l’échange de personnel de direction et à d’autres programmes d’échange, les paiements et les recouvrements concernant les commissions provinciales des accidents du travail, la rémunération pour des fonctions supplémentaires ou spécifiques, les prestations supplémentaires aux employés et les autres frais supplémentaires relatifs au personnel. 
     
     Les autres paiements comprennent également les coûts énumérés dans les dépenses centralisées qui ne sont pas supportés par le SCT (voir note ci-dessus).
     
@@ -79,4 +79,4 @@ Les composantes des dépenses de personnel sont les suivantes (source : IR0074) 
 
 Pour obtenir de l’aide ou nous faire part de vos commentaires, communiquez avec nous à l’adresse [dpb-pbo@parl.gc.ca](mailto:dpb-pbo@parl.gc.ca).
 
-Mise à jour : 10 septembre 2020
+Mise à jour : 25 janvier 2021
