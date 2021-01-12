@@ -1,6 +1,6 @@
 ## General notes
 
-To create this tool and the database underlying it, the PBO collected data for 68 large and medium sized departments from 2006-07 to 2018-19. In 2018-19, this represented 99.9 percent of FTEs employed by the federal public service and 93 percent of overall personnel spending. 
+To create this tool and the database underlying it, the PBO collected data for 68 large and medium sized departments from 2006-07 to 2019-20. In 2019-20, this represented 99.9 percent of FTEs employed by the federal public service and 96 percent of overall personnel spending. 
 
 For the purpose of this tool and its' accompanying report: 
 1.	Federal employees include all Canadian Forces and RCMP employees but exclude employees of non-agent Crown corporations.
@@ -9,7 +9,7 @@ For the purpose of this tool and its' accompanying report:
 
 ## Grouping by similarity
 
-To help users make relevant comparisons across departments, the PBO has developed a simple similarity score. To create the similarity score the Euclidian distance between each possible pairings of departments was calculated based on the number of FTEs, total expenditures, transfers-to-operating ratio, and its’ capital-to-operating ratio. Each factor was given equal weighting. When selecting a department on the [Compare, Similarity](/#/en/compare-similarity--comparer-similarites) page the 4 departments with the combined greatest similarity (least distance) to the selected department are also displayed. 
+To help users make relevant comparisons across departments, the PBO has developed a simple similarity score. To create the similarity score the Euclidian distance between each possible pairings of departments was calculated based on the number of FTEs, total expenditures, transfers-to-operating ratio, and its’ capital expenditures-to-operating ratio. Each factor was given equal weighting. When selecting a department on the [Compare, Similarity](/#/en/compare-similarity--comparer-similarites) page the 4 departments with the combined greatest similarity (least distance) to the selected department are also displayed. 
 
 ## Notes related to the treatment of specific departments
 
@@ -54,7 +54,7 @@ The components of personnel spending are (Source: IR0074):
 
     Central spending also includes costs related to account deficiencies of the RCMP Pension Plan (under RCMP) and the Canadian Forces Pension Plan (under the Department of National Defence). Public Sector Pension Plan costs are allocated to departments whose staff contribute to and are eligible for the Public Service Pension Plan. Other pension plan costs are allocated to the relevant departments (for example, actuarial deficiencies for the RCMP Pension Plan are allocated only to the RCMP).
       
-    * **Other payments** – Includes severance pay and termination benefits, retroactive payments for current and prior fiscal years, pay equities and various allowances reallocation of capital expenditures, payments related to executive interchange and other exchange programs, provincial workers’ compensation boards payments and recoveries, compensation for additional or specific duties performed and supplementary employee benefits and other supplementary personnel costs. 
+    * **Other payments** – Includes severance pay and termination benefits, retroactive payments for current and prior fiscal years, payments to former employees and estates of deceased employees impacted by the Phoenix pay system, pay equities and various allowances reallocation of capital expenditures, payments related to executive interchange and other exchange programs, provincial workers’ compensation boards payments and recoveries, compensation for additional or specific duties performed and supplementary employee benefits and other supplementary personnel costs. 
     
     Other payments also include the costs listed under centralized spending that are not incurred by TBS (see note above).
 
@@ -76,4 +76,4 @@ The components of personnel spending are (Source: IR0074):
 
 To receive support or to provide feedback please contact us at [pbo-dpb@parl.gc.ca](mailto:pbo-dpb@parl.gc.ca).
 
-Last updated: September 10, 2020
+Last updated: January 25, 2021
