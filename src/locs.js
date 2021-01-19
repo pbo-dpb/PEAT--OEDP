@@ -12,7 +12,7 @@ const locs = {
             },
             reports: [{
                 title: "Report",
-                subtitle: "Key Insights",
+                subtitle: "Key Insights (2020)",
                 url: "https://www.pbo-dpb.gc.ca/en/blog/news/RP-2021-021-S--personnel-expenditure-analysis-tool--outil-examen-depenses-en-personnel",
                 thumbnail: "/report_2020_thumbnail_en.png"
             }]
@@ -69,7 +69,7 @@ To receive support or to provide feedback please contact us at PBO-DPB@parl.gc.c
             reports: [
                 {
                     title: "Rapport",
-                    subtitle: "Principales constatations",
+                    subtitle: "Principales constatations (2020)",
                     url: "https://www.pbo-dpb.gc.ca/en/blog/news/RP-2021-021-S--personnel-expenditure-analysis-tool--outil-examen-depenses-en-personnel",
                     thumbnail: "/report_2020_thumbnail_fr.png"
                 }
