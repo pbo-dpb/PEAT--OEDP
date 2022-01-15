@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "core-js": "^3.14.0",
-    "marked": "^2.0.7",
+    "marked": "^4.0.10",
     "vue": "^2.6.14",
     "vue-router": "^3.5.1"
   },
