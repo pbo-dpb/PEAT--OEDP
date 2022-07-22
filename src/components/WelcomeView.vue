@@ -6,7 +6,7 @@
           <menu-view></menu-view>
         </nav>
 
-        <div class="lg:col-span-3 markdown" v-html="content"></div>
+        <div class="lg:col-span-3" v-html="content"></div>
       </section>
     </div>
   </main>
