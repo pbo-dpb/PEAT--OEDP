@@ -14,7 +14,7 @@
         <li
           @click="navigate"
           class="px-4 xl:px-2 py-2 xl:mr-0 xl:-ml-2 xl:-mr-2 cursor-pointer text-blue-800 font-medium hover:text-blue-800 hover:underline"
-          :class="{'mx-2': collapsible, 'bg-gray-200': (!collapsible || isActiveLink(link)), 'mb-2': !collapsible, 'text-base':($route.params.language === 'en'), 'text-sm': ($route.params.language === 'fr')}"
+          :class="{'mx-2': collapsible, 'bg-gray-200': (!collapsible || isActiveLink(link)), 'mb-2': !collapsible, 'text-base':($root.language === 'en'), 'text-sm': ($root.language === 'fr')}"
         >
           <a :href="href" @click="navigate">{{ link.title }}</a>
         </li>
@@ -83,11 +83,11 @@ export default {
 
       if (this.collapsible) {
         links.push({
-          title: locs[this.$route.params.language].welcome.title,
+          title: locs[this.$root.language].welcome.title,
           destination: {
             name: "welcome",
             params: {
-              language: this.$route.params.language,
+              language: this.$root.language,
             },
           },
         });
@@ -96,12 +96,12 @@ export default {
       links = links.concat(
         tableauViews.map((view) => {
           return {
-            title: view["title_" + this.$route.params.language],
+            title: view["title_" + this.$root.language],
             destination: {
               name: "tableau",
               params: {
                 viewid: view.id,
-                language: this.$route.params.language,
+                language: this.$root.language,
               },
             },
           };
@@ -109,11 +109,11 @@ export default {
       );
 
       links.push({
-        title: locs[this.$route.params.language].notes.title,
+        title: locs[this.$root.language].notes.title,
         destination: {
           name: "notes",
           params: {
-            language: this.$route.params.language,
+            language: this.$root.language,
           },
         },
       });
@@ -121,10 +121,10 @@ export default {
     },
 
     databaseLocalization() {
-      return locs[this.$route.params.language].nav.database;
+      return locs[this.$root.language].nav.database;
     },
     reportsLocalizations() {
-      return locs[this.$route.params.language].nav.reports;
+      return locs[this.$root.language].nav.reports;
     },
   },
   methods: {

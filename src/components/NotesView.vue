@@ -21,7 +21,7 @@ export default {
   },
   computed: {
     title() {
-      return locs[this.$route.params.language].notes.title;
+      return locs[this.$root.language].notes.title;
     },
     content() {
       if (!this.rawNote) {
@@ -31,7 +31,7 @@ export default {
     },
   },
   watch: {
-    "$route.params.language": function () {
+    "$root.language": function () {
       this.loadNote();
     },
   },
@@ -40,8 +40,8 @@ export default {
   },
   methods: {
     loadNote() {
-      const language = ["en", "fr"].includes(this.$route.params.language)
-        ? this.$route.params.language
+      const language = ["en", "fr"].includes(this.$root.language)
+        ? this.$root.language
         : "en";
       fetch(`/note_${language}.md`)
         .then((response) => response.text())

@@ -6,7 +6,7 @@
     <ol class="flex">
       <li class="mr-2 text-blue-800 underline">
         <router-link
-          :to="{name:'welcome', params:{'language': $route.params.language}}"
+          :to="{name:'welcome', params:{'language': $root.language}}"
         >{{ appTitle }}</router-link>
       </li>
       <li class="mr-2 text-gray-400" aria-hidden="true">/</li>
@@ -21,7 +21,7 @@ const locs = require("../locs.js").default;
 export default {
   computed: {
     appTitle() {
-      return locs[this.$route.params.language].app.title;
+      return locs[this.$root.language].app.title;
     }
   },
   props: {
