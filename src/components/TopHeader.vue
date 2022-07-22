@@ -1,22 +1,15 @@
 <template>
   <header>
-    <div class="bg-gray-100">
-      <section class="container mx-auto">
-        <top-header-language-selector></top-header-language-selector>
-      </section>
-    </div>
+    
     <div class="border-b border-gray-400">
       <section class="container mx-auto">
         <div class="py-4 flex flex-col md:flex-row-reverse items-center justify-between">
-          <a :href="url">
-            <img :src="logo" class="w-full md:w-64" :alt="logoAlt" />
-          </a>
           <nav>
             <h1
               class="text-2xl md:text-4xl font-hairline text-gray-800 text-center md:text-left mt-4 md:mt-0"
             >
               <router-link
-                :to="{name:'welcome', params:{'language': $route.params.language}}"
+                :to="{name:'welcome', params:{'language': $root.language}}"
               >{{ title }}</router-link>
               <br />
             </h1>
@@ -29,24 +22,9 @@
 <script>
 const locs = require("../locs.js").default;
 export default {
-  components: {
-    topHeaderLanguageSelector: require("./TopHeaderLanguageSelector.vue")
-      .default,
-  },
-  computed: {
-    url() {
-      return "https://www.pbo-dpb.gc.ca/" + this.$route.params.language;
-    },
-    logo() {
-      return `https://www.pbo-dpb.gc.ca/web/default/files/public/public/2019-08-19_Full_logo_${
-        this.$route.params.language === "fr" ? "f" : "e"
-      }-01.svg`;
-    },
-    logoAlt() {
-      return locs[this.$route.params.language].app.logo_alt;
-    },
+    computed: {
     title() {
-      return locs[this.$route.params.language].app.title;
+      return locs[this.$root.language].app.title;
     },
   },
 };

@@ -1,13 +1,5 @@
-
-
-import Vue from 'vue'
-import App from './App.vue'
+import { defineCustomPeatElement } from './defineCustomPeatElement'
 import router from './router'
-import './assets/tailwind.css'
+import App from "./App.ce.vue"
 
-Vue.config.productionTip = false
-
-new Vue({
-  router,
-  render: h => h(App)
-}).$mount('#app')
+customElements.define('pbotool-peat', defineCustomPeatElement(App, {plugins: [ router ]}))

@@ -1,18 +1,15 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-
-Vue.use(VueRouter)
 
 const routes = [
   { path: '/', redirect: '/en' },
-  { path: '/:language', name: 'welcome', component: require('../components/WelcomeView.vue').default },
-  { path: '/:language/notes', name: 'notes', component: require('../components/NotesView.vue').default },
-  { path: '/:language/:viewid', name: 'tableau', component: require('../components/TableauView.vue').default },
+  { path: '/', name: 'welcome', component: require('../components/WelcomeView.vue').default },
+  { path: '/notes', name: 'notes', component: require('../components/NotesView.vue').default },
+  { path: '/:viewid', name: 'tableau', component: require('../components/TableauView.vue').default },
+];
 
-]
-
-const router = new VueRouter({
-  routes
+const router = VueRouter.createRouter({
+  history: VueRouter.createWebHashHistory(),
+  routes,
 })
+
 
 export default router
