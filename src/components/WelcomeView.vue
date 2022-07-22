@@ -12,16 +12,17 @@
   </main>
 </template>
 <script>
-const locs = require("../locs.js").default;
-import marked from "marked";
+import locs from "../locs.js";
+import { marked } from 'marked';
+//import MenuView from './MenuView.vue'
 
 export default {
   components: {
-    menuView: require("./MenuView.vue").default
+    //menuView
   },
   computed: {
     content() {
-      return marked(locs[this.$route.params.language].welcome.content);
+      return marked(locs[this.$root.language].welcome.content);
     }
   }
 };

@@ -8,9 +8,9 @@
             <h1
               class="text-2xl md:text-4xl font-hairline text-gray-800 text-center md:text-left mt-4 md:mt-0"
             >
-              <router-link
+              <!--<router-link
                 :to="{name:'welcome', params:{'language': $root.language}}"
-              >{{ title }}</router-link>
+              >{{ title }}</router-link>-->
               <br />
             </h1>
           </nav>
@@ -20,7 +20,8 @@
   </header>
 </template>
 <script>
-const locs = require("../locs.js").default;
+import locs from "../locs.js"
+
 export default {
     computed: {
     title() {

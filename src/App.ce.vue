@@ -6,17 +6,11 @@
 </template>
 
 <script>
-const language = document.documentElement.lang;
-const topHeader = require("./components/TopHeader.vue").default;
+import topHeader from "./components/TopHeader.vue"
 export default {
   components: {
     topHeader
-  },
-  data() {
-    return {
-      language: language,
-    };
-  },
+  }
 };
 </script>
 <style>
