@@ -1,5 +1,10 @@
 <template>
-  <div class="w-full">
+  <div class="w-full flex flex-col gap-4">
+
+<div class="bg-orange-200 p-4 rounded text-orange-900 font-semibold text-center lg:hidden">
+  {{ mobileWarning }}
+</div>
+
     <ul
       v-if="tableauLinks"
       :class="{'flex': collapsible, 'flex-row': collapsible, 'mb-4': collapsible, 'flex-wrap': collapsible, 'justify-center':collapsible, 'xl:justify-between':collapsible, 'flex-shrink': collapsible, 'border-gray-100': collapsible, 'border': collapsible, 'xl:border-0': collapsible, 'p-2' : collapsible, 'xl:p-0':collapsible
@@ -13,8 +18,8 @@
       >
         <li
           @click="navigate"
-          class="px-4 xl:px-2 py-2 xl:mr-0 xl:-ml-2 xl:-mr-2 cursor-pointer text-blue-800 font-medium hover:text-blue-800 hover:underline"
-          :class="{'mx-2': collapsible, 'bg-gray-200': (!collapsible || isActiveLink(link)), 'mb-2': !collapsible, 'text-base':($route.params.language === 'en'), 'text-sm': ($route.params.language === 'fr')}"
+          class="px-4 xl:px-2 py-2 xl:-ml-2 xl:-mr-2 cursor-pointer text-blue-800 font-medium hover:text-blue-800 hover:underline"
+          :class="{'mx-2': collapsible, 'bg-gray-200': (!collapsible || isActiveLink(link)), 'mb-2': !collapsible, 'text-base':($root.language === 'en'), 'text-sm': ($root.language === 'fr')}"
         >
           <a :href="href" @click="navigate">{{ link.title }}</a>
         </li>
@@ -23,7 +28,7 @@
 
     <div
       v-if="!collapsible"
-      class="mt-4 pt-4 border-t border-gray-200 flex flex-col xl:px-2 xl:mr-0 xl:-ml-2 xl:-mr-2"
+      class="mt-4 pt-4 border-t border-gray-200 flex flex-col xl:px-2 xl:-ml-2 xl:-mr-2"
     >
       <menu-view-featured
         v-for="reportLocalization in reportsLocalizations"
@@ -35,7 +40,7 @@
         <template v-slot:icon>
           <img
             class="w-12 xl:w-8 mr-2 shadow-xs"
-            :src="reportLocalization.thumbnail"
+            :src="getAssetUrl(reportLocalization.thumbnail)"
             :alt="reportLocalization.title"
           />
         </template>
@@ -63,12 +68,18 @@
 </template>
 
 <script>
-const tableauViews = require("../tableau-views.js").default;
-const locs = require("../locs.js").default;
+import tableauViews from "../tableau-views.js";
+import locs from "../locs.js";
+import MenuViewFeatured from "./MenuViewFeatured.vue";
+
+import report2020ThumbnailEn from '../assets/report_2020_thumbnail_en.png'
+import report2020ThumbnailFr from '../assets/report_2020_thumbnail_fr.png'
+import dbBdd from '../assets/db-bdd.xlsx?url'
+
 
 export default {
   components: {
-    menuViewFeatured: require("./MenuViewFeatured.vue").default,
+    MenuViewFeatured,
   },
   props: {
     collapsible: {
@@ -83,12 +94,10 @@ export default {
 
       if (this.collapsible) {
         links.push({
-          title: locs[this.$route.params.language].welcome.title,
+          title: locs[this.$root.language].welcome.title,
           destination: {
             name: "welcome",
-            params: {
-              language: this.$route.params.language,
-            },
+            
           },
         });
       }
@@ -96,12 +105,11 @@ export default {
       links = links.concat(
         tableauViews.map((view) => {
           return {
-            title: view["title_" + this.$route.params.language],
+            title: view["title_" + this.$root.language],
             destination: {
               name: "tableau",
               params: {
                 viewid: view.id,
-                language: this.$route.params.language,
               },
             },
           };
@@ -109,23 +117,24 @@ export default {
       );
 
       links.push({
-        title: locs[this.$route.params.language].notes.title,
+        title: locs[this.$root.language].notes.title,
         destination: {
           name: "notes",
-          params: {
-            language: this.$route.params.language,
-          },
+         
         },
       });
       return links;
     },
 
     databaseLocalization() {
-      return locs[this.$route.params.language].nav.database;
+      return locs[this.$root.language].nav.database;
     },
     reportsLocalizations() {
-      return locs[this.$route.params.language].nav.reports;
+      return locs[this.$root.language].nav.reports;
     },
+    mobileWarning() {
+      return locs[this.$root.language].mobile_warning;
+    }
   },
   methods: {
     isActiveLink(link) {
@@ -134,6 +143,18 @@ export default {
       }
       return link.destination.name === this.$route.name;
     },
+    getAssetUrl(filename) {
+
+      switch (filename) {
+        case "report_2020_thumbnail_en.png":
+          return report2020ThumbnailEn;
+        case "report_2020_thumbnail_fr.png":
+          return report2020ThumbnailFr;
+        case "db-bdd.xlsx":
+          return dbBdd;
+      }
+      return filename;
+    }
   },
 };
 </script>

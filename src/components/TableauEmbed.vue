@@ -2,6 +2,8 @@
   <div></div>
 </template>
 <script>
+import tableau from "tableau-api";
+
 export default {
   data() {
     return {
@@ -19,14 +21,16 @@ export default {
   },
   methods: {
     initViz(vizId) {
-      this.viz = new tableau.Viz(
+      this.viz = new window.tableau.Viz(
         this.$el,
         "https://public.tableau.com/views/" + vizId,
         this.options
       );
     },
     destroyViz() {
-      this.viz.dispose();
+      window.tableau.VizManager.getVizs().forEach(element => {
+        element.dispose()
+      });
     }
   },
   watch: {
@@ -41,7 +45,8 @@ export default {
   mounted() {
     this.initViz(this.id);
   },
-  beforeDestroy() {
+  beforeUnmount() {
+    
     this.destroyViz();
   }
 };

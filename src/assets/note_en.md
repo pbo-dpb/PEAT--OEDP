@@ -9,7 +9,7 @@ For the purpose of this tool and its' accompanying report:
 
 ## Grouping by similarity
 
-To help users make relevant comparisons across departments, the PBO has developed a simple similarity score. To create the similarity score the Euclidian distance between each possible pairings of departments was calculated based on the number of FTEs, total expenditures, transfers-to-operating ratio, and its’ capital expenditures-to-operating ratio. Each factor was given equal weighting. When selecting a department on the [Compare, Similarity](/#/en/compare-similarity--comparer-similarites) page the 4 departments with the combined greatest similarity (least distance) to the selected department are also displayed. 
+To help users make relevant comparisons across departments, the PBO has developed a simple similarity score. To create the similarity score the Euclidian distance between each possible pairings of departments was calculated based on the number of FTEs, total expenditures, transfers-to-operating ratio, and its’ capital expenditures-to-operating ratio. Each factor was given equal weighting. When selecting a department on the [Compare, Similarity](#/compare-similarity--comparer-similarites) page the 4 departments with the combined greatest similarity (least distance) to the selected department are also displayed. 
 
 ## Notes related to the treatment of specific departments
 
