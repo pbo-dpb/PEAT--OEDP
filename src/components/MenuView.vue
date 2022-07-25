@@ -18,7 +18,7 @@
       >
         <li
           @click="navigate"
-          class="px-4 xl:px-2 py-2 xl:mr-0 xl:-ml-2 xl:-mr-2 cursor-pointer text-blue-800 font-medium hover:text-blue-800 hover:underline"
+          class="px-4 xl:px-2 py-2 xl:-ml-2 xl:-mr-2 cursor-pointer text-blue-800 font-medium hover:text-blue-800 hover:underline"
           :class="{'mx-2': collapsible, 'bg-gray-200': (!collapsible || isActiveLink(link)), 'mb-2': !collapsible, 'text-base':($root.language === 'en'), 'text-sm': ($root.language === 'fr')}"
         >
           <a :href="href" @click="navigate">{{ link.title }}</a>
@@ -28,7 +28,7 @@
 
     <div
       v-if="!collapsible"
-      class="mt-4 pt-4 border-t border-gray-200 flex flex-col xl:px-2 xl:mr-0 xl:-ml-2 xl:-mr-2"
+      class="mt-4 pt-4 border-t border-gray-200 flex flex-col xl:px-2 xl:-ml-2 xl:-mr-2"
     >
       <menu-view-featured
         v-for="reportLocalization in reportsLocalizations"
