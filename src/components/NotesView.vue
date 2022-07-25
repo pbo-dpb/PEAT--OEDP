@@ -3,13 +3,16 @@
     <menu-view :collapsible="true"></menu-view>
     
 
-    <div v-if="content" class="markdown px-2 md:px-0" v-html="content"></div>
+    <div v-if="content" class="prose max-w-none px-2 md:px-0" v-html="content"></div>
   </main>
 </template>
 <script>
 import locs from "../locs.js";
 import { marked } from 'marked';
 import MenuView from './MenuView.vue'
+import noteUrlEn from '../assets/note_en.md?url'
+import noteUrlFr from '../assets/note_fr.md?url'
+
 
 export default {
   components: {
@@ -43,7 +46,7 @@ export default {
       const language = ["en", "fr"].includes(this.$root.language)
         ? this.$root.language
         : "en";
-      fetch(`/note_${language}.md`)
+      fetch(language === 'fr' ? noteUrlFr : noteUrlEn)
         .then((response) => response.text())
         .then((data) => {
           this.rawNote = data;

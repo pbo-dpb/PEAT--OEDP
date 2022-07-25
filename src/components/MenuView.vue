@@ -40,7 +40,7 @@
         <template v-slot:icon>
           <img
             class="w-12 xl:w-8 mr-2 shadow-xs"
-            :src="reportLocalization.thumbnail"
+            :src="getThumbnailUrl(reportLocalization.thumbnail)"
             :alt="reportLocalization.title"
           />
         </template>
@@ -71,6 +71,10 @@
 import tableauViews from "../tableau-views.js";
 import locs from "../locs.js";
 import MenuViewFeatured from "./MenuViewFeatured.vue";
+
+import report2020ThumbnailEn from '../assets/report_2020_thumbnail_en.png'
+import report2020ThumbnailFr from '../assets/report_2020_thumbnail_fr.png'
+
 
 export default {
   components: {
@@ -138,6 +142,16 @@ export default {
       }
       return link.destination.name === this.$route.name;
     },
+    getThumbnailUrl(filename) {
+
+      switch (filename) {
+        case "report_2020_thumbnail_en.png":
+          return report2020ThumbnailEn;
+        case "report_2020_thumbnail_fr.png":
+          return report2020ThumbnailFr;
+      }
+      return filename;
+    }
   },
 };
 </script>
