@@ -40,7 +40,7 @@
         <template v-slot:icon>
           <img
             class="w-12 xl:w-8 mr-2 shadow-xs"
-            :src="getThumbnailUrl(reportLocalization.thumbnail)"
+            :src="getAssetUrl(reportLocalization.thumbnail)"
             :alt="reportLocalization.title"
           />
         </template>
@@ -74,6 +74,7 @@ import MenuViewFeatured from "./MenuViewFeatured.vue";
 
 import report2020ThumbnailEn from '../assets/report_2020_thumbnail_en.png'
 import report2020ThumbnailFr from '../assets/report_2020_thumbnail_fr.png'
+import dbBdd from '../assets/db-bdd.xlsx?url'
 
 
 export default {
@@ -142,13 +143,15 @@ export default {
       }
       return link.destination.name === this.$route.name;
     },
-    getThumbnailUrl(filename) {
+    getAssetUrl(filename) {
 
       switch (filename) {
         case "report_2020_thumbnail_en.png":
           return report2020ThumbnailEn;
         case "report_2020_thumbnail_fr.png":
           return report2020ThumbnailFr;
+        case "db-bdd.xlsx":
+          return dbBdd;
       }
       return filename;
     }
