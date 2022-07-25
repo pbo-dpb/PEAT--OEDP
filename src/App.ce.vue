@@ -13,6 +13,9 @@ import topHeader from "./components/TopHeader.vue"
 export default {
   components: {
     topHeader
-  }
+  },
+  props: {
+    publicPath: String,
+  },
 };
 </script>
