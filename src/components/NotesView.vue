@@ -3,7 +3,7 @@
     <menu-view :collapsible="true"></menu-view>
     
 
-    <div v-if="content" class="prose max-w-none px-2 md:px-0" v-html="content"></div>
+    <div v-if="content" class="prose max-w-none px-2 md:px-0 prose-headings:font-thin" v-html="content"></div>
   </main>
 </template>
 <script>
