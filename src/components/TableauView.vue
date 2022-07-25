@@ -8,13 +8,13 @@
   </main>
 </template>
 <script>
-const tableauViews = require("../tableau-views.js").default;
+import tableauViews from "../tableau-views.js";
 
 export default {
   components: {
-    tableauEmbed: require("./TableauEmbed.vue").default,
+    /*tableauEmbed: require("./TableauEmbed.vue").default,
     tableauBreadcrumb: require("./TableauBreadcrumb.vue").default,
-    menuView: require("./MenuView.vue").default
+    menuView: require("./MenuView.vue").default*/
   },
   computed: {
     tableauEmbedId() {

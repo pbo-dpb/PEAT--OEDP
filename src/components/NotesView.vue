@@ -9,12 +9,13 @@
   </main>
 </template>
 <script>
-const locs = require("../locs.js").default;
-import marked from "marked";
+import locs from "../locs.js";
+import { marked } from 'marked';
+
 export default {
   components: {
-    tableauBreadcrumb: require("./TableauBreadcrumb.vue").default,
-    menuView: require("./MenuView.vue").default,
+    /*tableauBreadcrumb: require("./TableauBreadcrumb.vue").default,
+    menuView: require("./MenuView.vue").default,*/
   },
   data() {
     return { rawNote: null };

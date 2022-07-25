@@ -1,22 +1,13 @@
 <template>
   <header>
     
-    <div class="border-b border-gray-400">
-      <section class="container mx-auto">
-        <div class="py-4 flex flex-col md:flex-row-reverse items-center justify-between">
-          <nav>
-            <h1
-              class="text-2xl md:text-4xl font-hairline text-gray-800 text-center md:text-left mt-4 md:mt-0"
+           <h1
+              class="text-4xl leading-none font-thin mb-4"
             >
-              <!--<router-link
+              <router-link
                 :to="{name:'welcome', params:{'language': $root.language}}"
-              >{{ title }}</router-link>-->
-              <br />
+              >{{ title }}</router-link>
             </h1>
-          </nav>
-        </div>
-      </section>
-    </div>
   </header>
 </template>
 <script>
@@ -30,3 +21,4 @@ export default {
   },
 };
 </script>
+

@@ -1,5 +1,5 @@
 import { defineCustomPeatElement } from './defineCustomPeatElement'
-import router from './router'
 import App from "./App.ce.vue"
+import router from './router'
 
 customElements.define('pbotool-peat', defineCustomPeatElement(App, {plugins: [ router ]}))

@@ -63,12 +63,13 @@
 </template>
 
 <script>
-const tableauViews = require("../tableau-views.js").default;
-const locs = require("../locs.js").default;
+import tableauViews from "../tableau-views.js";
+import locs from "../locs.js";
+import MenuViewFeatured from "./MenuViewFeatured.vue";
 
 export default {
   components: {
-    menuViewFeatured: require("./MenuViewFeatured.vue").default,
+    MenuViewFeatured,
   },
   props: {
     collapsible: {
@@ -86,9 +87,7 @@ export default {
           title: locs[this.$root.language].welcome.title,
           destination: {
             name: "welcome",
-            params: {
-              language: this.$root.language,
-            },
+            
           },
         });
       }
@@ -101,7 +100,6 @@ export default {
               name: "tableau",
               params: {
                 viewid: view.id,
-                language: this.$root.language,
               },
             },
           };
@@ -112,9 +110,7 @@ export default {
         title: locs[this.$root.language].notes.title,
         destination: {
           name: "notes",
-          params: {
-            language: this.$root.language,
-          },
+         
         },
       });
       return links;

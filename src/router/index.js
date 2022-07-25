@@ -1,10 +1,12 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import WelcomeView from "../components/WelcomeView.vue"
+import TableauView from "../components/TableauView.vue"
+import NotesView from "../components/NotesView.vue"
 
 const routes = [
   { path: '/', name: 'welcome', component: WelcomeView },
-  //{ path: '/notes', name: 'notes', component: require('../components/NotesView.vue').default },
-  //{ path: '/:viewid', name: 'tableau', component: require('../components/TableauView.vue').default },
+  { path: '/notes', name: 'notes', component: NotesView },
+  { path: '/:viewid', name: 'tableau', component: TableauView },
 ];
 
 const router = createRouter({
