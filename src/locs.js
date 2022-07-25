@@ -4,6 +4,7 @@ const locs = {
             title: "Personnel Expenditure Analysis Tool",
             logo_alt: "Office of the Parliamentary Budget Officer Logo",
         },
+        mobile_warning: "This tool is optimized for use on a computer or tablet.",
         nav: {
             database: {
                 title: "Database",
@@ -60,6 +61,7 @@ To receive support or to provide feedback please contact us at PBO-DPB@parl.gc.c
             title: "Outil d'examen des dépenses en personnel",
             logo_alt: "Logo du Bureau du directeur parlementaire du budget",
         },
+        mobile_warning: "Cet outil est optimisé pour être utilisé sur un ordinateur ou une tablette.",
         nav: {
             database: {
                 title: "Base de données",

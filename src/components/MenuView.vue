@@ -1,5 +1,10 @@
 <template>
-  <div class="w-full">
+  <div class="w-full flex flex-col gap-4">
+
+<div class="bg-orange-200 p-4 rounded text-orange-900 font-semibold text-center lg:hidden">
+  {{ mobileWarning }}
+</div>
+
     <ul
       v-if="tableauLinks"
       :class="{'flex': collapsible, 'flex-row': collapsible, 'mb-4': collapsible, 'flex-wrap': collapsible, 'justify-center':collapsible, 'xl:justify-between':collapsible, 'flex-shrink': collapsible, 'border-gray-100': collapsible, 'border': collapsible, 'xl:border-0': collapsible, 'p-2' : collapsible, 'xl:p-0':collapsible
@@ -122,6 +127,9 @@ export default {
     reportsLocalizations() {
       return locs[this.$root.language].nav.reports;
     },
+    mobileWarning() {
+      return locs[this.$root.language].mobile_warning;
+    }
   },
   methods: {
     isActiveLink(link) {

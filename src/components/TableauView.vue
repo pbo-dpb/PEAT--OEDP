@@ -1,20 +1,19 @@
 <template>
   <main class="container mx-auto py-4">
     <menu-view :collapsible="true"></menu-view>
-    <div class="flex flex-row justify-between">
-      <tableau-breadcrumb :current="tableau['title_'+ $root.language]"></tableau-breadcrumb>
-    </div>
+    
     <tableau-embed :id="tableauEmbedId"></tableau-embed>
   </main>
 </template>
 <script>
 import tableauViews from "../tableau-views.js";
+import TableauEmbed from "./TableauEmbed.vue"
+import MenuView from './MenuView.vue'
 
 export default {
   components: {
-    /*tableauEmbed: require("./TableauEmbed.vue").default,
-    tableauBreadcrumb: require("./TableauBreadcrumb.vue").default,
-    menuView: require("./MenuView.vue").default*/
+    TableauEmbed,
+    MenuView
   },
   computed: {
     tableauEmbedId() {

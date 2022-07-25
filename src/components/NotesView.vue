@@ -1,9 +1,7 @@
 <template>
   <main class="container mx-auto py-4">
     <menu-view :collapsible="true"></menu-view>
-    <div class="flex flex-row justify-between">
-      <tableau-breadcrumb :current="title"></tableau-breadcrumb>
-    </div>
+    
 
     <div v-if="content" class="markdown px-2 md:px-0" v-html="content"></div>
   </main>
@@ -11,11 +9,12 @@
 <script>
 import locs from "../locs.js";
 import { marked } from 'marked';
+import MenuView from './MenuView.vue'
 
 export default {
   components: {
-    /*tableauBreadcrumb: require("./TableauBreadcrumb.vue").default,
-    menuView: require("./MenuView.vue").default,*/
+    /*tableauBreadcrumb: require("./TableauBreadcrumb.vue").default,*/
+    MenuView
   },
   data() {
     return { rawNote: null };
