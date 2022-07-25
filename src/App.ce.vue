@@ -14,8 +14,6 @@ export default {
   components: {
     topHeader
   },
-  props: {
-    publicPath: String,
-  },
+  
 };
 </script>

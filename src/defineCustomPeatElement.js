@@ -7,6 +7,9 @@ export const defineCustomPeatElement = (component, { plugins = [] }) =>
 defineCustomElement({
     render: () => h(component),
     styles: [stl],
+    props: {
+      publicPath: String,
+    },
     setup() {
       //debugger;
       const app = createApp()
