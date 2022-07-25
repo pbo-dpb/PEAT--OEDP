@@ -16,7 +16,6 @@ import noteUrlFr from '../assets/note_fr.md?url'
 
 export default {
   components: {
-    /*tableauBreadcrumb: require("./TableauBreadcrumb.vue").default,*/
     MenuView
   },
   data() {
