@@ -5,7 +5,7 @@
               class="text-4xl leading-none font-thin mb-4"
             >
               <router-link
-                :to="{name:'welcome', params:{'language': $root.language}}"
+                :to="{name:'welcome'}"
               >{{ title }}</router-link>
             </h1>
   </header>
