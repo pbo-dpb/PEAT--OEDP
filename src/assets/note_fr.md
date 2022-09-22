@@ -5,7 +5,7 @@ Le DPB a recueilli des données auprès de 69 ministères, de 2006-2007 à 2019 
 Aux fins de l’outil et de son rapport connexe : 
 1.	Les employés fédéraux comprennent tous les employés des Forces armées canadiennes et de la GRC, à l’exclusion des employés des sociétés d’État non mandataires.
 2.	Les dépenses de fonctionnement et de personnel excluent les coûts associés aux dépenses futures, les courus et autres redressements, les sociétés d’État et autres entités consolidées, et les comptes à fins déterminées consolidées.
-3. Les dépenses de personnel des différents services dans cet outil seront différentes de celles publiées dans les comptes publics. Cela est dû à la redistribution des dépenses centralisées sous le Secrétariat du Conseil du Trésor du Canada (voir la définition ci-dessous et le [rapport](https://www.pbo-dpb.gc.ca/fr/blog/news/RP-2021-021-S--personnel-expenditure-analysis-tool--outil-examen-depenses-en-personnel) pour plus d'informations). Les dépenses de personnel pour l'ensemble du gouvernement correspondront aux résultats publiés dans les comptes publics.
+3. Les dépenses de personnel des différents services dans cet outil seront différentes de celles publiées dans les comptes publics. Cela est dû à la redistribution des dépenses centralisées sous le Secrétariat du Conseil du Trésor du Canada (voir la définition ci-dessous et le [rapport](https://www.pbo-dpb.ca/fr/publications/RP-2021-021-S--personnel-expenditure-analysis-tool--outil-examen-depenses-en-personnel) pour plus d'informations). Les dépenses de personnel pour l'ensemble du gouvernement correspondront aux résultats publiés dans les comptes publics.
 
 ## Regroupement en fonction des similarités
 
@@ -26,7 +26,7 @@ En raison des divergences dans les rapports entre les dépenses de personnel reg
 9. **La Régie de l’énergie du Canada :**  l'agence a été créée le 28 août 2019, lorsque la [Loi sur la Régie canadienne de l'énergie](https://laws-lois.justice.gc.ca/fra/lois/C-15.1/) est entrée en vigueur, remplaçant l'Office national de l'énergie. Par souci de continuité, la Régie de l’énergie du Canada inclut les dépenses qui sont répertoriées sous l'Office national de l'énergie dans les comptes publics de 2020. Pour toutes les années précédentes, l'Office national de l'énergie est appelé "Régie de l’énergie du Canada" dans l'outil. 
 
 
-Le [rapport](https://www.pbo-dpb.gc.ca/fr/blog/news/RP-2021-021-S--personnel-expenditure-analysis-tool--outil-examen-depenses-en-personnel) connexe contient des notes additionnelles sur les règles d’inclusion des ministères et les exceptions.
+Le [rapport](https://www.pbo-dpb.ca/fr/publications/RP-2021-021-S--personnel-expenditure-analysis-tool--outil-examen-depenses-en-personnel) connexe contient des notes additionnelles sur les règles d’inclusion des ministères et les exceptions.
 
 ## Glossaire
 

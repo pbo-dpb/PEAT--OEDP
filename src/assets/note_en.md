@@ -5,7 +5,7 @@ To create this tool and the database underlying it, the PBO collected data for 6
 For the purpose of this tool and its' accompanying report: 
 1.	Federal employees include all Canadian Forces and RCMP employees but exclude employees of non-agent Crown corporations.
 2.	Operating and personnel expenditures exclude costs associated with future expenses, accrual and other adjustments, consolidated Crown corporations and other entities, and consolidated specified purpose accounts. 
-3. Personnel expenditures for individual departments in this tool will differ from those published in the Public Accounts. This is due to the redistribution of centralized spending under the Treasury Board of Canada Secretariat (see definition below and the [report](https://www.pbo-dpb.gc.ca/en/blog/news/RP-2021-021-S--personnel-expenditure-analysis-tool--outil-examen-depenses-en-personnel) for additional information). Personnel expenditures for the overall government will match the results published in the Public Accounts. 
+3. Personnel expenditures for individual departments in this tool will differ from those published in the Public Accounts. This is due to the redistribution of centralized spending under the Treasury Board of Canada Secretariat (see definition below and the [report](https://www.pbo-dpb.ca/en/publications/RP-2021-021-S--personnel-expenditure-analysis-tool--outil-examen-depenses-en-personnel) for additional information). Personnel expenditures for the overall government will match the results published in the Public Accounts. 
 
 ## Grouping by similarity
 
@@ -25,7 +25,7 @@ Due to differences in reporting between disaggregated and aggregated personnel e
 8. **Office of the Parliamentary Budget Officer:** The office was established in 2006 under the Library of Parliament. On September 21, 2017 the office became independent with a reformed mandate when certain sections of [Bill C-44](https://www.parl.ca/DocumentViewer/en/42-1/bill/c-44/royal-assent) came into force. As such, 2018-19 is the first full year for which personnel object data is available. 
 9. **Canada Energy Regulator:** The agency was created on August 28, 2019 when the [Canadian Energy Regulator Act](https://laws-lois.justice.gc.ca/eng/acts/C-15.1/) came into force, replacing the National Energy Board. For continuity, the Canada Energy Regulator includes expenditures that are listed under the National Energy Board in the 2020 Public Accounts. For all prior years, the National Energy Board is referred to as the Canada Energy Regulator in the tool. 
 
-For additional notes on department inclusion rules and exceptions, please see the accompanying [report](https://www.pbo-dpb.gc.ca/en/blog/news/RP-2021-021-S--personnel-expenditure-analysis-tool--outil-examen-depenses-en-personnel). 
+For additional notes on department inclusion rules and exceptions, please see the accompanying [report](https://www.pbo-dpb.ca/en/publications/RP-2021-021-S--personnel-expenditure-analysis-tool--outil-examen-depenses-en-personnel). 
 
 ## Glossary
 

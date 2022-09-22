@@ -14,7 +14,7 @@ const locs = {
             reports: [{
                 title: "Report",
                 subtitle: "Key Insights (2020)",
-                url: "https://www.pbo-dpb.gc.ca/en/blog/news/RP-2021-021-S--personnel-expenditure-analysis-tool--outil-examen-depenses-en-personnel",
+                url: "https://www.pbo-dpb.ca/en/publications/RP-2021-021-S--personnel-expenditure-analysis-tool--outil-examen-depenses-en-personnel",
                 thumbnail: "report_2020_thumbnail_en.png"
             }]
         },
