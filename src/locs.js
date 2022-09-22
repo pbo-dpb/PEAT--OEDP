@@ -9,7 +9,6 @@ const locs = {
             database: {
                 title: "Database",
                 subtitle: "(.xlsx)",
-                url: "/db-bdd.xlsx"
             },
             reports: [{
                 title: "Report",
@@ -65,7 +64,6 @@ To receive support or to provide feedback please contact us at [PBO-DPB@parl.gc.
             database: {
                 title: "Base de données",
                 subtitle: "(.xlsx)",
-                url: "/db-bdd.xlsx"
             },
             reports: [
                 {
