@@ -82,7 +82,7 @@ To receive support or to provide feedback please contact us at [PBO-DPB@parl.gc.
 Les coûts de fonctionnement les plus importants du gouvernement sont ses dépenses de personnel, qui représentent environ 60 % du tout.
 
 Les parlementaires reçoivent de grandes quantités de données sur les dépenses de personnel, dans le [Budget de dépenses](https://www.canada.ca/fr/secretariat-conseil-tresor/services/depenses-prevues/plan-depenses-budget-principal.html), les [Comptes publics](https://www.tpsgc-pwgsc.gc.ca/recgen/cpc-pac/index-fra.html) et l’[Infobase](https://www.tbs-sct.gc.ca/ems-sgd/edb-bdd/index-fra.html#), mais ces données ne permettent pas de répondre facilement et de manière quantifiable des réponses, par exemple, aux questions suivantes :
-* La croissance des dépenses tien-elle principalement à une augmentation du nombre d’employés ou à une augmentation des dépenses par employé?
+* La croissance des dépenses tient-elle principalement à une augmentation du nombre d’employés ou à une augmentation des dépenses par employé?
 * La croissance de la masse salariale est-elle le fruit d’une hausse des salaires et traitements, ou d’autres formes de rémunération?
 * Quelles organisations contribuent le plus à l’augmentation du nombre d’employés? 
 * Quelles organisations contribuent le plus à l’augmentation des dépenses par employé? 
