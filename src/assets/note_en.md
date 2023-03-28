@@ -1,15 +1,15 @@
 ## General notes
 
-To create this tool and the database underlying it, the PBO collected data for 69 departments from 2006-07 to 2019-20. In 2019-20, this represented 99.9 percent of FTEs employed by the federal public service and 96 percent of overall personnel spending. 
+To create this tool and the database underlying it, the PBO collected data for 69 departments from 2006-07 to 2021-22. In 2021-22, this represented 99.3 per cent of FTEs employed by the federal public service and 91 per cent of overall personnel spending. 
 
-For the purpose of this tool and its' accompanying report: 
-1.	Federal employees include all Canadian Forces and RCMP employees but exclude employees of non-agent Crown corporations.
+For the purpose of this tool and its' accompanying reports: 
+1.	Federal employees include all Canadian Forces and RCMP employees but exclude employees of non-agent Crown corporations and parliamentary entities (aside from our own).
 2.	Operating and personnel expenditures exclude costs associated with future expenses, accrual and other adjustments, consolidated Crown corporations and other entities, and consolidated specified purpose accounts. 
-3. Personnel expenditures for individual departments in this tool will differ from those published in the Public Accounts. This is due to the redistribution of centralized spending under the Treasury Board of Canada Secretariat (see definition below and the [report](https://www.pbo-dpb.ca/en/publications/RP-2021-021-S--personnel-expenditure-analysis-tool--outil-examen-depenses-en-personnel) for additional information). Personnel expenditures for the overall government will match the results published in the Public Accounts. 
+3. Personnel expenditures for individual departments in this tool will differ from those published in the Public Accounts. This is due to the redistribution of centralized spending under the Treasury Board of Canada Secretariat (see definition below) for additional information. Personnel expenditures for the overall government will match the results published in the Public Accounts. 
 
 ## Grouping by similarity
 
-To help users make relevant comparisons across departments, the PBO has developed a simple similarity score. To create the similarity score the Euclidian distance between each possible pairings of departments was calculated based on the number of FTEs, total expenditures, transfers-to-operating ratio, and its’ capital expenditures-to-operating ratio. Each factor was given equal weighting. When selecting a department on the [Compare, Similarity](#/compare-similarity--comparer-similarites) page the 4 departments with the combined greatest similarity (least distance) to the selected department are also displayed. 
+To help users make relevant comparisons across departments, PBO developed a simple similarity score. To create the similarity score the Euclidian distance between each possible pairings of departments was calculated based on the number of FTEs, total expenditures, transfers-to-operating ratio, and its’ capital expenditures-to-operating ratio. Each factor was given equal weighting. When selecting a department on the [Compare, Similarity](#/compare-similarity--comparer-similarites) page the 4 departments with the combined greatest similarity (least distance) to the selected department are also displayed. 
 
 ## Notes related to the treatment of specific departments
 
@@ -24,14 +24,15 @@ Due to differences in reporting between disaggregated and aggregated personnel e
 7. **Employment and Social Development Canada:** On February 2006, the department of Human Resources and Skills Development Canada and Social Development Canada were consolidated into the Department of Human Resources and Skills Development (currently known as Employment and Social Development Canada). In the 2007 Public Accounts and in IR0074 both departments are still listed separately. For consistency across all years, the departments were combined in 2006-07. 
 8. **Office of the Parliamentary Budget Officer:** The office was established in 2006 under the Library of Parliament. On September 21, 2017 the office became independent with a reformed mandate when certain sections of [Bill C-44](https://www.parl.ca/DocumentViewer/en/42-1/bill/c-44/royal-assent) came into force. As such, 2018-19 is the first full year for which personnel object data is available. 
 9. **Canada Energy Regulator:** The agency was created on August 28, 2019 when the [Canadian Energy Regulator Act](https://laws-lois.justice.gc.ca/eng/acts/C-15.1/) came into force, replacing the National Energy Board. For continuity, the Canada Energy Regulator includes expenditures that are listed under the National Energy Board in the 2020 Public Accounts. For all prior years, the National Energy Board is referred to as the Canada Energy Regulator in the tool. 
+10. **Department of Western Economic Diversification:** In 2021-22 this department was split off into two new separate organizations, the Pacific Economic Development Agency of Canada, and the Prairie Economic Development Agency of Canada. In this year there were no FTEs recorded for the Pacific Economic Development Agency of Canada, but there were expenditures made by this organization. To maintain consistency until FTE values are available the Department of Western Economic Diversification was continued, consolidating the results for the two new organizations for 2021-22.
 
-For additional notes on department inclusion rules and exceptions, please see the accompanying [report](https://www.pbo-dpb.ca/en/publications/RP-2021-021-S--personnel-expenditure-analysis-tool--outil-examen-depenses-en-personnel). 
+For additional notes on department inclusion rules and exceptions, please see our previously published [report](https://www.pbo-dpb.ca/en/publications/RP-2021-021-S--personnel-expenditure-analysis-tool--outil-examen-depenses-en-personnel). 
 
 ## Glossary
 
 The PBO uses the following definitions in this online tool and its’ accompanying report: 
 
-**Full-Time Equivalent (FTE)** – Is a unit of measure that indicates the workload of an employed person. FTEs are calculated as a ratio of assigned hours of work throughout the year to scheduled hours of work, as set out in collective agreements. For term and seasonal employees, the FTE calculation is also adjusted for the proportion of paid weeks in a year (Source: Departmental Result Reports, InfoBase, and an informal request to TBS).
+**Full-Time Equivalent (FTE)** – Is a unit of measure that indicates the workload of an employed person. FTEs are calculated as a ratio of assigned hours of work throughout the year to scheduled hours of work, as set out in collective agreements. For term and seasonal employees, the FTE calculation is also adjusted for the proportion of paid weeks in a year. Public information on FTEs is only available for the federal public service (departments, agencies, and organizations named in Schedule I, IV, and V of the Financial Administration Act). As such, FTEs for parliamentary entities, aside from our own, are outside the scope of PEAT (Source: Departmental Result Reports, InfoBase, and an informal request to TBS).
 
 **Operating spending** – Includes personnel, quasi-personnel, professional and special services and other subsidies and payments (as defined below). This excludes spending associated with consolidated Crown corporations, accrual and adjustments, and consolidated specified purpose accounts (Source: Public Accounts, Standard Objects 1,2,3,4,5,6,7, and 12).
 
@@ -77,4 +78,4 @@ The components of personnel spending are (Source: IR0074):
 
 To receive support or to provide feedback please contact us at [pbo-dpb@parl.gc.ca](mailto:pbo-dpb@parl.gc.ca).
 
-Last updated: January 25, 2021
+Last updated: April 4, 2023
