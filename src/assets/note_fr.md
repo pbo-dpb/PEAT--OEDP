@@ -27,7 +27,7 @@ En raison des divergences dans les rapports entre les dépenses de personnel reg
 10. **Ministère de la Diversification de l’économie de l’Ouest du Canada :** en 2021-2022, ce Ministère a été scindé en deux nouvelles agences distinctes, l’Agence de développement économique du Pacifique Canada et Développement économique Canada pour les Prairies. Au cours de cet exercice, il n’y a eu aucun ETP inscrit à l’Agence de développement économique du Pacifique Canada, mais des dépenses ont été effectuées par cette Agence. Pour assurer une continuité en attendant que les ETP soient disponibles, le ministère de la Diversification de l’économie de l’Ouest du Canada a été maintenu, et a consolidé les résultats pour les deux nouvelles agences pour 2021-2022.
 
 
-Le [rapport](https://www.pbo-dpb.ca/fr/publications/RP-2021-021-S--personnel-expenditure-analysis-tool--outil-examen-depenses-en-personnel) connexe contient des notes additionnelles sur les règles d’inclusion des ministères et les exceptions.
+Le [rapport](https://www.pbo-dpb.ca/fr/publications/RP-2021-021-S--personnel-expenditure-analysis-tool--outil-examen-depenses-en-personnel) publié précédemment contient des notes additionnelles sur les règles d’inclusion des ministères et les exceptions.
 
 ## Glossaire
 
@@ -71,7 +71,7 @@ Les composantes des dépenses de personnel sont les suivantes (source : IR0074) 
 
 
 ## Sources
-- Composantes des dépenses en personnel : Receveur général du Canada [IR0074](http://www.pbo-dpb.gc.ca/web/default/files/files/files/IR/IR0074_Public%20Accounts%20Personnel_FR.pdf)
+- Composantes des dépenses en personnel : Receveur général du Canada [IR0074](https://www.pbo-dpb.ca/fr/information-requests--demandes-information/IR0074)
 - Équivalents temps plein : [Rapports sur les résultats ministériels](https://www.canada.ca/fr/secretariat-conseil-tresor/services/rapports-ministeriels-rendement.html), demande informelle au SCT, et [InfoBase du GC](https://www.tbs-sct.gc.ca/ems-sgd/edb-bdd/index-fra.html#rpb/.-.-(subject.-.-'gov_gov.-.-table.-.-'programFtes.-.-columns.-.-(.-.-'*7b*7bpa_last_year_5*7d*7d.-.-'*7b*7bpa_last_year_4*7d*7d.-.-'*7b*7bpa_last_year_3*7d*7d.-.-'*7b*7bpa_last_year_2*7d*7d.-.-'*7b*7bpa_last_year*7d*7d.-.-'*7b*7bplanning_year_1*7d*7d.-.-'*7b*7bplanning_year_2*7d*7d.-.-'*7b*7bplanning_year_3*7d*7d).-.-dimension.-.-'gov_outcome.-.-filter.-.-'Tout))
 - Dépenses de fonctionnement et en personnel : [Comptes publics du Canada](https://www.tpsgc-pwgsc.gc.ca/recgen/cpc-pac/index-fra.html), volume II, tableau 3
 

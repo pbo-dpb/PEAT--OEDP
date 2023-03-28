@@ -68,9 +68,9 @@ The components of personnel spending are (Source: IR0074):
 
 
 ## Sources
-- Components of personnel expenditures: Receiver General for Canada [IR0074]( https://www.pbo-dpb.gc.ca/web/default/files/files/files/IR/IR0074_Public_Accounts_Personnel.pdf)
-- Full-time equivalents: [Departmental Results Reports]( https://www.canada.ca/en/treasury-board-secretariat/services/departmental-performance-reports.html), informal request to TBS, and [TBS Infobase]( https://www.tbs-sct.gc.ca/ems-sgd/edb-bdd/index-eng.html#rpb/.-.-(subject.-.-'gov_gov.-.-table.-.-'programFtes.-.-columns.-.-(.-.-'*7b*7bpa_last_year_5*7d*7d.-.-'*7b*7bpa_last_year_4*7d*7d.-.-'*7b*7bpa_last_year_3*7d*7d.-.-'*7b*7bpa_last_year_2*7d*7d.-.-'*7b*7bpa_last_year*7d*7d.-.-'*7b*7bplanning_year_1*7d*7d.-.-'*7b*7bplanning_year_2*7d*7d.-.-'*7b*7bplanning_year_3*7d*7d).-.-dimension.-.-'gov_outcome.-.-filter.-.-'All))
-- Operating and personnel expenditures: [Public Accounts of Canada]( https://www.tpsgc-pwgsc.gc.ca/recgen/cpc-pac/index-eng.html), Volume II, Table 3
+- Components of personnel expenditures: Receiver General for Canada [IR0074](https://www.pbo-dpb.ca/en/information-requests--demandes-information/IR0074)
+- Full-time equivalents: [Departmental Results Reports](https://www.canada.ca/en/treasury-board-secretariat/services/departmental-performance-reports.html), informal request to TBS, and [TBS Infobase](https://www.tbs-sct.gc.ca/ems-sgd/edb-bdd/index-eng.html#rpb/.-.-(subject.-.-'gov_gov.-.-table.-.-'programFtes.-.-columns.-.-(.-.-'*7b*7bpa_last_year_5*7d*7d.-.-'*7b*7bpa_last_year_4*7d*7d.-.-'*7b*7bpa_last_year_3*7d*7d.-.-'*7b*7bpa_last_year_2*7d*7d.-.-'*7b*7bpa_last_year*7d*7d.-.-'*7b*7bplanning_year_1*7d*7d.-.-'*7b*7bplanning_year_2*7d*7d.-.-'*7b*7bplanning_year_3*7d*7d).-.-dimension.-.-'gov_outcome.-.-filter.-.-'All))
+- Operating and personnel expenditures: [Public Accounts of Canada](https://www.tpsgc-pwgsc.gc.ca/recgen/cpc-pac/index-eng.html), Volume II, Table 3
 
 ---
 
