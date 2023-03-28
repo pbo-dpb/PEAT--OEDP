@@ -10,12 +10,19 @@ const locs = {
                 title: "Database",
                 subtitle: "(.xlsx)",
             },
-            reports: [{
-                title: "Report",
-                subtitle: "Key Insights (2020)",
-                url: "https://www.pbo-dpb.ca/en/publications/RP-2021-021-S--personnel-expenditure-analysis-tool--outil-examen-depenses-en-personnel",
-                thumbnail: "report_2020_thumbnail_en.png"
-            }]
+            reports: [
+                {
+                    title: "Report",
+                    subtitle: "2023 Update",
+                    url: "https://www.pbo-dpb.ca/en/publications/RP-2324-002-S--personnel-expenditure-analysis-update--examen-depenses-personnel-mise-jour",
+                    thumbnail: "https://via.placeholder.com/386x500/403275/c0c0e0?text=PLACEHOLDER" // TODO Update
+                },
+                {
+                    title: "Report",
+                    subtitle: "Key Insights (2020)",
+                    url: "https://www.pbo-dpb.ca/en/publications/RP-2021-021-S--personnel-expenditure-analysis-tool--outil-examen-depenses-en-personnel",
+                    thumbnail: "report_2020_thumbnail_en.png"
+                }]
         },
         notes: { title: "Notes" },
         welcome: {
@@ -66,6 +73,13 @@ To receive support or to provide feedback please contact us at [PBO-DPB@parl.gc.
                 subtitle: "(.xlsx)",
             },
             reports: [
+                {
+                    title: "Rapport",
+                    subtitle: "Mise à jour (2023)",
+                    url: "https://www.pbo-dpb.ca/fr/publications/RP-2324-002-S--personnel-expenditure-analysis-update--examen-depenses-personnel-mise-jour",
+                    thumbnail: "https://via.placeholder.com/386x500/403275/c0c0e0?text=PLACEHOLDER" // TODO Update
+                },
+
                 {
                     title: "Rapport",
                     subtitle: "Principales constatations (2020)",
