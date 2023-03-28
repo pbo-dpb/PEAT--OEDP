@@ -15,7 +15,7 @@ const tableauViews = [
     },
     {
         id: "personnel-breakdown--repartition-personnel",
-        title_en: "Remuneration",
+        title_en: "Compensation",
         title_fr: "Rémunération",
         embed_id_en: `3-Remuneration_16587571516940/Personnel-Spending`,
         embed_id_fr: `3-RemunerationFR/Personnel-Spending`,
