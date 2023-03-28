@@ -22,17 +22,17 @@ const locs = {
             title: 'Introduction',
             content: `## The purpose of this tool
             
-The government’s largest operating cost is its staff – personnel spending accounts for roughly 60 per cent of federal government’s operating costs. 
+The government’s largest operating cost is its staff – personnel spending accounts for roughly 52 per cent of federal government’s operating costs. 
 
 While parliamentarians receive volumes of data on personnel spending in the [Estimates](https://www.canada.ca/en/treasury-board-secretariat/services/planned-government-spending/government-expenditure-plan-main-estimates.html), the [Public Accounts](https://www.tpsgc-pwgsc.gc.ca/recgen/cpc-pac/index-eng.html) and [InfoBase](https://www.tbs-sct.gc.ca/ems-sgd/edb-bdd/index-eng.html), that data cannot readily and quantifiably address questions such as:
 * Is spending growth mainly due to higher numbers of staff or higher spending per person?
-* Are pay increases driven by growth in salaries and wages, or other forms of remuneration?
+* Are pay increases driven by growth in salaries and wages, or other forms of compensation?
 * Which organizations are most contributing to the growth in staffing? 
 * Which organizations are most contributing to the growth in per-person spending? 
 
-To assist parliamentarians’ scrutiny, the PBO has built an interactive tool that allows users to compare trends across time for overall government spending or a single department by: 
+To assist parliamentarians’ scrutiny, PBO built an interactive tool that allows users to compare trends across time for overall government spending or a single department by: 
 * Viewing overall historic spending trends for [operating](#/operating-overview--apercu-fonctionnement) and [personnel](#/personnel-overview--apercu-personnel) spending;
-* Examining the various [types of remuneration](#/personnel-breakdown--repartition-personnel) that are part of the government's spending on personnel;
+* Examining the various [types of compensation](#/personnel-breakdown--repartition-personnel) that are part of the government's spending on personnel;
 * Examining historic [employment trends](#/fte-numbers--nombres-etp) for full-time equivalents;
 * Benchmarking between [similar departments](#/compare-similarity--comparer-similarites), or [self-selecting departments](#/compare-select--comparer-selection) for comparison. 
 
