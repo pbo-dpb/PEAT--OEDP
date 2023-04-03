@@ -15,7 +15,7 @@ const locs = {
                     title: "Report",
                     subtitle: "2023 Update",
                     url: "https://www.pbo-dpb.ca/en/publications/RP-2324-002-S--personnel-expenditure-analysis-update--examen-depenses-personnel-mise-jour",
-                    thumbnail: "https://via.placeholder.com/386x500/403275/c0c0e0?text=PLACEHOLDER" // TODO Update
+                    thumbnail: "report_2023_thumbnail_en.png"
                 },
                 {
                     title: "Report",
@@ -77,7 +77,7 @@ To receive support or to provide feedback please contact us at [PBO-DPB@parl.gc.
                     title: "Rapport",
                     subtitle: "Mise à jour (2023)",
                     url: "https://www.pbo-dpb.ca/fr/publications/RP-2324-002-S--personnel-expenditure-analysis-update--examen-depenses-personnel-mise-jour",
-                    thumbnail: "https://via.placeholder.com/386x500/403275/c0c0e0?text=PLACEHOLDER" // TODO Update
+                    thumbnail: "report_2023_thumbnail_fr.png"
                 },
 
                 {

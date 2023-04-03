@@ -5,13 +5,14 @@
       {{ mobileWarning }}
     </div>
 
-    <ul v-if="tableauLinks" :class="{'flex': collapsible, 'flex-row': collapsible, 'mb-4': collapsible, 'flex-wrap': collapsible, 'justify-center':collapsible, 'xl:justify-between':collapsible, 'flex-shrink': collapsible, 'border-gray-100': collapsible, 'border': collapsible, 'xl:border-0': collapsible, 'p-2' : collapsible, 'xl:p-0':collapsible
+    <ul v-if="tableauLinks" :class="{
+      'flex': collapsible, 'flex-row': collapsible, 'mb-4': collapsible, 'flex-wrap': collapsible, 'justify-center': collapsible, 'xl:justify-between': collapsible, 'flex-shrink': collapsible, 'border-gray-100': collapsible, 'border': collapsible, 'xl:border-0': collapsible, 'p-2': collapsible, 'xl:p-0': collapsible
     }">
       <router-link v-for="link in tableauLinks" :key="link.title" :to="link.destination"
         v-slot="{ href, route, navigate }">
         <li @click="navigate"
           class="px-4 xl:px-2 py-2 xl:-ml-2 xl:-mr-2 cursor-pointer text-blue-800 font-medium hover:text-blue-800 hover:underline"
-          :class="{'mx-2': collapsible, 'bg-gray-200': (!collapsible || isActiveLink(link)), 'mb-2': !collapsible, 'text-base':($root.language === 'en'), 'text-sm': ($root.language === 'fr')}">
+          :class="{ 'mx-2': collapsible, 'bg-gray-200': (!collapsible || isActiveLink(link)), 'mb-2': !collapsible, 'text-base': ($root.language === 'en'), 'text-sm': ($root.language === 'fr') }">
           <a :href="href" @click="navigate">{{ link.title }}</a>
         </li>
       </router-link>
@@ -47,6 +48,8 @@ import MenuViewFeatured from "./MenuViewFeatured.vue";
 
 import report2020ThumbnailEn from '../assets/report_2020_thumbnail_en.png'
 import report2020ThumbnailFr from '../assets/report_2020_thumbnail_fr.png'
+import report2023ThumbnailEn from '../assets/report_2023_thumbnail_en.png'
+import report2023ThumbnailFr from '../assets/report_2023_thumbnail_fr.png'
 import dbBdd from '../assets/db-bdd.xlsx?url'
 
 
@@ -123,6 +126,10 @@ export default {
           return report2020ThumbnailEn;
         case "report_2020_thumbnail_fr.png":
           return report2020ThumbnailFr;
+        case "report_2023_thumbnail_en.png":
+          return report2023ThumbnailEn;
+        case "report_2023_thumbnail_fr.png":
+          return report2023ThumbnailFr;
         case "db-bdd.xlsx":
           return dbBdd;
       }
