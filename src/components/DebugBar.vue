@@ -19,7 +19,6 @@ export default {
                 return this.$root.language
             },
             set(newValue) {
-                console.log("Called");
                 this.$root.language = newValue
             }
         }
