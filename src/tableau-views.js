@@ -3,8 +3,8 @@ const tableauViews = [
         id: "operating-overview--apercu-fonctionnement",
         title_en: "Operating Overview",
         title_fr: "Aperçu du fonctionnement",
-        embed_id_en: `1-OperatingOverview_16587550322700/SpendingAggregates`,
-        embed_id_fr: `1-OperatingOverviewFR/SpendingAggregates`,
+        embed_id_en: `1-OperatingOverviewFY2022/SpendingAggregates`,
+        embed_id_fr: `1-OperatingOverviewFY2022FR/SpendingAggregates`,
     },
     {
         id: "personnel-overview--apercu-personnel",
