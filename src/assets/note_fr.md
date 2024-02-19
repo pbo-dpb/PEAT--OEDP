@@ -1,6 +1,6 @@
 ## Notes générales
 
-Le DPB a recueilli des données auprès de 69 ministères, de 2006-07 à 2022-23 pour créer cet outil et la base de données sous-jacente. En2022-23, ces ministères représentaient 99,3% des ETP travaillant pour la fonction publique fédérale et 96 % des dépenses de personnel totales.
+Le DPB a recueilli des données auprès de 69 ministères, de 2006-07 à 2022-23 pour créer cet outil et la base de données sous-jacente. En 2022-23, ces ministères représentaient 99,3% des ETP travaillant pour la fonction publique fédérale et 96 % des dépenses de personnel totales.
 
 Aux fins de l’outil et de son rapport connexe : 
 1.  Les employés fédéraux comprennent tous les employés des Forces armées canadiennes et de la GRC, à l’exclusion des employés des sociétés d’État non-mandataires et des entités parlementaires (à l'exception de la nôtre).

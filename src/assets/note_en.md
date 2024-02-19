@@ -1,6 +1,6 @@
 ## General notes
 
-To create this tool and the database underlying it, PBO collected data for 69 departments from 2006-07 to2022-23. In 2022-23, this represented 99.3  per cent of FTEs employed by the federal public service and 96  percent of overall personnel spending.
+To create this tool and the database underlying it, PBO collected data for 69 departments from 2006-07 to 2022-23. In 2022-23, this represented 99.3  per cent of FTEs employed by the federal public service and 96  percent of overall personnel spending.
 
 For the purpose of this tool and its' accompanying reports: 
 1.	Federal employees include all Canadian Forces and RCMP employees but exclude employees of non-agent Crown corporations and parliamentary entities (aside from our own).
