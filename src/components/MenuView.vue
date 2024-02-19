@@ -22,8 +22,8 @@
       <menu-view-featured v-for="reportLocalization in reportsLocalizations" :key="reportLocalization.url"
         :url="reportLocalization.url" :title="reportLocalization.title" :subtitle="reportLocalization.subtitle">
         <template v-slot:icon>
-          <img class="w-12 xl:w-8 mr-2 shadow-xs" :src="getAssetUrl(reportLocalization.thumbnail)"
-            :alt="reportLocalization.title" />
+          <img class="w-12 xl:w-8 mr-2 shadow-xs" v-if="reportLocalization.thumbnail"
+            :src="getAssetUrl(reportLocalization.thumbnail)" :alt="reportLocalization.title" />
         </template>
       </menu-view-featured>
 

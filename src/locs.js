@@ -12,8 +12,14 @@ const locs = {
             },
             reports: [
                 {
+                    title: "Additional Analysis",
+                    subtitle: "2022-2023 Update",
+                    url: "https://www.pbo-dpb.ca/en/additional-analyses--analyses-complementaires/BLOG-2324-005--personnel-expenditure-analysis-tool-update-2022-23-personnel-expenditures--mise-jour-outil-analyse-depenses-personnel-depenses-personnel-2022-2023",
+                    //thumbnail: "report_2023_thumbnail_en.png"
+                },
+                {
                     title: "Report",
-                    subtitle: "2023 Update",
+                    subtitle: "Update",
                     url: "https://www.pbo-dpb.ca/en/publications/RP-2324-002-S--personnel-expenditure-analysis-update--examen-depenses-personnel-mise-jour",
                     thumbnail: "report_2023_thumbnail_en.png"
                 },
@@ -29,7 +35,7 @@ const locs = {
             title: 'Introduction',
             content: `## The purpose of this tool
             
-The government’s largest operating cost is its staff – personnel spending accounts for roughly 52 per cent of federal government’s operating costs. 
+The government’s largest operating cost is its staff – personnel spending (on a cash basis) accounts for roughly 49  per cent of federal government’s operating costs.
 
 While parliamentarians receive volumes of data on personnel spending in the [Estimates](https://www.canada.ca/en/treasury-board-secretariat/services/planned-government-spending/government-expenditure-plan-main-estimates.html), the [Public Accounts](https://www.tpsgc-pwgsc.gc.ca/recgen/cpc-pac/index-eng.html) and [InfoBase](https://www.tbs-sct.gc.ca/ems-sgd/edb-bdd/index-eng.html), that data cannot readily and quantifiably address questions such as:
 * Is spending growth mainly due to higher numbers of staff or higher spending per person?
@@ -47,7 +53,7 @@ Our data can be displayed as an aggregate or on a per-full time equivalent (FTE)
 
 Data in this tool is on a cash basis only. It is based on publicly available sources and reconciles to the Public Accounts of Canada and Departmental Results Reports. Some details are based on non-confidential data furnished by the Receiver General for Canada. Ultimately, PBO takes responsibility for all data in this tool, including errors and omissions (see [Notes](#/notes) for further information on the data and sources). 
 
-A summary of some of the key insights that can be discovered through this tool for 2006-07 to 2018-19 is available [here](https://www.pbo-dpb.ca/en/publications/RP-2021-021-S--personnel-expenditure-analysis-tool--outil-examen-depenses-en-personnel). A report detailing the trends that have emerged over the course of 2019-20 to 2021-22 is [available here](https://www.pbo-dpb.ca/en/publications/RP-2324-002-S--personnel-expenditure-analysis-update--examen-depenses-personnel-mise-jour).
+A summary of some of the key insights that can be discovered through this tool can be found in the report's list.
 
 ## Instructions
 Use the tabs at the top of the page to select different data and charts. Each page will prompt users to filter the information presented by a department and/or basis (total cash outlays or per full-time equivalent) that they would like to see the chart display in. Users can also change the year selected to see how trends have changed over time. This tool was created in Tableau and uses WAI-ARIA standards for keyboard navigation. The tool was designed for tablet and desktop, it may not render well on mobile. 
@@ -74,12 +80,16 @@ To receive support or to provide feedback please contact us at [PBO-DPB@parl.gc.
             },
             reports: [
                 {
+                    title: "Analyse complémentaire",
+                    subtitle: "Mise à jour (2022-2023)",
+                    url: "https://www.pbo-dpb.ca/fr/additional-analyses--analyses-complementaires/BLOG-2324-005--personnel-expenditure-analysis-tool-update-2022-23-personnel-expenditures--mise-jour-outil-analyse-depenses-personnel-depenses-personnel-2022-2023",
+                },
+                {
                     title: "Rapport",
-                    subtitle: "Mise à jour (2023)",
+                    subtitle: "Mise à jour",
                     url: "https://www.pbo-dpb.ca/fr/publications/RP-2324-002-S--personnel-expenditure-analysis-update--examen-depenses-personnel-mise-jour",
                     thumbnail: "report_2023_thumbnail_fr.png"
                 },
-
                 {
                     title: "Rapport",
                     subtitle: "Principales constatations (2020)",
@@ -93,7 +103,7 @@ To receive support or to provide feedback please contact us at [PBO-DPB@parl.gc.
             title: 'Introduction',
             content: `## But de l’outil
             
-Les coûts de fonctionnement les plus importants du gouvernement sont ses dépenses de personnel, qui représentent environ 52 % du tout.
+Les coûts de fonctionnement les plus importants du gouvernement sont ses dépenses de personnel (sur la base de la comptabilité de caisse), qui représentent environ 49 % du tout.
 
 Les parlementaires reçoivent de grandes quantités de données sur les dépenses de personnel, dans le [Budget de dépenses](https://www.canada.ca/fr/secretariat-conseil-tresor/services/depenses-prevues/plan-depenses-budget-principal.html), les [Comptes publics](https://www.tpsgc-pwgsc.gc.ca/recgen/cpc-pac/index-fra.html) et l’[Infobase](https://www.tbs-sct.gc.ca/ems-sgd/edb-bdd/index-fra.html#), mais ces données ne permettent pas de répondre facilement et de manière quantifiable des réponses, par exemple, aux questions suivantes :
 * La croissance des dépenses tient-elle principalement à une augmentation du nombre d’employés ou à une augmentation des dépenses par employé?
@@ -112,7 +122,7 @@ Les données peuvent être affichées globalement ou par nombre d’équivalents
 
 Les données contenues dans l’outil reposent sur les flux financiers uniquement. Elles proviennent de sources publiques et sont conciliées avec les Comptes publics du Canada et les rapports sur les résultats ministériels. Certains détails sont fondés sur des données non confidentielles fournies par le receveur général du Canada. Le DPB assume la responsabilité de toutes les données se trouvant dans l’outil, notamment les erreurs et les omissions (pour de plus amples renseignements sur les données et les sources, voir les [Notes](#/notes). 
 
-Un résumé de certaines des informations clés qui peuvent être découvertes grâce à cet outil pour les années 2006-07 à 2018-19 est disponible [ici](https://www.pbo-dpb.ca/fr/publications/RP-2021-021-S--personnel-expenditure-analysis-tool--outil-examen-depenses-en-personnel). Un rapport qui décrit en détail les tendances qui sont apparues entre 2019-2020 et 2021-2022 [est accessible ici](https://www.pbo-dpb.ca/fr/publications/RP-2324-002-S--personnel-expenditure-analysis-update--examen-depenses-personnel-mise-jour).
+Un résumé de certaines des informations clés pouvant être découvertes grâce à cet outil se trouve dans la liste des rapports.
 
 ## Directives
 Utilisez les onglets au haut de la page pour choisir différents graphiques et données. Un message apparaîtra sur chaque page demandant à l’utilisateur de filtrer l’information présentée par ministère ou type d’analyse (déboursés effectifs globaux ou nombre d’équivalents temps plein) qu’il veut obtenir. L’utilisateur peut également choisir une autre année pour voir l’évolution au fil du temps. L’outil a été créé dans le logiciel Tableau et utilise les normes WAI ARIA pour la navigation par clavier. Il a été conçu pour les tablettes et les ordinateurs de bureau et pourrait être difficile à consulter sur un téléphone cellulaire.

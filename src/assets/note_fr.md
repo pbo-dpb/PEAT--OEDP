@@ -1,6 +1,6 @@
 ## Notes générales
 
-Le DPB a recueilli des données auprès de 69 ministères, de 2006-2007 à 2019 2020 pour créer cet outil et la base de données sous-jacente. En 2021-22, ces ministères représentaient 99,3 % des ETP travaillant pour la fonction publique fédérale et 91 % des dépenses de personnel totales.
+Le DPB a recueilli des données auprès de 69 ministères, de 2006-07 à 2022-23 pour créer cet outil et la base de données sous-jacente. En 2022-23, ces ministères représentaient 99,3% des ETP travaillant pour la fonction publique fédérale et 96 % des dépenses de personnel totales.
 
 Aux fins de l’outil et de son rapport connexe : 
 1.  Les employés fédéraux comprennent tous les employés des Forces armées canadiennes et de la GRC, à l’exclusion des employés des sociétés d’État non-mandataires et des entités parlementaires (à l'exception de la nôtre).
@@ -24,7 +24,7 @@ En raison des divergences dans les rapports entre les dépenses de personnel reg
 7. **Emploi et développement social Canada :** En février 2006, le ministère des Ressources humaines et du Développement des compétences du Canada et le ministère du Développement social du Canada ont été regroupés au sein du ministère des Ressources humaines et du Développement des compétences (actuellement connu sous le nom d'Emploi et Développement social Canada). Dans les comptes publics de 2007 et dans l'IR0074, les deux ministères sont toujours mentionnés séparément. Par souci de cohérence entre toutes les années, les ministères ont été regroupés en 2006-2007. 
 8. **Le Bureau du directeur parlementaire du budget :** ce bureau a été créé en 2006 sous l'égide de la Bibliothèque du Parlement. Le 21 septembre 2017, le bureau est devenu indépendant avec un mandat réformé lorsque certains articles du [projet de loi C-44](https://www.parl.ca/DocumentViewer/en/42-1/bill/c-44/royal-assent) sont entrés en vigueur. Ainsi, 2018-19 est la première année complète pour laquelle des données sur les objets personnels sont disponibles. 
 9. **La Régie de l’énergie du Canada :**  l'agence a été créée le 28 août 2019, lorsque la [Loi sur la Régie canadienne de l'énergie](https://laws-lois.justice.gc.ca/fra/lois/C-15.1/) est entrée en vigueur, remplaçant l'Office national de l'énergie. Par souci de continuité, la Régie de l’énergie du Canada inclut les dépenses qui sont répertoriées sous l'Office national de l'énergie dans les comptes publics de 2020. Pour toutes les années précédentes, l'Office national de l'énergie est appelé "Régie de l’énergie du Canada" dans l'outil.
-10. **Ministère de la Diversification de l’économie de l’Ouest du Canada :** en 2021-2022, ce Ministère a été scindé en deux nouvelles agences distinctes, l’Agence de développement économique du Pacifique Canada et Développement économique Canada pour les Prairies. Au cours de cet exercice, il n’y a eu aucun ETP inscrit à l’Agence de développement économique du Pacifique Canada, mais des dépenses ont été effectuées par cette Agence. Pour assurer une continuité en attendant que les ETP soient disponibles, le ministère de la Diversification de l’économie de l’Ouest du Canada a été maintenu, et a consolidé les résultats pour les deux nouvelles agences pour 2021-2022.
+10. **Ministère de la Diversification de l’économie de l’Ouest du Canada :** en 2021-2022, ce Ministère a été scindé en deux nouvelles agences distinctes, l’Agence de développement économique du Pacifique Canada et Développement économique Canada pour les Prairies. En 2022-23, ces deux organisations n'ont pas encore reçu de numéro de ministères, de sorte que le ministère de la Diversification de l’économie de l’Ouest a été maintenu.
 
 
 Le [rapport](https://www.pbo-dpb.ca/fr/publications/RP-2021-021-S--personnel-expenditure-analysis-tool--outil-examen-depenses-en-personnel) publié précédemment contient des notes additionnelles sur les règles d’inclusion des ministères et les exceptions.
@@ -81,4 +81,4 @@ Les composantes des dépenses de personnel sont les suivantes (source : IR0074) 
 
 Pour obtenir de l’aide ou nous faire part de vos commentaires, communiquez avec nous à l’adresse [dpb-pbo@parl.gc.ca](mailto:dpb-pbo@parl.gc.ca).
 
-Mise à jour : 4 avril 2023
+Mise à jour : Février 2024
