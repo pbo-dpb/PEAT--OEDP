@@ -8,7 +8,12 @@ export const defineCustomPeatElement = (component, { plugins = [] }) =>
     render: () => h(component),
     styles: [stl],
     props: {
-      publicPath: String,
+      debug: { type: [Boolean, String], default: false },
+    },
+    data() {
+      return {
+        language
+      }
     },
     setup() {
       //debugger;
@@ -18,8 +23,6 @@ export const defineCustomPeatElement = (component, { plugins = [] }) =>
       Object.assign(inst.appContext, app._context)
       Object.assign(inst.provides, app._context.provides)
 
-      return {
-        language
-      }
+
     },
   })
