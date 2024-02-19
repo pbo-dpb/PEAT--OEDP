@@ -13,13 +13,13 @@ const locs = {
             reports: [
                 {
                     title: "Additional Analysis",
-                    subtitle: "2024 Update",
+                    subtitle: "2022-2023 Update",
                     url: "https://www.pbo-dpb.ca/en/additional-analyses--analyses-complementaires/BLOG-2324-005--personnel-expenditure-analysis-tool-update-2022-23-personnel-expenditures--mise-jour-outil-analyse-depenses-personnel-depenses-personnel-2022-2023",
                     //thumbnail: "report_2023_thumbnail_en.png"
                 },
                 {
                     title: "Report",
-                    subtitle: "2023 Update",
+                    subtitle: "Update",
                     url: "https://www.pbo-dpb.ca/en/publications/RP-2324-002-S--personnel-expenditure-analysis-update--examen-depenses-personnel-mise-jour",
                     thumbnail: "report_2023_thumbnail_en.png"
                 },
@@ -81,12 +81,12 @@ To receive support or to provide feedback please contact us at [PBO-DPB@parl.gc.
             reports: [
                 {
                     title: "Analyse complémentaire",
-                    subtitle: "Mise à jour (2024)",
+                    subtitle: "Mise à jour (2022-2023)",
                     url: "https://www.pbo-dpb.ca/fr/additional-analyses--analyses-complementaires/BLOG-2324-005--personnel-expenditure-analysis-tool-update-2022-23-personnel-expenditures--mise-jour-outil-analyse-depenses-personnel-depenses-personnel-2022-2023",
                 },
                 {
                     title: "Rapport",
-                    subtitle: "Mise à jour (2023)",
+                    subtitle: "Mise à jour",
                     url: "https://www.pbo-dpb.ca/fr/publications/RP-2324-002-S--personnel-expenditure-analysis-update--examen-depenses-personnel-mise-jour",
                     thumbnail: "report_2023_thumbnail_fr.png"
                 },
