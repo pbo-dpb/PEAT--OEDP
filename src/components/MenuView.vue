@@ -11,7 +11,7 @@
       <router-link v-for="link in tableauLinks" :key="link.title" :to="link.destination"
         v-slot="{ href, route, navigate }">
         <li @click="navigate"
-          class="px-4 xl:px-2 py-2 xl:-ml-2 xl:-mr-2 cursor-pointer text-blue-800 dark:text-blue-100 font-medium hover:text-blue-900 dark:hover:text-blue-300 dark:text-blue-200 hover:underline"
+          class="px-4 xl:px-2 py-2 xl:-ml-2 xl:-mr-2 cursor-pointer text-blue-800 font-medium hover:text-blue-900 dark:hover:text-blue-300 dark:text-blue-200 hover:underline"
           :class="{ 'mx-2': collapsible, 'bg-gray-200 dark:bg-gray-800': (!collapsible || isActiveLink(link)), 'mb-2': !collapsible, 'text-base': ($root.language === 'en'), 'text-sm': ($root.language === 'fr') }">
           <a :href="href" @click="navigate">{{ link.title }}</a>
         </li>
@@ -41,100 +41,95 @@
   </div>
 </template>
 
-<script>
+<script setup>
+import { computed } from 'vue';
+import { useRoute } from 'vue-router';
 import tableauViews from "../tableau-views.js";
 import locs from "../locs.js";
 import MenuViewFeatured from "./MenuViewFeatured.vue";
 
-import report2020ThumbnailEn from '../assets/report_2020_thumbnail_en.png'
-import report2020ThumbnailFr from '../assets/report_2020_thumbnail_fr.png'
-import report2023ThumbnailEn from '../assets/report_2023_thumbnail_en.png'
-import report2023ThumbnailFr from '../assets/report_2023_thumbnail_fr.png'
-import dbBdd from '../assets/db-bdd.xlsx?url'
+import report2020ThumbnailEn from '../assets/report_2020_thumbnail_en.png';
+import report2020ThumbnailFr from '../assets/report_2020_thumbnail_fr.png';
+import report2023ThumbnailEn from '../assets/report_2023_thumbnail_en.png';
+import report2023ThumbnailFr from '../assets/report_2023_thumbnail_fr.png';
+import dbBdd from '../assets/db-bdd.xlsx?url';
+import { useLanguageStore } from '../stores/language.js'
 
+const language = useLanguageStore()
 
-export default {
-  components: {
-    MenuViewFeatured,
+const props = defineProps({
+  collapsible: {
+    type: Boolean,
+    required: false,
+    default: false,
   },
-  props: {
-    collapsible: {
-      type: Boolean,
-      required: false,
-      default: false,
-    },
-  },
-  computed: {
-    tableauLinks() {
-      let links = [];
+});
 
-      if (this.collapsible) {
-        links.push({
-          title: locs[this.$root.language].welcome.title,
-          destination: {
-            name: "welcome",
+// Components
+const route = useRoute();
 
-          },
-        });
-      }
+// Computed properties
+const tableauLinks = computed(() => {
+  let links = [];
 
-      links = links.concat(
-        tableauViews.map((view) => {
-          return {
-            title: view["title_" + this.$root.language],
-            destination: {
-              name: "tableau",
-              params: {
-                viewid: view.id,
-              },
-            },
-          };
-        })
-      );
+  if (props.collapsible) {
+    links.push({
+      title: locs[language.language].welcome.title,
+      destination: {
+        name: "welcome",
+      },
+    });
+  }
 
-      links.push({
-        title: locs[this.$root.language].notes.title,
-        destination: {
-          name: "notes",
-
+  links = links.concat(
+    tableauViews.map((view) => ({
+      title: view[`title_${language.language}`],
+      destination: {
+        name: "tableau",
+        params: {
+          viewid: view.id,
         },
-      });
-      return links;
-    },
+      },
+    }))
+  );
 
-    databaseLocalization() {
-      return locs[this.$root.language].nav.database;
+  links.push({
+    title: locs[language.language].notes.title,
+    destination: {
+      name: "notes",
     },
-    reportsLocalizations() {
-      return locs[this.$root.language].nav.reports;
-    },
-    mobileWarning() {
-      return locs[this.$root.language].mobile_warning;
-    }
-  },
-  methods: {
-    isActiveLink(link) {
-      if (link.destination.name === "tableau") {
-        return link.destination.params.viewid === this.$route.params.viewid;
-      }
-      return link.destination.name === this.$route.name;
-    },
-    getAssetUrl(filename) {
+  });
 
-      switch (filename) {
-        case "report_2020_thumbnail_en.png":
-          return report2020ThumbnailEn;
-        case "report_2020_thumbnail_fr.png":
-          return report2020ThumbnailFr;
-        case "report_2023_thumbnail_en.png":
-          return report2023ThumbnailEn;
-        case "report_2023_thumbnail_fr.png":
-          return report2023ThumbnailFr;
-        case "db-bdd.xlsx":
-          return dbBdd;
-      }
-      return filename;
-    }
-  },
+  return links;
+});
+
+const databaseLocalization = computed(() => locs[language.language].nav.database);
+
+const reportsLocalizations = computed(() => locs[language.language].nav.reports);
+
+const mobileWarning = computed(() => locs[language.language].mobile_warning);
+
+// Methods
+const isActiveLink = (link) => {
+  if (link.destination.name === "tableau") {
+    return link.destination.params.viewid === route.params.viewid;
+  }
+  return link.destination.name === route.name;
+};
+
+const getAssetUrl = (filename) => {
+  switch (filename) {
+    case "report_2020_thumbnail_en.png":
+      return report2020ThumbnailEn;
+    case "report_2020_thumbnail_fr.png":
+      return report2020ThumbnailFr;
+    case "report_2023_thumbnail_en.png":
+      return report2023ThumbnailEn;
+    case "report_2023_thumbnail_fr.png":
+      return report2023ThumbnailFr;
+    case "db-bdd.xlsx":
+      return dbBdd;
+  }
+  return filename;
 };
 </script>

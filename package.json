@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "marked": "^13.0.1",
+    "pinia": "^2.2.4",
     "tableau-api": "^2.2.3",
     "vue": "^3.4.30",
     "vue-router": "^4.4.0"

@@ -1,23 +1,14 @@
-
 <template>
   <div id="app">
-    <DebugBar v-if="debug"></DebugBar>
+    <DebugBar v-if="debug.debug"></DebugBar>
     <router-view></router-view>
-
   </div>
 </template>
 
-<script>
-import DebugBar from './components/DebugBar.vue'
-export default {
-  computed: {
-    debug() {
-      return this.$root.debug;
-    },
-  },
-  components: {
-    DebugBar,
-  },
+<script setup>
+import { computed } from "vue";
+import DebugBar from "./components/DebugBar.vue";
+import { useDebugStore } from "./stores/debug";
+const debug = useDebugStore();
 
-};
 </script>

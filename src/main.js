@@ -1,5 +1,11 @@
-import { defineCustomPeatElement } from './defineCustomPeatElement'
-import App from "./App.ce.vue"
-import router from './router'
+import { defineCustomPeatElement } from "./defineCustomPeatElement";
+import { createPinia } from "pinia";
+import App from "./App.ce.vue";
+import router from "./router";
 
-customElements.define('pbotool-peat', defineCustomPeatElement(App, {plugins: [ router ]}))
+const pinia = createPinia();
+
+customElements.define(
+  "pbotool-peat",
+  defineCustomPeatElement(App, { plugins: [router, pinia] })
+);
