@@ -1,12 +1,12 @@
 <template>
   <div class="w-full flex flex-col gap-4">
 
-    <div class="bg-orange-200 p-4 rounded text-orange-900 font-semibold text-center lg:hidden">
+    <div class="bg-orange-200 p-4 rounded-sm text-orange-900 font-semibold text-center lg:hidden">
       {{ mobileWarning }}
     </div>
 
     <ul v-if="tableauLinks" :class="{
-      'flex': collapsible, 'flex-row': collapsible, 'mb-4': collapsible, 'flex-wrap': collapsible, 'justify-center': collapsible, 'xl:justify-between': collapsible, 'flex-shrink': collapsible, 'border-gray-100': collapsible, 'border': collapsible, 'xl:border-0': collapsible, 'p-2': collapsible, 'xl:p-0': collapsible
+      'flex': collapsible, 'flex-row': collapsible, 'mb-4': collapsible, 'flex-wrap': collapsible, 'justify-center': collapsible, 'xl:justify-between': collapsible, 'shrink': collapsible, 'border-gray-100': collapsible, 'border': collapsible, 'xl:border-0': collapsible, 'p-2': collapsible, 'xl:p-0': collapsible
     }">
       <router-link v-for="link in tableauLinks" :key="link.title" :to="link.destination"
         v-slot="{ href, route, navigate }">
@@ -22,7 +22,7 @@
       <menu-view-featured v-for="reportLocalization in reportsLocalizations" :key="reportLocalization.url"
         :url="reportLocalization.url" :title="reportLocalization.title" :subtitle="reportLocalization.subtitle">
         <template v-slot:icon>
-          <img class="w-12 xl:w-8 mr-2 shadow-xs" v-if="reportLocalization.thumbnail"
+          <img class="w-12 xl:w-8 mr-2 shadow-2xs" v-if="reportLocalization.thumbnail"
             :src="getAssetUrl(reportLocalization.thumbnail)" :alt="reportLocalization.title" />
         </template>
       </menu-view-featured>
