@@ -1,7 +1,8 @@
 <template>
   <main class="container mx-auto py-4">
     <menu-view :collapsible="true"></menu-view>
-    <div v-if="content" class="prose  dark:prose-invert max-w-none px-2 md:px-0 prose-headings:font-thin"
+    <div v-if="content"
+      class="prose  dark:prose-invert max-w-none px-2 md:px-0 prose-headings:font-thin  prose-a:text-sky-800 dark:prose-a:text-sky-200"
       v-html="content"></div>
   </main>
 </template>

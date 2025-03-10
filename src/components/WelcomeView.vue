@@ -6,7 +6,9 @@
           <menu-view></menu-view>
         </nav>
 
-        <div class="lg:col-span-3 prose dark:prose-invert max-w-none prose-headings:font-thin" v-html="content"></div>
+        <div
+          class="lg:col-span-3 prose dark:prose-invert max-w-none prose-headings:font-thin prose-a:text-sky-800 dark:prose-a:text-sky-200"
+          v-html="content"></div>
       </section>
     </div>
   </main>

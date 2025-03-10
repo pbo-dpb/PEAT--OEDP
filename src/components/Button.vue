@@ -10,7 +10,7 @@
         </span>
     </component>
 </template>
-  
+
 <script>
 import LoadingIndicator from "./LoadingIndicator.vue";
 export default {
@@ -110,10 +110,10 @@ export default {
             switch (this.type) {
                 case "primary":
                     return {
-                        disabled: "bg-blue-500",
-                        base: "bg-blue-800",
-                        hover: "hover:bg-blue-700",
-                        active: "bg-blue-900",
+                        disabled: "bg-sky-500",
+                        base: "bg-sky-800",
+                        hover: "hover:bg-sky-700",
+                        active: "bg-sky-900",
                     };
                 case "positive":
                     return {
@@ -151,5 +151,3 @@ export default {
     },
 };
 </script>
-  
-  

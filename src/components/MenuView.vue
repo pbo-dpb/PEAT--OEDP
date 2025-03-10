@@ -11,7 +11,7 @@
       <router-link v-for="link in tableauLinks" :key="link.title" :to="link.destination"
         v-slot="{ href, route, navigate }">
         <li @click="navigate"
-          class="px-4 xl:px-2 py-2 xl:-ml-2 xl:-mr-2 cursor-pointer text-blue-800 dark:text-blue-100 font-medium hover:text-blue-900 dark:hover:text-blue-300 dark:text-blue-200 hover:underline"
+          class="px-4 xl:px-2 py-2 xl:-ml-2 xl:-mr-2 cursor-pointer text-sky-800 dark:text-sky-100 font-medium hover:text-sky-900 dark:hover:text-sky-300 dark:text-sky-200 hover:underline"
           :class="{ 'mx-2': collapsible, 'bg-gray-200 dark:bg-gray-800': (!collapsible || isActiveLink(link)), 'mb-2': !collapsible, 'text-base': ($root.language === 'en'), 'text-sm': ($root.language === 'fr') }">
           <a :href="href" @click="navigate">{{ link.title }}</a>
         </li>
