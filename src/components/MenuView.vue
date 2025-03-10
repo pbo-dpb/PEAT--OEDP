@@ -6,7 +6,7 @@
     </div>
 
     <ul v-if="tableauLinks" :class="{
-      'flex': collapsible, 'flex-row': collapsible, 'mb-4': collapsible, 'flex-wrap': collapsible, 'justify-center': collapsible, 'xl:justify-between': collapsible, 'shrink': collapsible, 'border-gray-100': collapsible, 'border': collapsible, 'xl:border-0': collapsible, 'p-2': collapsible, 'xl:p-0': collapsible
+      'flex': collapsible, 'flex-row': collapsible, 'mb-4': collapsible, 'flex-wrap': collapsible, 'justify-center': collapsible, 'xl:justify-between': collapsible, 'shrink': collapsible, 'border-gray-100': collapsible, 'border border-solid': collapsible, 'xl:border-0': collapsible, 'p-2': collapsible, 'xl:p-0': collapsible
     }">
       <router-link v-for="link in tableauLinks" :key="link.title" :to="link.destination"
         v-slot="{ href, route, navigate }">
@@ -18,7 +18,7 @@
       </router-link>
     </ul>
 
-    <div v-if="!collapsible" class="mt-4 pt-4 border-t border-gray-200 flex flex-col xl:px-2 xl:-ml-2 xl:-mr-2">
+    <div v-if="!collapsible" class="mt-4 flex flex-col xl:px-2 xl:-ml-2 xl:-mr-2">
       <menu-view-featured v-for="reportLocalization in reportsLocalizations" :key="reportLocalization.url"
         :url="reportLocalization.url" :title="reportLocalization.title" :subtitle="reportLocalization.subtitle">
         <template v-slot:icon>

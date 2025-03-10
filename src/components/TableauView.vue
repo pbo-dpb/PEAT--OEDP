@@ -2,7 +2,8 @@
   <main class="container mx-auto py-4">
     <menu-view :collapsible="true"></menu-view>
 
-    <tableau-embed :id="tableauEmbedId" class="dark:border dark:border-gray-500  dark:shadow-xl"></tableau-embed>
+    <tableau-embed :id="tableauEmbedId"
+      class="dark:border border-solid dark:border-gray-500  dark:shadow-xl"></tableau-embed>
   </main>
 </template>
 <script>
