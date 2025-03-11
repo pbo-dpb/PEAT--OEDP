@@ -35,7 +35,7 @@ const locs = {
             title: 'Introduction',
             content: `## The purpose of this tool
             
-The government’s largest operating cost is its staff – personnel spending (on a cash basis) accounts for roughly 49  per cent of federal government’s operating costs.
+The government’s largest operating cost is its staff – personnel spending (on a cash basis) accounts for roughly 39  per cent of federal government’s operating costs.
 
 While parliamentarians receive volumes of data on personnel spending in the [Estimates](https://www.canada.ca/en/treasury-board-secretariat/services/planned-government-spending/government-expenditure-plan-main-estimates.html), the [Public Accounts](https://www.tpsgc-pwgsc.gc.ca/recgen/cpc-pac/index-eng.html) and [InfoBase](https://www.tbs-sct.gc.ca/ems-sgd/edb-bdd/index-eng.html), that data cannot readily and quantifiably address questions such as:
 * Is spending growth mainly due to higher numbers of staff or higher spending per person?
@@ -103,7 +103,7 @@ To receive support or to provide feedback please contact us at [PBO-DPB@parl.gc.
             title: 'Introduction',
             content: `## But de l’outil
             
-Les coûts de fonctionnement les plus importants du gouvernement sont ses dépenses de personnel (sur la base de la comptabilité de caisse), qui représentent environ 49 % du tout.
+Les coûts de fonctionnement les plus importants du gouvernement sont ses dépenses de personnel (sur la base de la comptabilité de caisse), qui représentent environ 39 % du tout.
 
 Les parlementaires reçoivent de grandes quantités de données sur les dépenses de personnel, dans le [Budget de dépenses](https://www.canada.ca/fr/secretariat-conseil-tresor/services/depenses-prevues/plan-depenses-budget-principal.html), les [Comptes publics](https://www.tpsgc-pwgsc.gc.ca/recgen/cpc-pac/index-fra.html) et l’[Infobase](https://www.tbs-sct.gc.ca/ems-sgd/edb-bdd/index-fra.html#), mais ces données ne permettent pas de répondre facilement et de manière quantifiable des réponses, par exemple, aux questions suivantes :
 * La croissance des dépenses tient-elle principalement à une augmentation du nombre d’employés ou à une augmentation des dépenses par employé?

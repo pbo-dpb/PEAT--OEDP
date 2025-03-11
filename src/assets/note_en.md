@@ -1,6 +1,6 @@
 ## General notes
 
-To create this tool and the database underlying it, PBO collected data for 69 departments from 2006-07 to 2022-23. In 2022-23, this represented 99.3  per cent of FTEs employed by the federal public service and 96  percent of overall personnel spending.
+To create this tool and the database underlying it, PBO collected data for 70 departments from 2006-07 to 2023-24. In 2023-24, this represented 99.3  per cent of FTEs employed by the federal public service and 96  percent of overall personnel spending.
 
 For the purpose of this tool and its' accompanying reports: 
 1.	Federal employees include all Canadian Forces and RCMP employees but exclude employees of non-agent Crown corporations and parliamentary entities (aside from our own).
@@ -25,6 +25,7 @@ Due to differences in reporting between disaggregated and aggregated personnel e
 8. **Office of the Parliamentary Budget Officer:** The office was established in 2006 under the Library of Parliament. On September 21, 2017 the office became independent with a reformed mandate when certain sections of [Bill C-44](https://www.parl.ca/DocumentViewer/en/42-1/bill/c-44/royal-assent) came into force. As such, 2018-19 is the first full year for which personnel object data is available. 
 9. **Canada Energy Regulator:** The agency was created on August 28, 2019 when the [Canadian Energy Regulator Act](https://laws-lois.justice.gc.ca/eng/acts/C-15.1/) came into force, replacing the National Energy Board. For continuity, the Canada Energy Regulator includes expenditures that are listed under the National Energy Board in the 2020 Public Accounts. For all prior years, the National Energy Board is referred to as the Canada Energy Regulator in the tool. 
 10. **Department of Western Economic Diversification:** In 2021-22 this department was split off into two new separate organizations, the Pacific Economic Development Agency of Canada, and the Prairie Economic Development Agency of Canada. As of 2022-23 these two organizations have not yet received a department number, so the Department of Western Diversification has been continued.
+11. **Department of Finance**, **Office of the Superintendent of Financial Institutions Canada**, **Financial Transaction and Reports Analysis Centre of Canada**, and **Office of the Auditor General of Canada**: At the time of publication these departments have not yet published their Departmental Results Reports for fiscal year 2023-24. To facilitate timely reporting, their forecast for that year from their 2024-25 Departmental Plans have been used instead.
 
 For additional notes on department inclusion rules and exceptions, please see our previously published [report](https://www.pbo-dpb.ca/en/publications/RP-2021-021-S--personnel-expenditure-analysis-tool--outil-examen-depenses-en-personnel). 
 
@@ -78,4 +79,4 @@ The components of personnel spending are (Source: IR0074):
 
 To receive support or to provide feedback please contact us at [pbo-dpb@parl.gc.ca](mailto:pbo-dpb@parl.gc.ca).
 
-Last updated: February 2024
+Last updated: March 2025
