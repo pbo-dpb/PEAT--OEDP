@@ -75,8 +75,4 @@ The components of personnel spending are (Source: IR0074):
 
 ---
 
-## Tell us what you think
-
-To receive support or to provide feedback please contact us at [pbo-dpb@parl.gc.ca](mailto:pbo-dpb@parl.gc.ca).
-
 Last updated: March 2025

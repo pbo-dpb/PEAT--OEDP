@@ -62,11 +62,6 @@ A summary of some of the key insights that can be discovered through this tool c
 Use the tabs at the top of the page to select different data and charts. Each page will prompt users to filter the information presented by a department and/or basis (total cash outlays or per full-time equivalent) that they would like to see the chart display in. Users can also change the year selected to see how trends have changed over time. This tool was created in Tableau and uses WAI-ARIA standards for keyboard navigation. The tool was designed for tablet and desktop, it may not render well on mobile. 
 
 Data and the charts displayed can be downloaded directly from each page (see [instructions for the various download options](https://help.tableau.com/current/pro/desktop/en-us/export.htm)). The full database can be downloaded as a Microsoft Excel file. All data is attributable to the PBO.
-
----
-
-## Tell us what you think
-To receive support or to provide feedback please contact us at [PBO-DPB@parl.gc.ca](mailto:pbo-dpb@parl.gc.ca).
 `
         }
     },
@@ -137,11 +132,6 @@ Un résumé de certaines des informations clés pouvant être découvertes grâc
 Utilisez les onglets au haut de la page pour choisir différents graphiques et données. Un message apparaîtra sur chaque page demandant à l’utilisateur de filtrer l’information présentée par ministère ou type d’analyse (déboursés effectifs globaux ou nombre d’équivalents temps plein) qu’il veut obtenir. L’utilisateur peut également choisir une autre année pour voir l’évolution au fil du temps. L’outil a été créé dans le logiciel Tableau et utilise les normes WAI ARIA pour la navigation par clavier. Il a été conçu pour les tablettes et les ordinateurs de bureau et pourrait être difficile à consulter sur un téléphone cellulaire.
 
 Les données et les graphiques affichés peuvent être téléchargés directement à partir de chaque page (voir les [directives relatives aux diverses options de téléchargement](https://help.tableau.com/current/pro/desktop/en-us/export.htm)). La base de données complète peut être téléchargée au format Microsoft Excel. Toutes les données sont du DPB.
-
----
-
-## Qu’en pensez-vous?
-Pour obtenir de l’aide ou nous faire part de vos commentaires, communiquez avec nous à l’adresse [DPB-PBO@parl.gc.ca](mailto:dpb-pbo@parl.gc.ca).
 `
         }
     }
