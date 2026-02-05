@@ -3,9 +3,9 @@
 Le DPB a recueilli des données auprès de 71 ministères, de 2006-2007 à 2024-2025 pour créer cet outil et la base de données sous-jacente. En 2024-2025, ces ministères représentaient 99,4% des ETP travaillant pour la fonction publique fédérale et 95 % des dépenses de personnel totales.
 
 Aux fins de l’outil et de son rapport connexe : 
-1.  Les employés fédéraux comprennent tous les employés des Forces armées canadiennes et de la GRC, à l’exclusion des employés des sociétés d’État non-mandataires et des entités parlementaires (à l'exception de la nôtre).
-2.  Les dépenses de fonctionnement et de personnel excluent les coûts associés aux dépenses futures, les courus et autres redressements, les sociétés d’État et autres entités consolidées, et les comptes à fins déterminées consolidées.
-3.	Les dépenses de personnel des différents services dans cet outil seront différentes de celles publiées dans les comptes publics. Cela est dû à la redistribution des dépenses centralisées sous le Secrétariat du Conseil du Trésor du Canada (voir la définition ci-dessous). Les dépenses de personnel pour l'ensemble du gouvernement correspondront aux résultats publiés dans les comptes publics.
+1. Les employés fédéraux comprennent tous les employés des Forces armées canadiennes et de la GRC, à l’exclusion des employés des sociétés d’État non-mandataires et des entités parlementaires (à l'exception de la nôtre).
+2. Les dépenses de fonctionnement et de personnel excluent les coûts associés aux dépenses futures, les courus et autres redressements, les sociétés d’État et autres entités consolidées, et les comptes à fins déterminées consolidées.
+3. Les dépenses de personnel des différents services dans cet outil seront différentes de celles publiées dans les comptes publics. Cela est dû à la redistribution des dépenses centralisées sous le Secrétariat du Conseil du Trésor du Canada (voir la définition ci-dessous). Les dépenses de personnel pour l'ensemble du gouvernement correspondront aux résultats publiés dans les comptes publics.
 
 ## Regroupement en fonction des similarités
 
@@ -67,7 +67,6 @@ Les composantes des dépenses de personnel sont les suivantes (source : IR0074) 
 **Services professionnels et spéciaux** – englobent toutes les dépenses rattachées aux services professionnels et aux services spéciaux, entre autres les services offerts par des particuliers ou des organismes et les paiements liés aux traitements hospitaliers, aux soins aux anciens combattants et aux services d’assistance sociale (source : Comptes publics, article courant 04).
 
 **Autre subventions et paiements** – englobent toutes les dépenses sous forme de subventions et de paiements non mentionnées dans un autre article courant, entre autres les versements à certains comptes non budgétaires, ainsi que l’amortissent de plusieurs types de pertes, le rajustement annuel des réserves pour les créances et certains autres postes « Divers » (source : Comptes publics, article courant 12).
-
 
 ## Sources
 - Composantes des dépenses en personnel : Receveur général du Canada [IR0074](https://www.pbo-dpb.ca/fr/information-requests--demandes-information/IR0074)

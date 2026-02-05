@@ -3,8 +3,11 @@
 To create this tool and the database underlying it, PBO collected data for 71 departments from 2006-07 to 2024-25. In 2024-25, this represented 99.4 per cent of FTEs employed by the federal public service and 95 percent of overall personnel spending.
 
 For the purpose of this tool and its' accompanying reports: 
-1.	Federal employees include all Canadian Forces and RCMP employees but exclude employees of non-agent Crown corporations and parliamentary entities (aside from our own).
-2.	Operating and personnel expenditures exclude costs associated with future expenses, accrual and other adjustments, consolidated Crown corporations and other entities, and consolidated specified purpose accounts. 
+
+1. Federal employees include all Canadian Forces and RCMP employees but exclude employees of non-agent Crown corporations and parliamentary entities (aside from our own).
+
+2. Operating and personnel expenditures exclude costs associated with future expenses, accrual and other adjustments, consolidated Crown corporations and other entities, and consolidated specified purpose accounts. 
+
 3. Personnel expenditures for individual departments in this tool will differ from those published in the Public Accounts. This is due to the redistribution of centralized spending under the Treasury Board of Canada Secretariat (see definition below) for additional information. Personnel expenditures for the overall government will match the results published in the Public Accounts. 
 
 ## Grouping by similarity
@@ -65,7 +68,6 @@ The components of personnel spending are (Source: IR0074):
 **Professional and Special Services** – Includes all expenditures related to professional and special services, including services performed by individuals or organizations and payments for hospital treatment, care of veterans and welfare services (Source: Public Accounts, Standard Object 4).
 
 **Other Subsidies and Payments** – Includes all expenditures in the forms of subsidies and payments not elsewhere specified by another Standard Object, including payments to certain non–budgetary accounts, as well as the write-offs of various types of losses, the annual adjustment of reserves for financial claims and some other miscellaneous items referred to as “Sundries” (Source: Public Accounts, Standard Object 12).
-
 
 ## Sources
 - Components of personnel expenditures: Receiver General for Canada [IR0074](https://www.pbo-dpb.ca/en/information-requests--demandes-information/IR0074)
