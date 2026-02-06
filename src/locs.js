@@ -13,9 +13,15 @@ const locs = {
             reports: [
                 {
                     title: "Additional Analysis",
+                    subtitle: "2024-25 Personnel Expenditures",
+                    url: "https://www.pbo-dpb.ca/en/additional-analyses--analyses-complementaires/BLOG-2526-015--personnel-expenditure-analysis-tool-update-2024-25-personnel-expenditures--mise-jour-outil-analyse-depenses-personnel-depenses-personnel-2024-2025",
+                },
+                {
+                    title: "Additional Analysis",
                     subtitle: "2023-24 Personnel Expenditures",
                     url: "https://www.pbo-dpb.ca/en/additional-analyses--analyses-complementaires/BLOG-2425-009--personnel-expenditure-analysis-tool-update-2023-24-personnel-expenditures--mise-jour-outil-analyse-depenses-personnel-depenses-personnel-2023-2024",
-                }, {
+                },
+                {
                     title: "Additional Analysis",
                     subtitle: "2022-23 Personnel Expenditures",
                     url: "https://www.pbo-dpb.ca/en/additional-analyses--analyses-complementaires/BLOG-2324-005--personnel-expenditure-analysis-tool-update-2022-23-personnel-expenditures--mise-jour-outil-analyse-depenses-personnel-depenses-personnel-2022-2023",
@@ -79,10 +85,14 @@ Data and the charts displayed can be downloaded directly from each page (see [in
             reports: [
                 {
                     title: "Analyse complémentaire",
+                    subtitle: "Dépenses en personnel de 2024-2025",
+                    url: "https://www.pbo-dpb.ca/fr/additional-analyses--analyses-complementaires/BLOG-2526-015--personnel-expenditure-analysis-tool-update-2024-25-personnel-expenditures--mise-jour-outil-analyse-depenses-personnel-depenses-personnel-2024-2025",
+                },
+                {
+                    title: "Analyse complémentaire",
                     subtitle: "Dépenses en personnel de 2023-2024",
                     url: "https://www.pbo-dpb.ca/fr/additional-analyses--analyses-complementaires/BLOG-2425-009--personnel-expenditure-analysis-tool-update-2023-24-personnel-expenditures--mise-jour-outil-analyse-depenses-personnel-depenses-personnel-2023-2024",
-                }
-                ,
+                },
                 {
                     title: "Analyse complémentaire",
                     subtitle: "Dépenses en personnel de 2022-2023",
