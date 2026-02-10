@@ -6,7 +6,10 @@
     </div>
 
     <ul v-if="tableauLinks" :class="{
-      'flex': collapsible, 'flex-row': collapsible, 'mb-4': collapsible, 'flex-wrap': collapsible, 'justify-center': collapsible, 'xl:justify-between': collapsible, 'shrink': collapsible, 'border-gray-100': collapsible, 'border border-solid': collapsible, 'xl:border-0': collapsible, 'p-2': collapsible, 'xl:p-0': collapsible
+      'flex': collapsible,
+      'flex-row': collapsible,
+      'mb-4': collapsible, 'flex-wrap': collapsible, 'justify-center xl:justify-start': collapsible, 'xl:gap-8': collapsible, 'shrink': collapsible,
+      'border-gray-100': collapsible, 'border border-solid': collapsible, 'xl:border-0': collapsible, 'p-2': collapsible, 'xl:p-0': collapsible
     }">
       <router-link v-for="link in tableauLinks" :key="link.title" :to="link.destination"
         v-slot="{ href, route, navigate }">

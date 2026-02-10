@@ -27,17 +27,17 @@ const tableauViews = [
         embed_id_en: `4-EmploymentTrendsFY2024/Personnel-NumberFTEs`,
         embed_id_fr: `4-EmploymentTrendsFY2024FR/Personnel-NumberFTEs`,
     },
-    {
+    /*{
         id: "compare-similarity--comparer-similarites",
         title_en: "Compare, Similarity",
         title_fr: "Comparaison, similarité",
         embed_id_en: `5-CompareSimilarityFY2024/Comparable-Similarity`,
         embed_id_fr: `5-CompareSimilarityFY2024FR/Comparable-Similarity`,
-    },
+    },*/
     {
         id: "compare-select--comparer-selection",
-        title_en: "Compare, Select",
-        title_fr: "Comparaison, sélection",
+        title_en: "Compare",
+        title_fr: "Comparaison",
         embed_id_en: `6-CompareSelectFY2024/Comparable-Select`,
         embed_id_fr: `6-CompareSelectFY2024FR/Comparable-Select`,
     },
