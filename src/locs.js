@@ -56,7 +56,7 @@ To assist parliamentarians’ scrutiny, PBO built an interactive tool that allow
 * Viewing overall historic spending trends for [operating](#/operating-overview--apercu-fonctionnement) and [personnel](#/personnel-overview--apercu-personnel) spending;
 * Examining the various [types of compensation](#/personnel-breakdown--repartition-personnel) that are part of the government's spending on personnel;
 * Examining historic [employment trends](#/fte-numbers--nombres-etp) for full-time equivalents;
-* Benchmarking between [similar departments](#/compare-similarity--comparer-similarites), or [self-selecting departments](#/compare-select--comparer-selection) for comparison. 
+* Benchmarking between [selected departments](#/compare-select--comparer-selection) for comparison. 
 
 Our data can be displayed as an aggregate or on a per-full time equivalent (FTE) basis. 
 
@@ -130,7 +130,7 @@ Pour aider les parlementaires dans leur examen, le DPB a conçu un outil interac
 * En consultant les tendances des dépenses totales de [fonctionnement](#/operating-overview--apercu-fonctionnement) et de [personnel](#/personnel-overview--apercu-personnel);
 * En examinant les différents [types de rémunérations](#/personnel-breakdown--repartition-personnel) qui font partie des dépenses du gouvernement en matière de personnel;
 * Examinant des tendances historiques en matière d'emploi en ce qui concerne les [équivalents temps plein](#/fte-numbers--nombres-etp);
-* En procédant à une analyse comparative entre des [ministères similaires](#/compare-similarity--comparer-similarites), ou [en sélectionnant certains ministères](#/compare-select--comparer-selection). 
+* En procédant à une analyse comparative [en sélectionnant certains ministères](#/compare-select--comparer-selection). 
 
 Les données peuvent être affichées globalement ou par nombre d’équivalents temps plein (ETP).
 

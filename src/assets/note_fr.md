@@ -7,10 +7,6 @@ Aux fins de l’outil et de son rapport connexe :
 2. Les dépenses de fonctionnement et de personnel excluent les coûts associés aux dépenses futures, les courus et autres redressements, les sociétés d’État et autres entités consolidées, et les comptes à fins déterminées consolidées.
 3. Les dépenses de personnel des différents services dans cet outil seront différentes de celles publiées dans les comptes publics. Cela est dû à la redistribution des dépenses centralisées sous le Secrétariat du Conseil du Trésor du Canada (voir la définition ci-dessous). Les dépenses de personnel pour l'ensemble du gouvernement correspondront aux résultats publiés dans les comptes publics.
 
-## Regroupement en fonction des similarités
-
-Dans le but d’aider les utilisateurs à effectuer des comparaisons pertinentes entre les ministères, le DPB a élaboré une cote de similarité simple. Pour ce faire, la distance euclidienne entre chaque paire possible de ministères a été calculée à partir du nombre d’ETP, des dépenses totales, du ratio transferts/dépenses de fonctionnement et du ratio dépenses en capital/dépenses de fonctionnement. Chaque facteur s’est vu attribuer une pondération égale. Lors de la sélection d’un ministère sur la page [Comparaison, similarité](#/compare-similarity--comparer-similarités), les quatre ministères ayant les similarités combinées les plus importantes (la plus faible distance) avec le ministère sélectionné s’affichent également. 
-
 ## Notes concernant certains ministères
 
 En raison des divergences dans les rapports entre les dépenses de personnel regroupées et les dépenses de personnel non regroupées, certains ministères ont été combinés ou certaines années ont été exclues :
