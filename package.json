@@ -1,24 +1,30 @@
 {
-  "name": "peat--oedp",
-  "private": true,
-  "version": "2.1.0",
-  "scripts": {
-    "dev": "vite --host --port 8080",
-    "build": "vite build",
-    "preview": "vite preview --host --port 8080"
-  },
-  "dependencies": {
-    "marked": "^17.0.2",
-    "tableau-api": "^2.2.3",
-    "vue": "^3.5.28",
-    "vue-router": "^5.0.2"
-  },
-  "devDependencies": {
-    "@tailwindcss/postcss": "^4.1.18",
-    "@tailwindcss/typography": "^0.5.19",
-    "@vitejs/plugin-vue": "^6.0.4",
-    "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.18",
-    "vite": "^7.3.1"
-  }
+    "name": "peat--oedp",
+    "private": true,
+    "version": "2.1.0",
+    "scripts": {
+        "dev": "vite --host --port 8080",
+        "build": "vite build",
+        "preview": "vite preview --host --port 8080"
+    },
+    "dependencies": {
+        "marked": "^18.0.6",
+        "tableau-api": "^2.2.3",
+        "vue": "^3.5.39",
+        "vue-router": "^5.1.0"
+    },
+    "devDependencies": {
+        "@tailwindcss/postcss": "^4.3.2",
+        "@tailwindcss/typography": "^0.5.20",
+        "@vitejs/plugin-vue": "^6.0.8",
+        "postcss": "^8.5.19",
+        "prettier": "^3.9.5",
+        "prettier-plugin-tailwindcss": "^0.8.0",
+        "tailwindcss": "^4.3.2",
+        "vite": "^8.1.4"
+    },
+    "engineStrict": true,
+    "engines": {
+        "node": "24"
+    }
 }

@@ -41,7 +41,6 @@ const tableauViews = [
         embed_id_en: `6-CompareSelectFY2024/Comparable-Select`,
         embed_id_fr: `6-CompareSelectFY2024FR/Comparable-Select`,
     },
-
 ];
 
 export default tableauViews;
