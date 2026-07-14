@@ -4,7 +4,8 @@ const locs = {
             title: "Personnel Expenditure Analysis Tool",
             logo_alt: "Office of the Parliamentary Budget Officer Logo",
         },
-        mobile_warning: "This tool is optimized for use on a computer or tablet.",
+        mobile_warning:
+            "This tool is optimized for use on a computer or tablet.",
         nav: {
             database: {
                 title: "Database",
@@ -30,18 +31,19 @@ const locs = {
                     title: "Report",
                     subtitle: "Update (2023)",
                     url: "https://www.pbo-dpb.ca/en/publications/RP-2324-002-S--personnel-expenditure-analysis-update--examen-depenses-personnel-mise-jour",
-                    thumbnail: "report_2023_thumbnail_en.png"
+                    thumbnail: "report_2023_thumbnail_en.png",
                 },
                 {
                     title: "Report",
                     subtitle: "Key Insights (2020)",
                     url: "https://www.pbo-dpb.ca/en/publications/RP-2021-021-S--personnel-expenditure-analysis-tool--outil-examen-depenses-en-personnel",
-                    thumbnail: "report_2020_thumbnail_en.png"
-                }]
+                    thumbnail: "report_2020_thumbnail_en.png",
+                },
+            ],
         },
         notes: { title: "Notes" },
         welcome: {
-            title: 'Introduction',
+            title: "Introduction",
             content: `## The purpose of this tool
             
 The government’s largest operating cost is its staff – personnel spending (on a cash basis) accounts for roughly 54  per cent of federal government’s operating costs.
@@ -68,15 +70,16 @@ A summary of some of the key insights that can be discovered through this tool c
 Use the tabs at the top of the page to select different data and charts. Each page will prompt users to filter the information presented by a department and/or basis (total cash outlays or per full-time equivalent) that they would like to see the chart display in. Users can also change the year selected to see how trends have changed over time. This tool was created in Tableau and uses WAI-ARIA standards for keyboard navigation. The tool was designed for tablet and desktop, it may not render well on mobile. 
 
 Data and the charts displayed can be downloaded directly from each page (see [instructions for the various download options](https://help.tableau.com/current/pro/desktop/en-us/export.htm)). The full database can be downloaded as a Microsoft Excel file. All data is attributable to the PBO.
-`
-        }
+`,
+        },
     },
     fr: {
         app: {
             title: "Outil d'examen des dépenses en personnel",
             logo_alt: "Logo du Bureau du directeur parlementaire du budget",
         },
-        mobile_warning: "Cet outil est optimisé pour être utilisé sur un ordinateur ou une tablette.",
+        mobile_warning:
+            "Cet outil est optimisé pour être utilisé sur un ordinateur ou une tablette.",
         nav: {
             database: {
                 title: "Base de données",
@@ -102,19 +105,19 @@ Data and the charts displayed can be downloaded directly from each page (see [in
                     title: "Rapport",
                     subtitle: "Mise à jour (2023)",
                     url: "https://www.pbo-dpb.ca/fr/publications/RP-2324-002-S--personnel-expenditure-analysis-update--examen-depenses-personnel-mise-jour",
-                    thumbnail: "report_2023_thumbnail_fr.png"
+                    thumbnail: "report_2023_thumbnail_fr.png",
                 },
                 {
                     title: "Rapport",
                     subtitle: "Principales constatations (2020)",
                     url: "https://www.pbo-dpb.ca/fr/publications/RP-2021-021-S--personnel-expenditure-analysis-tool--outil-examen-depenses-en-personnel",
-                    thumbnail: "report_2020_thumbnail_fr.png"
-                }
-            ]
+                    thumbnail: "report_2020_thumbnail_fr.png",
+                },
+            ],
         },
         notes: { title: "Notes" },
         welcome: {
-            title: 'Introduction',
+            title: "Introduction",
             content: `## But de l’outil
             
 Les coûts de fonctionnement les plus importants du gouvernement sont ses dépenses de personnel (sur la base de la comptabilité de caisse), qui représentent environ 54 % du tout.
@@ -142,10 +145,9 @@ Un résumé de certaines des informations clés pouvant être découvertes grâc
 Utilisez les onglets au haut de la page pour choisir différents graphiques et données. Un message apparaîtra sur chaque page demandant à l’utilisateur de filtrer l’information présentée par ministère ou type d’analyse (déboursés effectifs globaux ou nombre d’équivalents temps plein) qu’il veut obtenir. L’utilisateur peut également choisir une autre année pour voir l’évolution au fil du temps. L’outil a été créé dans le logiciel Tableau et utilise les normes WAI ARIA pour la navigation par clavier. Il a été conçu pour les tablettes et les ordinateurs de bureau et pourrait être difficile à consulter sur un téléphone cellulaire.
 
 Les données et les graphiques affichés peuvent être téléchargés directement à partir de chaque page (voir les [directives relatives aux diverses options de téléchargement](https://help.tableau.com/current/pro/desktop/en-us/export.htm)). La base de données complète peut être téléchargée au format Microsoft Excel. Toutes les données sont du DPB.
-`
-        }
-    }
-}
-
+`,
+        },
+    },
+};
 
 export default locs;
